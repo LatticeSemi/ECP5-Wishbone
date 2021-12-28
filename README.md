@@ -1,2 +1,2 @@
-# ECP5-PCIe-Reference-Design
-Lattice ECP5 PCIe Reference Design
+# ECP5-Wishbone
+Lattice ECP5 Wishbone
