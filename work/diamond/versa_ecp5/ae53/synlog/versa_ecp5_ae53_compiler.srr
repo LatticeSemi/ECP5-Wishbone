@@ -1,0 +1,1079 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: L-EQSS42R
+
+Implementation : ae53
+Synopsys HDL Compiler, Version comp202103synp2, Build 093R, Built Aug 10 2021 09:15:36, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: L-EQSS42R
+
+Implementation : ae53
+Synopsys VHDL Compiler, Version comp202103synp2, Build 093R, Built Aug 10 2021 09:15:36, @
+
+@N|Running in 64-bit mode
+@N:"C:\Projects\ECP5_Wishbone\soc\top\versa_ecp5\vhdl\versa_ecp5-e.vhd":24:7:24:16|Top entity is set to versa_ecp5.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\rx_rsl\vhdl\rx_rsl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\config\vhdl\config_ae53_ecp5-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\top\core_ae53\vhdl\core_ae53_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\packages\tspc_utils\vhdl\tspc_utils-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\top\vhdl\pcie_subsys_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\packages\tspc_wbone_types\vhdl\tspc_wbone_types-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\packages\tspc_pcisig_types\vhdl\tspc_pcisig_types-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_xmitter_globals-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\tspc_rtc\vhdl\tspc_rtc-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_rsrc_decode\vhdl\pcie_rsrc_decode-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_cdc_sig\vhdl\tspc_cdc_sig-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\lscc_pcie_x1_ip\vhdl\lscc_pcie_x1_ip-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo_istage-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue_ctl-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\top\vhdl\tsls_wb_pcie_to_b4sq-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\top\vhdl\pcie_subsys-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\top\core_ae53\vhdl\core_ae53-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\top\core_ae53\vhdl\core_ae53_exports-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\top\versa_ecp5\vhdl\versa_ecp5-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\packages\tspc_utils\vhdl\tspc_utils-pb.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\top\vhdl\tsls_wb_pcie_to_b4sq_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc_impl\common\packages\tspc_wbone_types\mti\tspc_wbone_types-pb.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\packages\tspc_pcisig_types\vhdl\tspc_pcisig_types-pb.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_xmitter_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\tspc_rtc\vhdl\tspc_rtc-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_rsrc_decode\vhdl\pcie_rsrc_decode-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_cdc_sig\vhdl\tspc_cdc_sig-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-a_rtl.vhd'.
+@W: CD642 :"C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-a_rtl.vhd":28:16:28:16|Ignoring use clause - library pmi_work not found ...
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\lscc_pcie_x1_ip\vhdl\lscc_pcie_x1_ip-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo_istage-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo-a_rtl.vhd'.
+@W: CD642 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo-a_rtl.vhd":28:16:28:16|Ignoring use clause - library pmi_work not found ...
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue_ctl-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-a_rtl.vhd'.
+@W: CD642 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-a_rtl.vhd":30:16:30:16|Ignoring use clause - library pmi_work not found ...
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_xmitter-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_xmitter-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\top\vhdl\tsls_wb_pcie_to_b4sq-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\top\vhdl\pcie_subsys-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\top\core_ae53\vhdl\core_ae53-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\top\versa_ecp5\vhdl\versa_ecp5-a_rtl.vhd'.
+VHDL syntax check successful!
+@N: CD231 :"C:\lscc\diamond\3.12\synpbase\lib\vhd2008\std1164.vhd":888:16:888:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 98MB)
+
+
+Process completed successfully.
+# Mon Jan  3 11:27:47 2022
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: L-EQSS42R
+
+Implementation : ae53
+Synopsys Verilog Compiler, Version comp202103synp2, Build 093R, Built Aug 10 2021 09:15:36, @
+
+@N|Running in 64-bit mode
+@I::"C:\lscc\diamond\3.12\synpbase\lib\lucent\ecp5um.v" (library work)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_cref\x_cref.v" (library work)
+@I::"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\x_pcie\src\params\pci_exp_params.v" (library work)
+@I::"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\x_pcie.v" (library work)
+@I::"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\x_pcie_core_bb.v" (library work)
+@I::"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_sync1s.v" (library work)
+@I::"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_ctc.v" (library work)
+@W: CG1337 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_ctc.v":125:7:125:17|Net kcntl_in_d0 is not declared.
+@I::"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v" (library work)
+@I::"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs.v" (library work)
+@I::"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pipe.v" (library work)
+@W: CG1337 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pipe.v":146:7:146:20|Net TxElecIdle_chx is not declared.
+@I::"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v" (library work)
+@W: CG1337 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":282:7:282:18|Net ffc_quad_rst is not declared.
+@W: CG1337 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":302:7:302:10|Net pwdn is not declared.
+@N: CG334 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":392:19:392:31|Read directive translate_off.
+@N: CG333 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":398:19:398:30|Read directive translate_on.
+@N: CG334 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":537:25:537:37|Read directive translate_off.
+@N: CG333 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":549:25:549:36|Read directive translate_on.
+@N: CG334 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":580:25:580:37|Read directive translate_off.
+@N: CG333 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":587:25:587:36|Read directive translate_on.
+@N: CG334 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":868:30:868:42|Read directive translate_off.
+@N: CG333 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":870:30:870:41|Read directive translate_on.
+@N: CG334 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":885:30:885:42|Read directive translate_off.
+@N: CG333 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":887:30:887:41|Read directive translate_on.
+@N: CG334 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":891:30:891:42|Read directive translate_off.
+@N: CG333 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":893:30:893:41|Read directive translate_on.
+@N: CG334 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":897:30:897:42|Read directive translate_off.
+@N: CG333 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":899:30:899:41|Read directive translate_on.
+@N: CG334 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":903:30:903:42|Read directive translate_off.
+@N: CG333 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":905:30:905:41|Read directive translate_on.
+@N: CG334 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":938:18:938:30|Read directive translate_off.
+@N: CG333 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":950:18:950:29|Read directive translate_on.
+@W: CG1337 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":987:16:987:23|Net ffs_rlol is not declared.
+@I::"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\pcie_x1_e5.v" (library work)
+@N: CG334 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\pcie_x1_e5.v":1:13:1:25|Read directive translate_off.
+@N: CG333 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\pcie_x1_e5.v":3:13:3:24|Read directive translate_on.
+@W: CG274 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\pcie_x1_e5.v":5:0:5:21|Not overridding macro passed from the project (Macro: SBP_SYNTHESIS) - the macro value specified in the project will be used
+@I::"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_credit_config\vlog\b4sq_credit_config.v" (library work)
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
+
+
+Process completed successfully.
+# Mon Jan  3 11:27:48 2022
+
+###########################################################]
+###########################################################[
+@N:"C:\Projects\ECP5_Wishbone\soc\top\versa_ecp5\vhdl\versa_ecp5-e.vhd":24:7:24:16|Top entity is set to versa_ecp5.
+Options changed - recompiling
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\rx_rsl\vhdl\rx_rsl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\config\vhdl\config_ae53_ecp5-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\top\core_ae53\vhdl\core_ae53_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\packages\tspc_utils\vhdl\tspc_utils-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\top\vhdl\pcie_subsys_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\packages\tspc_wbone_types\vhdl\tspc_wbone_types-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\packages\tspc_pcisig_types\vhdl\tspc_pcisig_types-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_xmitter_globals-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\tspc_rtc\vhdl\tspc_rtc-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_rsrc_decode\vhdl\pcie_rsrc_decode-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_cdc_sig\vhdl\tspc_cdc_sig-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\lscc_pcie_x1_ip\vhdl\lscc_pcie_x1_ip-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo_istage-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue_ctl-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\top\vhdl\tsls_wb_pcie_to_b4sq-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\top\vhdl\pcie_subsys-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\top\core_ae53\vhdl\core_ae53-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\top\core_ae53\vhdl\core_ae53_exports-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\top\versa_ecp5\vhdl\versa_ecp5-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\packages\tspc_utils\vhdl\tspc_utils-pb.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\top\vhdl\tsls_wb_pcie_to_b4sq_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc_impl\common\packages\tspc_wbone_types\mti\tspc_wbone_types-pb.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\packages\tspc_pcisig_types\vhdl\tspc_pcisig_types-pb.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_xmitter_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\tspc_rtc\vhdl\tspc_rtc-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_rsrc_decode\vhdl\pcie_rsrc_decode-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_cdc_sig\vhdl\tspc_cdc_sig-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-a_rtl.vhd'.
+@W: CD645 :"C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-a_rtl.vhd":26:8:26:15|Ignoring undefined library pmi_work
+@W: CD642 :"C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-a_rtl.vhd":28:16:28:16|Ignoring use clause - library pmi_work not found ...
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\lscc_pcie_x1_ip\vhdl\lscc_pcie_x1_ip-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo_istage-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo-a_rtl.vhd'.
+@W: CD645 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo-a_rtl.vhd":27:8:27:15|Ignoring undefined library pmi_work
+@W: CD642 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo-a_rtl.vhd":28:16:28:16|Ignoring use clause - library pmi_work not found ...
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue_ctl-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-a_rtl.vhd'.
+@W: CD645 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-a_rtl.vhd":27:8:27:15|Ignoring undefined library pmi_work
+@W: CD642 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-a_rtl.vhd":30:16:30:16|Ignoring use clause - library pmi_work not found ...
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_xmitter-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_xmitter-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\top\vhdl\tsls_wb_pcie_to_b4sq-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\top\vhdl\pcie_subsys-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\top\core_ae53\vhdl\core_ae53-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\top\versa_ecp5\vhdl\versa_ecp5-a_rtl.vhd'.
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD231 :"C:\lscc\diamond\3.12\synpbase\lib\vhd2008\std1164.vhd":888:16:888:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\top\versa_ecp5\vhdl\versa_ecp5-e.vhd":24:7:24:16|Synthesizing work.versa_ecp5.rtl.
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\top\core_ae53\vhdl\core_ae53-e.vhd":23:7:23:15|Synthesizing work.core_ae53.rtl.
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-e.vhd":29:7:29:19|Synthesizing work.tsls_wb_bmram.rtl.
+@W: CD276 :"C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":44:6:44:15|Map for port i_ram_wait of component tspc_wb_ebr_ctl not found
+@W: CD730 :"C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-a_rtl.vhd":153:3:153:9|Component declaration has 22 ports but entity declares 23 ports
+Running optimization stage 1 on pmi_ram_dp_true_be_work_versa_ecp5_rtl_0 .......
+Finished optimization stage 1 on pmi_ram_dp_true_be_work_versa_ecp5_rtl_0 (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":29:7:29:21|Synthesizing work.tspc_wb_ebr_ctl.rtl.
+@N: CD231 :"C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd":32:17:32:18|Using onehot encoding for type t_wb_fsm. For example, enumeration wb_idle is mapped to "10000".
+@W: CD434 :"C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd":71:33:71:40|Signal i_ram_dq in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+Post processing for work.tspc_wb_ebr_ctl.rtl
+Running optimization stage 1 on tspc_wb_ebr_ctl .......
+@W: CL169 :"C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd":170:6:170:7|Pruning unused register s_prescale_4(0). Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on tspc_wb_ebr_ctl (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+Post processing for work.tsls_wb_bmram.rtl
+Running optimization stage 1 on tsls_wb_bmram .......
+Finished optimization stage 1 on tsls_wb_bmram (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_rsrc_decode\vhdl\pcie_rsrc_decode-e.vhd":23:7:23:22|Synthesizing work.pcie_rsrc_decode.rtl.
+Post processing for work.pcie_rsrc_decode.rtl
+Running optimization stage 1 on pcie_rsrc_decode .......
+Finished optimization stage 1 on pcie_rsrc_decode (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\units\tspc_rtc\vhdl\tspc_rtc-e.vhd":29:7:29:14|Synthesizing work.tspc_rtc.rtl.
+Post processing for work.tspc_rtc.rtl
+Running optimization stage 1 on tspc_rtc .......
+Finished optimization stage 1 on tspc_rtc (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\top\vhdl\pcie_subsys-e.vhd":23:7:23:17|Synthesizing work.pcie_subsys.rtl.
+@W: CD638 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\top\vhdl\pcie_subsys-a_rtl.vhd":40:10:40:20|Signal s_u2_refclk is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\top\vhdl\tsls_wb_pcie_to_b4sq-e.vhd":26:7:26:26|Synthesizing work.tsls_wb_pcie_to_b4sq.rtl.
+@W: CD638 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\top\vhdl\tsls_wb_pcie_to_b4sq-a_rtl.vhd":34:10:34:26|Signal s_u2_wb_cyc_local is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\top\vhdl\tsls_wb_pcie_to_b4sq-a_rtl.vhd":39:10:39:25|Signal s_u2_wb_we_local is undriven. Either assign the signal a value or remove the signal declaration.
+Running optimization stage 1 on b4sq_credit_config .......
+Finished optimization stage 1 on b4sq_credit_config (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 102MB)
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-e.vhd":31:7:31:19|Synthesizing work.b4sq_pcie_svc.rtl.
+Post processing for work.b4sq_pcie_svc.rtl
+Running optimization stage 1 on b4sq_pcie_svc .......
+@W: CL271 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-a_rtl.vhd":99:6:99:7|Pruning unused bits 7 to 5 of s_link_cntl_reg_3(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-a_rtl.vhd":99:6:99:7|Pruning unused bits 2 to 0 of s_link_cntl_reg_3(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-a_rtl.vhd":99:6:99:7|Pruning unused bits 10 to 9 of s_dev_cntl_reg_3(14 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-a_rtl.vhd":99:6:99:7|Pruning unused bits 4 to 0 of s_dev_cntl_reg_3(14 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on b4sq_pcie_svc (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 102MB)
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_xmitter-e.vhd":32:7:32:22|Synthesizing work.b4sq_tlp_xmitter.rtl.
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd":31:7:31:20|Synthesizing work.tspc_fifo_sync.rtl.
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":29:7:29:24|Synthesizing work.tspc_fifo_sync_mem.rtl.
+Running optimization stage 1 on pmi_ram_dp_work_versa_ecp5_rtl_0 .......
+Finished optimization stage 1 on pmi_ram_dp_work_versa_ecp5_rtl_0 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 103MB)
+Post processing for work.tspc_fifo_sync_mem.rtl
+Running optimization stage 1 on tspc_fifo_sync_mem .......
+Finished optimization stage 1 on tspc_fifo_sync_mem (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 103MB)
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd":33:7:33:24|Synthesizing work.tspc_fifo_ctl_sync.rtl.
+@N: CD233 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":34:21:34:22|Using sequential encoding for type t_frd_state.
+Post processing for work.tspc_fifo_ctl_sync.rtl
+Running optimization stage 1 on tspc_fifo_ctl_sync .......
+@W: CL169 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":216:6:216:7|Pruning unused register s_rd_mem_adr_prev_4(8 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":216:6:216:7|Pruning unused register s_frd_state_3(1 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":216:6:216:7|Pruning unused register s_fc_gt1_prev_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":216:6:216:7|Pruning unused register s_adr_pipe_full_5. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on tspc_fifo_ctl_sync (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+Post processing for work.tspc_fifo_sync.rtl
+Running optimization stage 1 on tspc_fifo_sync .......
+Finished optimization stage 1 on tspc_fifo_sync (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue-e.vhd":32:7:32:20|Synthesizing work.b4sq_tlp_queue.rtl.
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd":31:7:31:20|Synthesizing work.tspc_fifo_sync.rtl.
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":29:7:29:24|Synthesizing work.tspc_fifo_sync_mem.rtl.
+Running optimization stage 1 on pmi_distributed_dpram_work_versa_ecp5_rtl_0 .......
+Finished optimization stage 1 on pmi_distributed_dpram_work_versa_ecp5_rtl_0 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+Post processing for work.tspc_fifo_sync_mem.rtl
+Running optimization stage 1 on tspc_fifo_sync_mem .......
+Finished optimization stage 1 on tspc_fifo_sync_mem (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd":33:7:33:24|Synthesizing work.tspc_fifo_ctl_sync.rtl.
+@N: CD233 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":34:21:34:22|Using sequential encoding for type t_frd_state.
+Post processing for work.tspc_fifo_ctl_sync.rtl
+Running optimization stage 1 on tspc_fifo_ctl_sync .......
+@W: CL169 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":216:6:216:7|Pruning unused register s_rd_mem_adr_prev_4(5 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":216:6:216:7|Pruning unused register s_frd_state_3(1 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":216:6:216:7|Pruning unused register s_fc_gt1_prev_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":216:6:216:7|Pruning unused register s_adr_pipe_full_5. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on tspc_fifo_ctl_sync (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 105MB)
+Post processing for work.tspc_fifo_sync.rtl
+Running optimization stage 1 on tspc_fifo_sync .......
+Finished optimization stage 1 on tspc_fifo_sync (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 105MB)
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue_ctl-e.vhd":29:7:29:24|Synthesizing work.b4sq_tlp_queue_ctl.rtl.
+Post processing for work.b4sq_tlp_queue_ctl.rtl
+Running optimization stage 1 on b4sq_tlp_queue_ctl .......
+Finished optimization stage 1 on b4sq_tlp_queue_ctl (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 105MB)
+Post processing for work.b4sq_tlp_queue.rtl
+Running optimization stage 1 on b4sq_tlp_queue .......
+Finished optimization stage 1 on b4sq_tlp_queue (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 105MB)
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-e.vhd":31:7:31:22|Synthesizing work.b4sq_tlp_arbiter.rtl.
+@N: CD231 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-a_rtl.vhd":34:19:34:20|Using onehot encoding for type t_xarb_fsm. For example, enumeration xa_idle is mapped to "1000000000".
+Post processing for work.b4sq_tlp_arbiter.rtl
+Running optimization stage 1 on b4sq_tlp_arbiter .......
+@W: CL169 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-a_rtl.vhd":175:6:175:7|Pruning unused register s_tlp_rdy_p_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-a_rtl.vhd":175:6:175:7|Pruning unused register s_tlp_rdy_np_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-a_rtl.vhd":175:6:175:7|Pruning unused register s_tlp_rdy_cpl_2. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on b4sq_tlp_arbiter (CPU Time 0h:00m:00s, Memory Used current: 106MB peak: 108MB)
+Post processing for work.b4sq_tlp_xmitter.rtl
+Running optimization stage 1 on b4sq_tlp_xmitter .......
+Finished optimization stage 1 on b4sq_tlp_xmitter (CPU Time 0h:00m:00s, Memory Used current: 106MB peak: 108MB)
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-e.vhd":33:7:33:21|Synthesizing work.b4sq_pkt_decode.rtl.
+@N: CD231 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":33:24:33:25|Using onehot encoding for type t_pkt_dec_fsm. For example, enumeration pd_idle is mapped to "100000000000000000000000000000".
+Post processing for work.b4sq_pkt_decode.rtl
+Running optimization stage 1 on b4sq_pkt_decode .......
+@W: CL169 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":353:6:353:7|Pruning unused register s_tlp_data_phase_3. Make sure that there are no unused intermediate registers.
+@W: CL271 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":353:6:353:7|Pruning unused bits 63 to 13 of s_tlp_adr_5(63 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL265 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":353:6:353:7|Removing unused bit 7 of s_req_adr_9(7 downto 0). Either assign all bits or reduce the width of the signal.
+@W: CL265 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":353:6:353:7|Removing unused bit 12 of s_cplx_tx_byte_count_5(12 downto 0). Either assign all bits or reduce the width of the signal.
+@W: CL190 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":353:6:353:7|Optimizing register bit s_wb_bte(0) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":353:6:353:7|Optimizing register bit s_wb_bte(1) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":353:6:353:7|Pruning unused register s_wb_bte(1 downto 0). Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on b4sq_pkt_decode (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 112MB)
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo-e.vhd":31:7:31:22|Synthesizing work.b4sq_pkt_rx_fifo.rtl.
+Running optimization stage 1 on pmi_ram_dp_work_versa_ecp5_rtl_1 .......
+Finished optimization stage 1 on pmi_ram_dp_work_versa_ecp5_rtl_1 (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 112MB)
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo_istage-e.vhd":30:7:30:29|Synthesizing work.b4sq_pkt_rx_fifo_istage.rtl.
+Post processing for work.b4sq_pkt_rx_fifo_istage.rtl
+Running optimization stage 1 on b4sq_pkt_rx_fifo_istage .......
+@W: CL169 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo_istage-a_rtl.vhd":84:6:84:7|Pruning unused register s_cplx_status_6(2 downto 0). Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on b4sq_pkt_rx_fifo_istage (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 112MB)
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd":33:7:33:24|Synthesizing work.tspc_fifo_ctl_sync.rtl.
+@N: CD233 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":34:21:34:22|Using sequential encoding for type t_frd_state.
+Post processing for work.tspc_fifo_ctl_sync.rtl
+Running optimization stage 1 on tspc_fifo_ctl_sync .......
+Finished optimization stage 1 on tspc_fifo_ctl_sync (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 113MB)
+Post processing for work.b4sq_pkt_rx_fifo.rtl
+Running optimization stage 1 on b4sq_pkt_rx_fifo .......
+Finished optimization stage 1 on b4sq_pkt_rx_fifo (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 113MB)
+Post processing for work.tsls_wb_pcie_to_b4sq.rtl
+Running optimization stage 1 on tsls_wb_pcie_to_b4sq .......
+Finished optimization stage 1 on tsls_wb_pcie_to_b4sq (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 113MB)
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\lscc_pcie_x1_ip\vhdl\lscc_pcie_x1_ip-e.vhd":24:7:24:21|Synthesizing work.lscc_pcie_x1_ip.rtl.
+@W: CD272 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\lscc_pcie_x1_ip\vhdl\lscc_pcie_x1_ip-a_rtl.vhd":289:6:289:24|Comparison (=) of different length arrays is always false!
+@W: CD272 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\lscc_pcie_x1_ip\vhdl\lscc_pcie_x1_ip-a_rtl.vhd":289:29:289:48|Comparison (=) of different length arrays is always false!
+@W: CD638 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\lscc_pcie_x1_ip\vhdl\lscc_pcie_x1_ip-a_rtl.vhd":25:10:25:19|Signal s_u2_rst_n is undriven. Either assign the signal a value or remove the signal declaration.
+Running optimization stage 1 on pcie_x1_e5 .......
+Finished optimization stage 1 on pcie_x1_e5 (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 113MB)
+Post processing for work.lscc_pcie_x1_ip.rtl
+Running optimization stage 1 on lscc_pcie_x1_ip .......
+Finished optimization stage 1 on lscc_pcie_x1_ip (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 113MB)
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_cdc_sig\vhdl\tspc_cdc_sig-e.vhd":19:7:19:18|Synthesizing work.tspc_cdc_sig.rtl.
+Post processing for work.tspc_cdc_sig.rtl
+Running optimization stage 1 on tspc_cdc_sig .......
+Finished optimization stage 1 on tspc_cdc_sig (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 113MB)
+Post processing for work.pcie_subsys.rtl
+Running optimization stage 1 on pcie_subsys .......
+Finished optimization stage 1 on pcie_subsys (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 113MB)
+Post processing for work.core_ae53.rtl
+Running optimization stage 1 on core_ae53 .......
+Finished optimization stage 1 on core_ae53 (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 113MB)
+Post processing for work.versa_ecp5.rtl
+Running optimization stage 1 on versa_ecp5 .......
+Finished optimization stage 1 on versa_ecp5 (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 113MB)
+Running optimization stage 2 on tspc_cdc_sig_work_versa_ecp5_rtl_0layer0 .......
+Finished optimization stage 2 on tspc_cdc_sig_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 113MB)
+Running optimization stage 2 on pcie_x1_e5 .......
+Finished optimization stage 2 on pcie_x1_e5 (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 113MB)
+Running optimization stage 2 on lscc_pcie_x1_ip_V6_x_false_ECP5UM .......
+Finished optimization stage 2 on lscc_pcie_x1_ip_V6_x_false_ECP5UM (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 113MB)
+Running optimization stage 2 on tspc_fifo_ctl_sync_work_versa_ecp5_rtl_2layer0 .......
+@N: CL201 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":216:6:216:7|Trying to extract state machine for register s_frd_state.
+Extracted state machine for register s_frd_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@N: CL159 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd":45:6:45:13|Input i_clk_en is unused.
+Finished optimization stage 2 on tspc_fifo_ctl_sync_work_versa_ecp5_rtl_2layer0 (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 118MB)
+Running optimization stage 2 on b4sq_pkt_rx_fifo_istage .......
+Finished optimization stage 2 on b4sq_pkt_rx_fifo_istage (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 118MB)
+Running optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_1 .......
+Finished optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_1 (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 118MB)
+Running optimization stage 2 on b4sq_pkt_rx_fifo_work_versa_ecp5_rtl_0layer0 .......
+Finished optimization stage 2 on b4sq_pkt_rx_fifo_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 118MB)
+Running optimization stage 2 on b4sq_pkt_decode .......
+@N: CL201 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":353:6:353:7|Trying to extract state machine for register s_wb_cti.
+Extracted state machine for register s_wb_cti
+State machine has 3 reachable states with original encodings of:
+   000
+   010
+   111
+@N: CL201 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":353:6:353:7|Trying to extract state machine for register s_pkt_dec_fsm.
+@W: CL279 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":353:6:353:7|Pruning register bits 3 to 2 of s_cplx_tx_sta(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL190 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":353:6:353:7|Optimizing register bit s_cplx_tx_sta(0) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":353:6:353:7|Pruning register bit 0 of s_cplx_tx_sta(1 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL247 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-e.vhd":46:6:46:23|Input port bit 6 of i_cfg_io_space_sel(6 downto 0) is unused 
+@N: CL159 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-e.vhd":48:6:48:27|Input i_ctl_max_payload_size is unused.
+@N: CL159 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-e.vhd":56:6:56:19|Input i_tlp_rx_empty is unused.
+Finished optimization stage 2 on b4sq_pkt_decode (CPU Time 0h:00m:00s, Memory Used current: 123MB peak: 133MB)
+Running optimization stage 2 on b4sq_tlp_arbiter .......
+@N: CL201 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-a_rtl.vhd":175:6:175:7|Trying to extract state machine for register s_xarb_fsm.
+Extracted state machine for register s_xarb_fsm
+State machine has 10 reachable states with original encodings of:
+   0000000001
+   0000000010
+   0000000100
+   0000001000
+   0000010000
+   0000100000
+   0001000000
+   0010000000
+   0100000000
+   1000000000
+@N: CL159 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-e.vhd":38:6:38:13|Input i_ca_npd is unused.
+@N: CL159 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-e.vhd":50:6:50:20|Input i_tlp_empty_cpl is unused.
+@N: CL159 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-e.vhd":51:6:51:19|Input i_tlp_empty_np is unused.
+@N: CL159 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-e.vhd":52:6:52:18|Input i_tlp_empty_p is unused.
+Finished optimization stage 2 on b4sq_tlp_arbiter (CPU Time 0h:00m:00s, Memory Used current: 124MB peak: 133MB)
+Running optimization stage 2 on b4sq_tlp_queue_ctl .......
+Finished optimization stage 2 on b4sq_tlp_queue_ctl (CPU Time 0h:00m:00s, Memory Used current: 124MB peak: 133MB)
+Running optimization stage 2 on tspc_fifo_ctl_sync_1_1_1_64_1 .......
+@N: CL159 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd":45:6:45:13|Input i_clk_en is unused.
+Finished optimization stage 2 on tspc_fifo_ctl_sync_1_1_1_64_1 (CPU Time 0h:00m:00s, Memory Used current: 124MB peak: 133MB)
+Running optimization stage 2 on pmi_distributed_dpram_work_versa_ecp5_rtl_0 .......
+Finished optimization stage 2 on pmi_distributed_dpram_work_versa_ecp5_rtl_0 (CPU Time 0h:00m:00s, Memory Used current: 124MB peak: 133MB)
+Running optimization stage 2 on tspc_fifo_sync_mem_true_64_1_ECP5UM_ANY_1 .......
+@N: CL159 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":41:6:41:10|Input i_clr is unused.
+@N: CL159 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":45:6:45:16|Input i_rd_reg_en is unused.
+Finished optimization stage 2 on tspc_fifo_sync_mem_true_64_1_ECP5UM_ANY_1 (CPU Time 0h:00m:00s, Memory Used current: 124MB peak: 133MB)
+Running optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_1layer0 .......
+Finished optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_1layer0 (CPU Time 0h:00m:00s, Memory Used current: 124MB peak: 133MB)
+Running optimization stage 2 on b4sq_tlp_queue_64_ECP5UM .......
+Finished optimization stage 2 on b4sq_tlp_queue_64_ECP5UM (CPU Time 0h:00m:00s, Memory Used current: 124MB peak: 133MB)
+Running optimization stage 2 on tspc_fifo_ctl_sync_1_1_1_512_1 .......
+@N: CL159 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd":45:6:45:13|Input i_clk_en is unused.
+Finished optimization stage 2 on tspc_fifo_ctl_sync_1_1_1_512_1 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_0 .......
+Finished optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_0 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on tspc_fifo_sync_mem_false_512_1_ECP5UM_ANY_1 .......
+@N: CL159 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":41:6:41:10|Input i_clr is unused.
+@N: CL159 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":45:6:45:16|Input i_rd_reg_en is unused.
+Finished optimization stage 2 on tspc_fifo_sync_mem_false_512_1_ECP5UM_ANY_1 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_0layer0 .......
+Finished optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on b4sq_tlp_xmitter_512_512_512_64_ECP5UM .......
+Finished optimization stage 2 on b4sq_tlp_xmitter_512_512_512_64_ECP5UM (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on b4sq_pcie_svc .......
+@N: CL135 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-a_rtl.vhd":233:6:233:7|Found sequential shift s_synced_rst_n with address depth of 3 words and data bit width of 1.
+@W: CL246 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-e.vhd":36:6:36:19|Input port bits 10 to 9 of i_dev_cntl_reg(14 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-e.vhd":36:6:36:19|Input port bits 4 to 0 of i_dev_cntl_reg(14 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-e.vhd":41:6:41:20|Input port bits 7 to 5 of i_link_cntl_reg(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-e.vhd":41:6:41:20|Input port bits 2 to 0 of i_link_cntl_reg(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-e.vhd":47:6:47:22|Input i_tx_ca_p_recheck is unused.
+Finished optimization stage 2 on b4sq_pcie_svc (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on b4sq_credit_config .......
+Finished optimization stage 2 on b4sq_credit_config (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on tsls_wb_pcie_to_b4sq_work_versa_ecp5_rtl_0layer0 .......
+@N: CL159 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\top\vhdl\tsls_wb_pcie_to_b4sq-e.vhd":48:6:48:23|Input i_decode_cyc_local is unused.
+Finished optimization stage 2 on tsls_wb_pcie_to_b4sq_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on pcie_subsys_work_versa_ecp5_rtl_0layer0 .......
+Finished optimization stage 2 on pcie_subsys_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on tspc_rtc_work_versa_ecp5_rtl_0layer0 .......
+Finished optimization stage 2 on tspc_rtc_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on pcie_rsrc_decode .......
+@W: CL246 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_rsrc_decode\vhdl\pcie_rsrc_decode-e.vhd":25:6:25:17|Input port bits 11 to 0 of i_decode_adr(12 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_rsrc_decode\vhdl\pcie_rsrc_decode-e.vhd":26:6:26:21|Input port bits 6 to 1 of i_decode_bar_hit(6 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on pcie_rsrc_decode (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on tspc_wb_ebr_ctl_work_versa_ecp5_rtl_0layer0 .......
+@N: CL201 :"C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd":170:6:170:7|Trying to extract state machine for register s_wb_fsm.
+Extracted state machine for register s_wb_fsm
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+@W: CL247 :"C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":45:6:45:13|Input port bit 12 of i_wb_adr(12 downto 0) is unused 
+@W: CL246 :"C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":45:6:45:13|Input port bits 1 to 0 of i_wb_adr(12 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":42:6:42:14|Input i_ram_err is unused.
+@N: CL159 :"C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":43:6:43:14|Input i_ram_rty is unused.
+@N: CL159 :"C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":44:6:44:15|Input i_ram_wait is unused.
+@N: CL159 :"C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":46:6:46:13|Input i_wb_bte is unused.
+@N: CL159 :"C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":50:6:50:14|Input i_wb_lock is unused.
+Finished optimization stage 2 on tspc_wb_ebr_ctl_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on pmi_ram_dp_true_be_work_versa_ecp5_rtl_0 .......
+Finished optimization stage 2 on pmi_ram_dp_true_be_work_versa_ecp5_rtl_0 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on tsls_wb_bmram_work_versa_ecp5_rtl_0layer0 .......
+Finished optimization stage 2 on tsls_wb_bmram_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on core_ae53 .......
+Finished optimization stage 2 on core_ae53 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on versa_ecp5 .......
+Finished optimization stage 2 on versa_ecp5 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Projects\ECP5_Wishbone\work\diamond\versa_ecp5\ae53\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 122MB peak: 133MB)
+
+
+Process completed successfully.
+# Mon Jan  3 11:27:59 2022
+
+###########################################################]
+###########################################################[
+@I::"C:\lscc\diamond\3.12\synpbase\lib\lucent\ecp5um.v" (library work)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_cref\x_cref.v" (library work)
+@I::"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\x_pcie\src\params\pci_exp_params.v" (library work)
+@I::"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\x_pcie.v" (library work)
+@I::"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\x_pcie_core_bb.v" (library work)
+@I::"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_sync1s.v" (library work)
+@I::"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_ctc.v" (library work)
+@W: CG1337 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_ctc.v":125:7:125:17|Net kcntl_in_d0 is not declared.
+@I::"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v" (library work)
+@I::"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs.v" (library work)
+@I::"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pipe.v" (library work)
+@W: CG1337 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pipe.v":146:7:146:20|Net TxElecIdle_chx is not declared.
+@I::"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v" (library work)
+@W: CG1337 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":282:7:282:18|Net ffc_quad_rst is not declared.
+@W: CG1337 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":302:7:302:10|Net pwdn is not declared.
+@N: CG334 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":392:19:392:31|Read directive translate_off.
+@N: CG333 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":398:19:398:30|Read directive translate_on.
+@N: CG334 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":537:25:537:37|Read directive translate_off.
+@N: CG333 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":549:25:549:36|Read directive translate_on.
+@N: CG334 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":580:25:580:37|Read directive translate_off.
+@N: CG333 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":587:25:587:36|Read directive translate_on.
+@N: CG334 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":868:30:868:42|Read directive translate_off.
+@N: CG333 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":870:30:870:41|Read directive translate_on.
+@N: CG334 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":885:30:885:42|Read directive translate_off.
+@N: CG333 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":887:30:887:41|Read directive translate_on.
+@N: CG334 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":891:30:891:42|Read directive translate_off.
+@N: CG333 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":893:30:893:41|Read directive translate_on.
+@N: CG334 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":897:30:897:42|Read directive translate_off.
+@N: CG333 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":899:30:899:41|Read directive translate_on.
+@N: CG334 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":903:30:903:42|Read directive translate_off.
+@N: CG333 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":905:30:905:41|Read directive translate_on.
+@N: CG334 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":938:18:938:30|Read directive translate_off.
+@N: CG333 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":950:18:950:29|Read directive translate_on.
+@W: CG1337 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":987:16:987:23|Net ffs_rlol is not declared.
+@I::"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\pcie_x1_e5.v" (library work)
+@N: CG334 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\pcie_x1_e5.v":1:13:1:25|Read directive translate_off.
+@N: CG333 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\pcie_x1_e5.v":3:13:3:24|Read directive translate_on.
+@W: CG274 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\pcie_x1_e5.v":5:0:5:21|Not overridding macro passed from the project (Macro: SBP_SYNTHESIS) - the macro value specified in the project will be used
+@I::"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_credit_config\vlog\b4sq_credit_config.v" (library work)
+Verilog syntax check successful!
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\ecp5um.v":1751:7:1751:13|Synthesizing module EXTREFB in library work.
+Running optimization stage 1 on EXTREFB .......
+Finished optimization stage 1 on EXTREFB (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
+@N: CG364 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_cref\x_cref.v":8:7:8:12|Synthesizing module x_cref in library work.
+Running optimization stage 1 on x_cref .......
+Finished optimization stage 1 on x_cref (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\ecp5um.v":693:7:693:9|Synthesizing module PUR in library work.
+Running optimization stage 1 on PUR .......
+Finished optimization stage 1 on PUR (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\ecp5um.v":761:7:761:9|Synthesizing module VLO in library work.
+Running optimization stage 1 on VLO .......
+Finished optimization stage 1 on VLO (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\ecp5um.v":757:7:757:9|Synthesizing module VHI in library work.
+Running optimization stage 1 on VHI .......
+Finished optimization stage 1 on VHI (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\pmi_def.v":501:7:501:17|Synthesizing module pmi_fifo_dc in library work.
+
+	pmi_data_width_w=32'b00000000000000000000000000001111
+	pmi_data_width_r=32'b00000000000000000000000000001111
+	pmi_data_depth_w=32'b00000000000000000000000000010000
+	pmi_data_depth_r=32'b00000000000000000000000000010000
+	pmi_full_flag=32'b00000000000000000000000000010000
+	pmi_empty_flag=32'b00000000000000000000000000000000
+	pmi_almost_full_flag=32'b00000000000000000000000000001100
+	pmi_almost_empty_flag=32'b00000000000000000000000000000100
+	pmi_regmode=24'b011100100110010101100111
+	pmi_resetmode=40'b0110000101110011011110010110111001100011
+	pmi_family=40'b0100010101000011010100000011010101010101
+	module_type=88'b0111000001101101011010010101111101100110011010010110011001101111010111110110010001100011
+	pmi_implementation=24'b010011000101010101010100
+   Generated name = pmi_fifo_dc_Z1_layer1
+Running optimization stage 1 on pmi_fifo_dc_Z1_layer1 .......
+Finished optimization stage 1 on pmi_fifo_dc_Z1_layer1 (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
+@N: CG364 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_sync1s.v":2:7:2:19|Synthesizing module x_pcie_sync1s in library work.
+
+	WIDTH=32'b00000000000000000000000000000001
+   Generated name = x_pcie_sync1s_1s
+@N: CG179 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_sync1s.v":37:45:37:55|Removing redundant assignment.
+Running optimization stage 1 on x_pcie_sync1s_1s .......
+Finished optimization stage 1 on x_pcie_sync1s_1s (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
+@N: CG364 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_ctc.v":3:7:3:16|Synthesizing module x_pcie_ctc in library work.
+Running optimization stage 1 on x_pcie_ctc .......
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_ctc.v":176:0:176:5|Pruning unused register fifo_partial_empty_d1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_ctc.v":176:0:176:5|Pruning unused register fifo_partial_empty_d2. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on x_pcie_ctc (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
+@N: CG364 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pipe.v":3:7:3:17|Synthesizing module x_pcie_pipe in library work.
+@W: CG133 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pipe.v":74:26:74:26|Object i is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pipe.v":74:29:74:29|Object m is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on x_pcie_pipe .......
+Finished optimization stage 1 on x_pcie_pipe (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\ecp5um.v":1779:7:1779:10|Synthesizing module DCUA in library work.
+Running optimization stage 1 on DCUA .......
+Finished optimization stage 1 on DCUA (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
+@N: CG364 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":82:7:82:24|Synthesizing module x_pcie_pcsrsl_core in library work.
+
+	pnum_channels=32'b00000000000000000000000000000001
+	pprotocol=32'b01010000010000110100100101000101
+	pserdes_mode=72'b010100100101100000100000010000010100111001000100001000000101010001011000
+	pport_tx_rdy=56'b01000101010011100100000101000010010011000100010101000100
+	pwait_tx_rdy=32'b00000000000000000000101110111000
+	pport_rx_rdy=56'b01000101010011100100000101000010010011000100010101000100
+	pwait_rx_rdy=32'b00000000000000000000101110111000
+	lreset_pwidth=32'b00000000000000000000000000000011
+	lwait_b4_trst=32'b00000000000010111110101111000010
+	lwait_b4_trst_s=32'b00000000000000000000001100001101
+	lplol_cnt_width=32'b00000000000000000000000000010100
+	lwait_after_plol0=32'b00000000000000000000000000000100
+	lwait_b4_rrst=32'b00000000000001110000010011100000
+	lwait_b4_rrst_s=32'b00000000000000000000000111001100
+	lrlol_cnt_width=32'b00000000000000000000000000010011
+	llols_cnt_width=32'b00000000000000000000000000010010
+	lwait_after_lols=32'b00000000000000111110100000000000
+	lwait_after_lols_s=32'b00000000000000000000000010010110
+	lrdb_max=32'b00000000000000000000000000001111
+	ltxr_wait_width=32'b00000000000000000000000000001100
+	lrxr_wait_width=32'b00000000000000000000000000001100
+   Generated name = x_pcie_pcsrsl_core_Z2_layer1
+@W: CG133 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":299:33:299:39|Object rxp_cnt is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":300:33:300:39|Object rxp_rst is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":301:33:301:42|Removing wire rxp_cnt_tc, as there is no assignment to it.
+Running optimization stage 1 on x_pcie_pcsrsl_core_Z2_layer1 .......
+@W: CL318 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":207:33:207:48|*Output rdo_rx_pcs_rst_c has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":611:3:611:8|Pruning unused register genblk2.rlolsz_cnt[17:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":544:3:544:8|Pruning unused register genblk2.rlols_db. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":535:3:535:8|Pruning unused register genblk2.rdb_cnt[3:0]. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on x_pcie_pcsrsl_core_Z2_layer1 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":807:7:807:24|Synthesizing module x_pcie_pcssll_core in library work.
+
+	PPROTOCOL=32'b01010000010000110100100101000101
+	PLOL_SETTING=32'b00000000000000000000000000000001
+	PDYN_RATE_CTRL=64'b0100010001001001010100110100000101000010010011000100010101000100
+	PPCIE_MAX_RATE=24'b001100100010111000110101
+	PDIFF_VAL_LOCK=32'b00000000000000000000000000110001
+	PDIFF_VAL_UNLOCK=32'b00000000000000000000000101001000
+	PPCLK_TC=32'b00000000000000101000000000000000
+	PDIFF_DIV11_VAL_LOCK=32'b00000000000000000000000000000000
+	PDIFF_DIV11_VAL_UNLOCK=32'b00000000000000000000000000000000
+	PPCLK_DIV11_TC=32'b00000000000000000000000000000000
+	LPLL_LOSS_ST=2'b00
+	LPLL_PRELOSS_ST=2'b01
+	LPLL_PRELOCK_ST=2'b10
+	LPLL_LOCK_ST=2'b11
+	LRCLK_TC=16'b1111111111111111
+	LRCLK_TC_PUL_WIDTH=16'b0000000000110010
+   Generated name = x_pcie_pcssll_core_Z3_layer1
+Running optimization stage 1 on x_pcie_pcssll_core_Z3_layer1 .......
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 0 of genblk3.rdiff_comp_unlock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 1 of genblk3.rdiff_comp_unlock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 2 of genblk3.rdiff_comp_unlock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 4 of genblk3.rdiff_comp_unlock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 5 of genblk3.rdiff_comp_unlock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 7 of genblk3.rdiff_comp_unlock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 9 of genblk3.rdiff_comp_unlock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 10 of genblk3.rdiff_comp_unlock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 11 of genblk3.rdiff_comp_unlock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 12 of genblk3.rdiff_comp_unlock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 13 of genblk3.rdiff_comp_unlock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 14 of genblk3.rdiff_comp_unlock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 15 of genblk3.rdiff_comp_unlock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 1 of genblk3.rdiff_comp_lock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 2 of genblk3.rdiff_comp_lock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 3 of genblk3.rdiff_comp_lock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 6 of genblk3.rdiff_comp_lock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 7 of genblk3.rdiff_comp_lock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 8 of genblk3.rdiff_comp_lock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 9 of genblk3.rdiff_comp_lock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 10 of genblk3.rdiff_comp_lock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 11 of genblk3.rdiff_comp_lock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 12 of genblk3.rdiff_comp_lock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 13 of genblk3.rdiff_comp_lock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 14 of genblk3.rdiff_comp_lock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 15 of genblk3.rdiff_comp_lock[15:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 0 of genblk3.rcount_tc[21:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 1 of genblk3.rcount_tc[21:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 2 of genblk3.rcount_tc[21:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 3 of genblk3.rcount_tc[21:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 4 of genblk3.rcount_tc[21:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 5 of genblk3.rcount_tc[21:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 6 of genblk3.rcount_tc[21:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 7 of genblk3.rcount_tc[21:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 8 of genblk3.rcount_tc[21:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 9 of genblk3.rcount_tc[21:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 10 of genblk3.rcount_tc[21:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 11 of genblk3.rcount_tc[21:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 12 of genblk3.rcount_tc[21:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 13 of genblk3.rcount_tc[21:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 14 of genblk3.rcount_tc[21:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 16 of genblk3.rcount_tc[21:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 18 of genblk3.rcount_tc[21:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 19 of genblk3.rcount_tc[21:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 20 of genblk3.rcount_tc[21:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|All reachable assignments to bit 21 of genblk3.rcount_tc[21:0] assign 0, register removed by optimization.
+Finished optimization stage 1 on x_pcie_pcssll_core_Z3_layer1 (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+@N: CG364 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs.v":8:7:8:16|Synthesizing module x_pcie_pcs in library work.
+@W: CS263 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs.v":470:50:470:56|Port-width mismatch for port sli_cpri_mode. The port definition is 1 bits, but the actual port connection bit width is 3. Adjust either the definition or the instantiation of this port.
+@N: CG794 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs.v":483:10:483:20|Using module rx_rsl from library work
+Running optimization stage 1 on x_pcie_pcs .......
+Finished optimization stage 1 on x_pcie_pcs (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\ecp5um.v":1541:7:1541:15|Synthesizing module PCSCLKDIV in library work.
+Running optimization stage 1 on PCSCLKDIV .......
+Finished optimization stage 1 on PCSCLKDIV (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+@N: CG364 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":7:7:7:16|Synthesizing module x_pcie_phy in library work.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":80:14:80:17|Removing wire cout, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":81:14:81:25|Removing wire ffs_rlol_ch1, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":82:14:82:25|Removing wire ffs_rlol_ch2, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":83:14:83:25|Removing wire ffs_rlol_ch3, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":99:14:99:26|Removing wire ff_tx_f_clk_1, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":100:14:100:26|Removing wire ff_tx_f_clk_2, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":101:14:101:26|Removing wire ff_tx_f_clk_3, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":103:14:103:26|Removing wire ff_tx_h_clk_1, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":104:14:104:26|Removing wire ff_tx_h_clk_2, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":105:14:105:26|Removing wire ff_tx_h_clk_3, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":149:30:149:40|Removing wire ffc_pwdnb_1, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":150:30:150:40|Removing wire ffc_pwdnb_2, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":151:30:151:40|Removing wire ffc_pwdnb_3, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":154:27:154:36|Removing wire ffc_rrst_1, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":155:27:155:36|Removing wire ffc_rrst_2, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":156:27:156:36|Removing wire ffc_rrst_3, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":205:30:205:43|Removing wire enable_det_all, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":261:30:261:45|Removing wire RxElecIdle_ch1_8, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":262:30:262:45|Removing wire RxElecIdle_ch2_8, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":263:30:263:45|Removing wire RxElecIdle_ch3_8, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":266:5:266:16|Removing wire ff_rx_fclk_1, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":267:5:267:16|Removing wire ff_rx_fclk_2, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":268:5:268:16|Removing wire ff_rx_fclk_3, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":270:5:270:12|Removing wire quad_rst, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":271:5:271:15|Removing wire lane_tx_rst, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":272:14:272:24|Removing wire lane_rx_rst, as there is no assignment to it.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":273:5:273:13|Removing wire lane_rrst, as there is no assignment to it.
+Running optimization stage 1 on x_pcie_phy .......
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":797:0:797:5|Pruning unused register ffc_pcie_det_en_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":797:0:797:5|Pruning unused register ffc_pcie_det_en_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":797:0:797:5|Pruning unused register ffc_pcie_det_en_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":797:0:797:5|Pruning unused register done_1_reg. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":797:0:797:5|Pruning unused register done_1_d0. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":797:0:797:5|Pruning unused register done_1_d1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":797:0:797:5|Pruning unused register done_2_reg. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":797:0:797:5|Pruning unused register done_2_d0. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":797:0:797:5|Pruning unused register done_2_d1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":797:0:797:5|Pruning unused register done_3_reg. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":797:0:797:5|Pruning unused register done_3_d0. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":797:0:797:5|Pruning unused register done_3_d1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":797:0:797:5|Pruning unused register det_result[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":771:0:771:5|Pruning unused register enable_det_ch1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":771:0:771:5|Pruning unused register enable_det_ch2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":771:0:771:5|Pruning unused register enable_det_ch3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":608:0:608:5|Pruning unused register rlol_sync[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":608:0:608:5|Pruning unused register rx_elec[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":608:0:608:5|Pruning unused register rlol_fclk[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":608:0:608:5|Pruning unused register rlol_rst_ch[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":323:0:323:5|Pruning unused register lol_all_d0. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":323:0:323:5|Pruning unused register lol_all_d1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":323:0:323:5|Pruning unused register lol_all_d2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":323:0:323:5|Pruning unused register lol_all_d3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":323:0:323:5|Pruning unused register lol_all_d4. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":323:0:323:5|Pruning unused register lol_all_d5. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":323:0:323:5|Pruning unused register lol_all_d6. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":323:0:323:5|Pruning unused register lol_all_d7. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":323:0:323:5|Pruning unused register sync_rst. Make sure that there are no unused intermediate registers.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|All reachable assignments to bit 1 of RxLOL_sync[3:0] assign 1, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|All reachable assignments to bit 2 of RxLOL_sync[3:0] assign 1, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|All reachable assignments to bit 3 of RxLOL_sync[3:0] assign 1, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|All reachable assignments to bit 1 of RxLOL[3:0] assign 1, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|All reachable assignments to bit 2 of RxLOL[3:0] assign 1, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|All reachable assignments to bit 3 of RxLOL[3:0] assign 1, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|All reachable assignments to bit 1 of RxEI_sync[3:0] assign 1, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|All reachable assignments to bit 2 of RxEI_sync[3:0] assign 1, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|All reachable assignments to bit 3 of RxEI_sync[3:0] assign 1, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|All reachable assignments to bit 1 of RxEI[3:0] assign 1, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|All reachable assignments to bit 2 of RxEI[3:0] assign 1, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|All reachable assignments to bit 3 of RxEI[3:0] assign 1, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|All reachable assignments to bit 1 of EI_low_pulse[3:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|All reachable assignments to bit 2 of EI_low_pulse[3:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|All reachable assignments to bit 3 of EI_low_pulse[3:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|All reachable assignments to bit 1 of EI_low[3:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|All reachable assignments to bit 2 of EI_low[3:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|All reachable assignments to bit 3 of EI_low[3:0] assign 0, register removed by optimization.
+@W: CL190 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|Optimizing register bit RxLOL_del[1] to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|Optimizing register bit RxLOL_del[2] to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|Optimizing register bit RxLOL_del[3] to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|Pruning register bits 3 to 1 of RxLOL_del[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on x_pcie_phy (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+@N: CG364 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\x_pcie_core_bb.v":1:7:1:17|Synthesizing module x_pcie_core in library work.
+@W: CG146 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\x_pcie_core_bb.v":1:7:1:17|Creating black box for empty module x_pcie_core
+
+@N: CG364 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\x_pcie.v":23:7:23:12|Synthesizing module x_pcie in library work.
+Running optimization stage 1 on x_pcie .......
+Finished optimization stage 1 on x_pcie (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+@N: CG364 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\pcie_x1_e5.v":11:7:11:16|Synthesizing module pcie_x1_e5 in library work.
+@W: CG360 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\pcie_x1_e5.v":160:31:160:50|Removing wire pcs_clkdiv0_CLKI_sig, as there is no assignment to it.
+Running optimization stage 1 on pcie_x1_e5 .......
+Finished optimization stage 1 on pcie_x1_e5 (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+@N: CG364 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_credit_config\vlog\b4sq_credit_config.v":30:7:30:24|Synthesizing module b4sq_credit_config in library work.
+Running optimization stage 1 on b4sq_credit_config .......
+Finished optimization stage 1 on b4sq_credit_config (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Running optimization stage 2 on b4sq_credit_config .......
+Finished optimization stage 2 on b4sq_credit_config (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 99MB)
+Running optimization stage 2 on pcie_x1_e5 .......
+@W: CL156 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\pcie_x1_e5.v":160:31:160:50|*Input pcs_clkdiv0_CLKI_sig to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+Finished optimization stage 2 on pcie_x1_e5 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 99MB)
+Running optimization stage 2 on x_pcie .......
+Finished optimization stage 2 on x_pcie (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 99MB)
+Running optimization stage 2 on x_pcie_phy .......
+@W: CL279 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|Pruning register bits 3 to 2 of RxLOL_posedge[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|Pruning register bits 3 to 2 of RxEI_masked_sync[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|Register bit RxLOL_posedge[1] is always 0.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|Pruning unused register EI_low_pulse[0]. Make sure that there are no unused intermediate registers.
+@W: CL260 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|Pruning register bit 1 of RxLOL_posedge[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|Pruning register bits 2 to 1 of RxEI_masked[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|Pruning unused register start_count_del. Make sure that there are no unused intermediate registers.
+@N: CL201 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":797:0:797:5|Trying to extract state machine for register cs_reqdet_sm.
+Extracted state machine for register cs_reqdet_sm
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@W: CL156 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":408:0:408:5|*Input un1_RxElecIdle_ch0_8[1:0] to expression [dffs] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@N: CL159 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":58:28:58:36|Input phy_cfgln is unused.
+@N: CL159 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v":60:28:60:37|Input flip_lanes is unused.
+Finished optimization stage 2 on x_pcie_phy (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Running optimization stage 2 on PCSCLKDIV .......
+Finished optimization stage 2 on PCSCLKDIV (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Running optimization stage 2 on x_pcie_pcs .......
+Finished optimization stage 2 on x_pcie_pcs (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Running optimization stage 2 on x_pcie_pcssll_core_Z3_layer1 .......
+@W: CL260 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|Pruning register bit 17 of genblk3.rcount_tc[17:16]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|Pruning register bits 8 to 7 of genblk3.rdiff_comp_unlock[8:6]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|Pruning register bits 5 to 4 of genblk3.rdiff_comp_lock[5:3]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|Pruning unused register genblk3.rdiff_comp_unlock[6]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1112:0:1112:5|Pruning unused register genblk3.rcount_tc[16]. Make sure that there are no unused intermediate registers.
+@N: CL201 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":1174:0:1174:5|Trying to extract state machine for register sll_state.
+Extracted state machine for register sll_state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   11
+@N: CL159 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":831:6:831:18|Input sli_cpri_mode is unused.
+@N: CL159 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":832:6:832:18|Input sli_pcie_mode is unused.
+Finished optimization stage 2 on x_pcie_pcssll_core_Z3_layer1 (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+Running optimization stage 2 on x_pcie_pcsrsl_core_Z2_layer1 .......
+@W: CL190 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":414:3:414:8|Optimizing register bit genblk1.txp_cnt[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":375:3:375:8|Optimizing register bit genblk1.txs_cnt[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":561:3:561:8|Optimizing register bit genblk2.rxs_cnt[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":561:3:561:8|Pruning register bit 2 of genblk2.rxs_cnt[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":375:3:375:8|Pruning register bit 2 of genblk1.txs_cnt[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":414:3:414:8|Pruning register bit 2 of genblk1.txp_cnt[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL246 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":188:33:188:48|Input port bits 3 to 1 of rui_tx_pcs_rst_c[3:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":192:33:192:51|Input port bits 3 to 1 of rui_rx_serdes_rst_c[3:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":193:33:193:48|Input port bits 3 to 1 of rui_rx_pcs_rst_c[3:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":194:33:194:48|Input port bits 3 to 1 of rdi_rx_los_low_s[3:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v":195:33:195:48|Input port bits 3 to 1 of rdi_rx_cdr_lol_s[3:0] are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on x_pcie_pcsrsl_core_Z2_layer1 (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 104MB)
+Running optimization stage 2 on DCUA .......
+Finished optimization stage 2 on DCUA (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 104MB)
+Running optimization stage 2 on x_pcie_pipe .......
+@N: CL159 :"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pipe.v":8:32:8:39|Input ffs_plol is unused.
+Finished optimization stage 2 on x_pcie_pipe (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 104MB)
+Running optimization stage 2 on x_pcie_ctc .......
+Finished optimization stage 2 on x_pcie_ctc (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 104MB)
+Running optimization stage 2 on x_pcie_sync1s_1s .......
+Finished optimization stage 2 on x_pcie_sync1s_1s (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 104MB)
+Running optimization stage 2 on pmi_fifo_dc_Z1_layer1 .......
+Finished optimization stage 2 on pmi_fifo_dc_Z1_layer1 (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 104MB)
+Running optimization stage 2 on VHI .......
+Finished optimization stage 2 on VHI (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 104MB)
+Running optimization stage 2 on VLO .......
+Finished optimization stage 2 on VLO (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 104MB)
+Running optimization stage 2 on PUR .......
+Finished optimization stage 2 on PUR (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 104MB)
+Running optimization stage 2 on x_cref .......
+Finished optimization stage 2 on x_cref (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 104MB)
+Running optimization stage 2 on EXTREFB .......
+Finished optimization stage 2 on EXTREFB (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 104MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Projects\ECP5_Wishbone\work\diamond\versa_ecp5\ae53\synwork\layer1.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 99MB peak: 104MB)
+
+
+Process completed successfully.
+# Mon Jan  3 11:28:04 2022
+
+###########################################################]
+###########################################################[
+@N:"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\rx_rsl\vhdl\rx_rsl.vhd":32:8:32:13|Top entity is set to rx_rsl.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\rx_rsl\vhdl\rx_rsl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\config\vhdl\config_ae53_ecp5-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\top\core_ae53\vhdl\core_ae53_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\packages\tspc_utils\vhdl\tspc_utils-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\top\vhdl\pcie_subsys_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\packages\tspc_wbone_types\vhdl\tspc_wbone_types-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\packages\tspc_pcisig_types\vhdl\tspc_pcisig_types-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_xmitter_globals-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\tspc_rtc\vhdl\tspc_rtc-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_rsrc_decode\vhdl\pcie_rsrc_decode-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_cdc_sig\vhdl\tspc_cdc_sig-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\lscc_pcie_x1_ip\vhdl\lscc_pcie_x1_ip-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo_istage-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue_ctl-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\top\vhdl\tsls_wb_pcie_to_b4sq-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\top\vhdl\pcie_subsys-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\top\core_ae53\vhdl\core_ae53-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\top\core_ae53\vhdl\core_ae53_exports-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\top\versa_ecp5\vhdl\versa_ecp5-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\packages\tspc_utils\vhdl\tspc_utils-pb.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\top\vhdl\tsls_wb_pcie_to_b4sq_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc_impl\common\packages\tspc_wbone_types\mti\tspc_wbone_types-pb.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\packages\tspc_pcisig_types\vhdl\tspc_pcisig_types-pb.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_xmitter_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\tspc_rtc\vhdl\tspc_rtc-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_rsrc_decode\vhdl\pcie_rsrc_decode-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_cdc_sig\vhdl\tspc_cdc_sig-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-a_rtl.vhd'.
+@W: CD645 :"C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-a_rtl.vhd":26:8:26:15|Ignoring undefined library pmi_work
+@W: CD642 :"C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-a_rtl.vhd":28:16:28:16|Ignoring use clause - library pmi_work not found ...
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\lscc_pcie_x1_ip\vhdl\lscc_pcie_x1_ip-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo_istage-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo-a_rtl.vhd'.
+@W: CD645 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo-a_rtl.vhd":27:8:27:15|Ignoring undefined library pmi_work
+@W: CD642 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo-a_rtl.vhd":28:16:28:16|Ignoring use clause - library pmi_work not found ...
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue_ctl-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-a_rtl.vhd'.
+@W: CD645 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-a_rtl.vhd":27:8:27:15|Ignoring undefined library pmi_work
+@W: CD642 :"C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-a_rtl.vhd":30:16:30:16|Ignoring use clause - library pmi_work not found ...
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_xmitter-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_xmitter-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\top\vhdl\tsls_wb_pcie_to_b4sq-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\top\vhdl\pcie_subsys-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\top\core_ae53\vhdl\core_ae53-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ECP5_Wishbone\soc\top\versa_ecp5\vhdl\versa_ecp5-a_rtl.vhd'.
+VHDL syntax check successful!
+@N: CD231 :"C:\lscc\diamond\3.12\synpbase\lib\vhd2008\std1164.vhd":888:16:888:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\rx_rsl\vhdl\rx_rsl.vhd":32:8:32:13|Synthesizing work.rx_rsl.rx_rsl_arc.
+@N: CD231 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\rx_rsl\vhdl\rx_rsl.vhd":62:20:62:21|Using onehot encoding for type rx_sm_state. For example, enumeration powerup is mapped to "10000000".
+Post processing for work.rx_rsl.rx_rsl_arc
+Running optimization stage 1 on rx_rsl .......
+Finished optimization stage 1 on rx_rsl (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+Running optimization stage 2 on rx_rsl .......
+Finished optimization stage 2 on rx_rsl (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 103MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Projects\ECP5_Wishbone\work\diamond\versa_ecp5\ae53\synwork\layer2.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+Process completed successfully.
+# Mon Jan  3 11:28:04 2022
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: L-EQSS42R
+
+Implementation : ae53
+Synopsys Synopsys Netlist Linker, Version comp202103synp2, Build 093R, Built Aug 10 2021 09:15:36, @
+
+@N|Running in 64-bit mode
+@W: Z198 :"c:\projects\ecp5_wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\x_pcie.v":253:12:253:17|Unbound component x_pcie_core of instance u1_dut 
+@W: Z198 :"c:\projects\ecp5_wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo-a_rtl.vhd":152:3:152:8|Unbound component pmi_ram_dp_work_versa_ecp5_rtl_1 of instance U3_MEM 
+@W: Z198 :"c:\projects\ecp5_wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-a_rtl.vhd":103:6:103:10|Unbound component pmi_distributed_dpram_work_versa_ecp5_rtl_0 of instance U1_DSRAM\.U_RAM 
+@W: Z198 :"c:\projects\ecp5_wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-a_rtl.vhd":129:6:129:10|Unbound component pmi_ram_dp_work_versa_ecp5_rtl_0 of instance U1_BMRAM\.U_RAM 
+@W: Z198 :"c:\projects\ecp5_wishbone\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-a_rtl.vhd":186:3:186:8|Unbound component pmi_ram_dp_true_be_work_versa_ecp5_rtl_0 of instance U2_MEM 
+
+=======================================================================================
+For a summary of linker messages for components that did not bind, please see log file:
+@L: C:\Projects\ECP5_Wishbone\work\diamond\versa_ecp5\ae53\synwork\versa_ecp5_ae53_comp.linkerlog
+=======================================================================================
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 98MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jan  3 11:28:05 2022
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Projects\ECP5_Wishbone\work\diamond\versa_ecp5\ae53\synwork\versa_ecp5_ae53_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:17s; Memory used current: 23MB peak: 24MB)
+
+Process took 0h:00m:17s realtime, 0h:00m:17s cputime
+
+Process completed successfully.
+# Mon Jan  3 11:28:05 2022
+
+###########################################################]

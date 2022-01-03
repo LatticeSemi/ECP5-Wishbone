@@ -1,0 +1,59 @@
+<top name = "x_cref"  library = "work"  arch = ""  entry = "Verilog">
+
+<clocks>
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 0
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+<library name = "work">
+
+<unit name = "x_cref">
+
+    <!--
+        Top Level Pins: 3
+    -->
+
+    <pins>
+        <pitem  name = "refclkp"  direction = "in"  />
+        <pitem  name = "refclkn"  direction = "in"  />
+        <pitem  name = "refclko"  direction = "out"  />
+    </pins>
+
+    <!--
+        Instances in netlist: 1
+    -->
+
+    <instance  name = "EXTREF1_inst"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "REFCLKP"  direction = "in"  />
+        <pitem  name = "REFCLKN"  direction = "in"  />
+        <pitem  name = "REFCLKO"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "refclkp"  />
+        <nitem  name = "refclkn"  />
+        <nitem  name = "refclko"  />
+        </nets>
+    </instance>
+
+    <!--
+        Views in design "x_cref": 0
+    -->
+
+    <views>
+    </views>
+
+</unit>
+
+</library>
+
+</top>

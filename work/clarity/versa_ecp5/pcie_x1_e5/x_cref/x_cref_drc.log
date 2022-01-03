@@ -1,0 +1,3 @@
+Results of NGD DRC are available in x_cref_drc.log.
+WARNING - synthesis: DRC checking was skipped because the -ngo option was used.
+Writing NGD file C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_cref/x_cref.ngo.

@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE		ispXCF	SYSTEM	"IspXCF.dtd" >
+<ispXCF version="3.12">
+	<Comment></Comment>
+	<Chain>
+		<Comm>JTAG</Comm>
+		<Device>
+			<SelectedProg value="TRUE"/>
+			<Pos>1</Pos>
+			<Vendor>Micron</Vendor>
+			<Family>ECP5UM</Family>
+			<Name>LFE5UM-45F</Name>
+			<Package>All</Package>
+			<Bypass>
+				<InstrLen>8</InstrLen>
+				<InstrVal>11111111</InstrVal>
+				<BScanLen>1</BScanLen>
+				<BScanVal>0</BScanVal>
+			</Bypass>
+			<File>C:/Users/hwdebug/Documents/versa_ecp5/versa_e5_ae53_3.12_6.4_cm.bit</File>
+			<FileTime>10/05/21 18:23:51</FileTime>
+			<JedecChecksum>0x3A0E</JedecChecksum>
+			<Operation>SPI Flash Erase,Program,Verify</Operation>
+			<Option>
+				<SVFVendor>JTAG STANDARD</SVFVendor>
+				<SVFProcessor>SVF Processor</SVFProcessor>
+				<Usercode>0x00000000</Usercode>
+				<AccessMode>SPI Flash Background Programming</AccessMode>
+			</Option>
+			<FPGALoader>
+			<CPLDDevice>
+				<Device>
+					<Pos>1</Pos>
+					<Vendor>Lattice</Vendor>
+					<Family>ECP5UM</Family>
+					<Name>LFE5UM-45F</Name>
+					<IDCode>0x01112043</IDCode>
+					<Package>All</Package>
+					<PON>LFE5UM-45F</PON>
+					<Bypass>
+						<InstrLen>8</InstrLen>
+						<InstrVal>11111111</InstrVal>
+						<BScanLen>1</BScanLen>
+						<BScanVal>0</BScanVal>
+					</Bypass>
+					<MaskFile>C:/lscc/Programmer/3.8/data/vmdata/database\xpga\ecp5\LFE5UM-45F.msk</MaskFile>
+					<Operation>Bypass</Operation>
+					<Option>
+						<SVFVendor>JTAG STANDARD</SVFVendor>
+						<IOState>HighZ</IOState>
+						<PreloadLength>510</PreloadLength>
+						<IOVectorData>0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</IOVectorData>
+						<SVFProcessor>SVF Processor</SVFProcessor>
+						<AccessMode>JTAG</AccessMode>
+					</Option>
+				</Device>
+			</CPLDDevice>
+			<FlashDevice>
+				<Device>
+					<Pos>1</Pos>
+					<Vendor>Micron</Vendor>
+					<Family>SPI Serial Flash</Family>
+					<Name>N25Q128A</Name>
+					<IDCode>0x18</IDCode>
+					<Package>8-pin SO8</Package>
+					<Operation>SPI Flash Erase,Program,Verify</Operation>
+					<File>C:/Users/hwdebug/Documents/versa_ecp5/versa_e5_ae53_3.12_6.4_cm.bit</File>
+					<AddressBase>0x00000000</AddressBase>
+					<EndAddress>0x000F0000</EndAddress>
+					<DeviceSize>128</DeviceSize>
+					<DataSize>1032637</DataSize>
+					<NumberOfDevices>1</NumberOfDevices>
+					<ReInitialize value="FALSE"/>
+				</Device>
+			</FlashDevice>
+			<FPGADevice>
+				<Device>
+					<Pos>1</Pos>
+					<Name></Name>
+					<File>Z:/tsev_versa_e5g1_mfdma/deploy/tsev_versa_e5g1_mfdma.mcs</File>
+					<LocalChainList>
+						<LocalDevice index="-99"
+							name="Unknown"
+							file="Z:/tsev_versa_e5g1_mfdma/deploy/tsev_versa_e5g1_mfdma.mcs"/>
+					</LocalChainList>
+					<Option>
+						<SVFVendor>JTAG STANDARD</SVFVendor>
+						<SVFProcessor>SVF Processor</SVFProcessor>
+					</Option>
+				</Device>
+			</FPGADevice>
+			</FPGALoader>
+		</Device>
+		<Device>
+			<SelectedProg value="FALSE"/>
+			<Pos>2</Pos>
+			<Vendor>Lattice</Vendor>
+			<Family>ispCLOCK</Family>
+			<Name>ispPAC-CLK5406D</Name>
+			<IDCode>0x00191043</IDCode>
+			<Package>48-pin QFNS</Package>
+			<PON>ispPAC-CLK5406D-XXSN48C</PON>
+			<Bypass>
+				<InstrLen>8</InstrLen>
+				<InstrVal>11111111</InstrVal>
+				<BScanLen>1</BScanLen>
+				<BScanVal>0</BScanVal>
+			</Bypass>
+			<File>C:/Users/hwdebug/Documents/versa_ecp5/versa_ecp5.jed</File>
+			<FileTime>10/04/21 23:58:50</FileTime>
+			<JedecChecksum>0x2162</JedecChecksum>
+			<Operation>Erase,Program,Verify</Operation>
+			<Option>
+				<SVFVendor>JTAG STANDARD</SVFVendor>
+				<IOState>HighZ</IOState>
+				<PreloadLength>32</PreloadLength>
+				<IOVectorData>0x00000000</IOVectorData>
+				<OverideUES value="TRUE"/>
+				<TCKFrequency>1.000000 MHz</TCKFrequency>
+				<SVFProcessor>ispVM</SVFProcessor>
+				<Usercode>0xFFFFFFFF</Usercode>
+			</Option>
+		</Device>
+	</Chain>
+	<ProjectOptions>
+		<Program>SEQUENTIAL</Program>
+		<Process>ENTIRED CHAIN</Process>
+		<OperationOverride>No Override</OperationOverride>
+		<StartTAP>TLR</StartTAP>
+		<EndTAP>TLR</EndTAP>
+		<VerifyUsercode value="FALSE"/>
+		<TCKDelay>1</TCKDelay>
+	</ProjectOptions>
+	<CableOptions>
+		<CableName>USB2</CableName>
+		<PortAdd>FTUSB-0</PortAdd>
+		<USBID>Lattice ECP5 Versa Board A Location 0000 Serial FTYZOLPLA</USBID>
+	</CableOptions>
+</ispXCF>

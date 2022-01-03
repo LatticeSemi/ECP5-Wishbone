@@ -1,0 +1,110 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: L-EQSS42R
+
+Implementation : ae53
+
+# Written on Mon Jan  3 11:28:08 2022
+
+##### DESIGN INFO #######################################################
+
+Top View:                "versa_ecp5"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                Ending                                  |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                  System                                  |     3.571            |     No paths         |     No paths         |     No paths                         
+System                                  x_pcie_phy|PCLK_by_2_inferred_clock     |     3.571            |     No paths         |     No paths         |     No paths                         
+System                                  x_pcie_phy|PCLK_inferred_clock          |     3.571            |     No paths         |     No paths         |     No paths                         
+System                                  x_cref|refclko_inferred_clock           |     3.571            |     No paths         |     No paths         |     No paths                         
+System                                  x_pcie_pcs|tx_pclk_inferred_clock       |     3.571            |     No paths         |     No paths         |     No paths                         
+System                                  x_pcie_pcs|rx_pclk_inferred_clock       |     3.571            |     No paths         |     No paths         |     No paths                         
+x_pcie_phy|PCLK_by_2_inferred_clock     System                                  |     3.571            |     No paths         |     No paths         |     No paths                         
+x_pcie_phy|PCLK_by_2_inferred_clock     x_pcie_phy|PCLK_by_2_inferred_clock     |     3.571            |     No paths         |     No paths         |     No paths                         
+x_pcie_phy|PCLK_by_2_inferred_clock     x_pcie_phy|PCLK_inferred_clock          |     Diff grp         |     No paths         |     No paths         |     No paths                         
+x_pcie_phy|PCLK_by_2_inferred_clock     x_pcie_pcs|rx_pclk_inferred_clock       |     Diff grp         |     No paths         |     No paths         |     No paths                         
+x_pcie_phy|PCLK_inferred_clock          System                                  |     3.571            |     No paths         |     No paths         |     No paths                         
+x_pcie_phy|PCLK_inferred_clock          x_pcie_phy|PCLK_by_2_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+x_pcie_phy|PCLK_inferred_clock          x_pcie_phy|PCLK_inferred_clock          |     3.571            |     No paths         |     No paths         |     No paths                         
+x_pcie_phy|PCLK_inferred_clock          x_pcie_pcs|rx_pclk_inferred_clock       |     Diff grp         |     No paths         |     No paths         |     No paths                         
+x_cref|refclko_inferred_clock           System                                  |     3.571            |     No paths         |     No paths         |     No paths                         
+x_cref|refclko_inferred_clock           x_pcie_phy|PCLK_by_2_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+x_cref|refclko_inferred_clock           x_pcie_phy|PCLK_inferred_clock          |     Diff grp         |     No paths         |     No paths         |     No paths                         
+x_cref|refclko_inferred_clock           x_cref|refclko_inferred_clock           |     3.571            |     No paths         |     No paths         |     No paths                         
+x_cref|refclko_inferred_clock           x_pcie_pcs|tx_pclk_inferred_clock       |     Diff grp         |     No paths         |     No paths         |     No paths                         
+x_pcie_pcs|tx_pclk_inferred_clock       x_cref|refclko_inferred_clock           |     Diff grp         |     No paths         |     No paths         |     No paths                         
+x_pcie_pcs|tx_pclk_inferred_clock       x_pcie_pcs|tx_pclk_inferred_clock       |     3.571            |     No paths         |     No paths         |     No paths                         
+x_pcie_pcs|rx_pclk_inferred_clock       System                                  |     3.571            |     No paths         |     No paths         |     No paths                         
+x_pcie_pcs|rx_pclk_inferred_clock       x_pcie_phy|PCLK_inferred_clock          |     Diff grp         |     No paths         |     No paths         |     No paths                         
+x_pcie_pcs|rx_pclk_inferred_clock       x_pcie_pcs|rx_pclk_inferred_clock       |     3.571            |     No paths         |     No paths         |     No paths                         
+===========================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:CLK_RESET_N
+p:DL_UP
+p:HDIN_N0
+p:HDIN_P0
+p:HDOUT_N0
+p:HDOUT_P0
+p:LTSSM_S0
+p:LTSSM_S1
+p:LTSSM_S2
+p:LTSSM_S3
+p:PERST_N
+p:REFCLK_N
+p:REFCLK_P
+p:TICK_CLK
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

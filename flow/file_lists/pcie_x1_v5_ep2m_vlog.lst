@@ -1,0 +1,10 @@
++define+DEBUG=0 
++define+SIMULATE
++define+VHDL_SIM
++incdir+$TF_HOME/work/ip_express/evbx1_ep2m/pcie_x1_v5/pcie_eval/pcie_x1/src/params
+-l PMI_WORK -l ovi_ecp2m
+$TF_HOME/work/ip_express/evbx1_ep2m/pcie_x1_v5/pcie_eval/pcie_x1/src/params/pci_exp_params.v
+$TF_HOME/work/ip_express/evbx1_ep2m/pcie_x1_v5/pcie_eval/pcie_x1/src/params/pci_exp_ddefines.v
+$TF_HOME/work/ip_express/evbx1_ep2m/pcie_x1_v5/pcie_x1_beh.v
+$TF_HOME/work/ip_express/evbx1_ep2m/pcie_x1_v5/pcie_x1.v
+$TF_HOME/work/ip_express/evbx1_ep2m/pcie_x1_v5/pcie_x1_top.v

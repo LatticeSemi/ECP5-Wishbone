@@ -1,0 +1,15 @@
++define+DEBUG=0
++define+RSL_SIM_MODE
++define+SIM_MODE
++define+SIMULATE
++incdir+$TF_HOME/work/clarity/versa_e5/pcie_x1_e5/x_pcie/pcie_eval/x_pcie/src/params
++incdir+$TF_HOME/work/clarity/versa_e5/pcie_x1_e5/x_pcie/pcie_eval/x_pcie/src/top 
+-l PMI_WORK -l ovi_ecp5um
+$TF_HOME/work/clarity/versa_e5/pcie_x1_e5/x_pcie/pcie_eval/x_pcie/src/params/pci_exp_params.v
+$TF_HOME/work/clarity/versa_e5/pcie_x1_e5/x_pcie/pcie_eval/x_pcie/src/params/pci_exp_ddefines.v
+$TF_HOME/work/clarity/versa_e5/pcie_x1_e5/x_pcie/pcie_eval/x_pcie/src/top/x_pcie_beh.v
+$TF_HOME/work/clarity/versa_e5/pcie_x1_e5/x_pcie/pcie_eval/x_pcie/src/top/x_pcie_core.v
+$TF_HOME/work/clarity/versa_e5/pcie_x1_e5/x_pcie/x_pcie.v
+$TF_HOME/work/clarity/versa_e5/pcie_x1_e5/x_cref/x_cref.v
+$TF_HOME/work/clarity/versa_e5/pcie_x1_e5/pcie_x1_e5.v
+

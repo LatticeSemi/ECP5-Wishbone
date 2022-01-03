@@ -1,0 +1,31 @@
+
+# 
+#     Developed by Ingenieurbuero Gardiner
+#        https://www.ib-gardiner.eu
+#        techsupport@ib-gardiner.eu
+# 
+#  -----------------------------------------------------------------------------
+# 
+#  File ID     : $Id: lscc_9c1e_driver.c 147 2020-09-29 12:04:43Z  $
+#  Generated   : $LastChangedDate: 2020-09-29 14:04:43 +0200 (Tue, 29 Sep 2020) $
+#  Revision    : $LastChangedRevision: 147 $
+# 
+#  -----------------------------------------------------------------------------
+# 
+#  Description :
+#    install -m 0644  9-lscc_ae53.rules /etc/udev/rules.d
+#    udevadm control --reload-rules
+# 
+#  -----------------------------------------------------------------------------
+
+# Rules for creating Lattice Device entries for PCIe Eval Boards.
+#
+# See the udev man page for a full description of them.
+# See the udev.rules.examples file for more examples of how to create rules
+#
+# Note: for udev versions below 050 (???) the test rule is a single '='
+# so you may need to modify these rule lines to be
+# KERNEL="SC_Basic*" if using on 2.6.9 kernels
+#
+
+KERNEL=="lscc_ae53*", SYMLINK+="lscc_ae53/%n", MODE="0777"

@@ -1,0 +1,316 @@
+
+Lattice Place and Route Report for Design "versa_ecp5_ae53_map.ncd"
+Mon Jan 03 11:30:41 2022
+
+PAR: Place And Route Diamond (64-bit) 3.12.1.454.
+Command Line: par -w -l 5 -i 29 -y -pe -t 4 -c 6 -e 9 -m 0 -gui -msgset
+C:/Projects/ECP5_Wishbone/work/diamond/versa_ecp5/promote.xml -exp
+parUseNBR=1:parCDP=1:parCDR=auto:parPathBased=ON:clockSkewMin=2:parASE=1
+versa_ecp5_ae53_map.ncd versa_ecp5_ae53.dir/5_4.ncd versa_ecp5_ae53.prf
+
+Preference file: versa_ecp5_ae53.prf.
+Placement level-cost: 5-4.
+Routing Iterations: 29
+
+Loading design for application par from file versa_ecp5_ae53_map.ncd.
+Design name: versa_ecp5
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5UM-45F
+Package:     CABGA381
+Performance: 8
+Loading device for application par from file 'sa5p45m.nph' in environment: C:/lscc/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.38.
+Performance Hardware Data Status:   Final          Version 55.1.
+License checked out.
+
+
+Ignore Preference Error(s):  False
+Device utilization summary:
+
+   PIO (prelim)       8/245           3% used
+                      8/203           3% bonded
+
+   SLICE           6339/21924        28% used
+
+   APIO               6/20           30% used
+   GSR                1/1           100% used
+   EBR               12/108          11% used
+   PCSCLKDIV          1/2            50% used
+   DCU                1/2            50% used
+   EXTREF             1/2            50% used
+
+
+Number of Signals: 14539
+Number of Connections: 41279
+
+Pin Constraint Summary:
+   8 out of 8 pins locked (100% locked).
+
+The following 6 signals are selected to use the primary clock routing resources:
+    U1_CORE/s_u1_clk_125 (driver: U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/u1_pcs_pipe/pcs_clkdiv, clk/ce/sr load #: 3257/0/0)
+    U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/pclk (driver: U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/u1_pcs_pipe/pcs_clkdiv, clk/ce/sr load #: 270/0/0)
+    U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/s_u1_refclk (driver: U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_cref_inst/EXTREF0_inst, clk/ce/sr load #: 109/0/0)
+    U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/u1_pcs_pipe/tx_pclk (driver: U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/u1_pcs_pipe/pcs_top_0/DCU0_inst, clk/ce/sr load #: 31/0/0)
+    U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/u1_pcs_pipe/ff_rx_fclk_0 (driver: U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/u1_pcs_pipe/pcs_top_0/DCU0_inst, clk/ce/sr load #: 74/0/0)
+    U1_CORE/U1_PCIE/U1_RST_CDC/s_u1_rst_cdc_n (driver: U1_CORE/U1_PCIE/U1_RST_CDC/SLICE_1025, clk/ce/sr load #: 0/0/705)
+
+
+Signal PERST_N_c is selected as Global Set/Reset.
+Starting Placer Phase 0.
+...........
+Finished Placer Phase 0.  REAL time: 8 secs 
+
+Starting Placer Phase 1.
+.....................................
+Placer score = 2633862.
+Finished Placer Phase 1.  REAL time: 27 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  2521788
+Finished Placer Phase 2.  REAL time: 30 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 12 (0%)
+  GR_PCLK    : 0 out of 12 (0%)
+  PLL        : 0 out of 4 (0%)
+  DCS        : 0 out of 2 (0%)
+  DCC        : 0 out of 60 (0%)
+  CLKDIV     : 0 out of 4 (0%)
+
+Quadrant TL Clocks:
+  PRIMARY "U1_CORE/s_u1_clk_125" from CDIVX on comp "U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/u1_pcs_pipe/pcs_clkdiv" on site "PCSCLKDIV0", CLK/CE/SR load = 667
+  PRIMARY "U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/pclk" from CDIV1 on comp "U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/u1_pcs_pipe/pcs_clkdiv" on site "PCSCLKDIV0", CLK/CE/SR load = 1
+  PRIMARY "U1_CORE/U1_PCIE/U1_RST_CDC/s_u1_rst_cdc_n" from Q0 on comp "U1_CORE/U1_PCIE/U1_RST_CDC/SLICE_1025" on site "R42C12D", CLK/CE/SR load = 47
+
+  PRIMARY  : 3 out of 16 (18%)
+
+Quadrant TR Clocks:
+  PRIMARY "U1_CORE/s_u1_clk_125" from CDIVX on comp "U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/u1_pcs_pipe/pcs_clkdiv" on site "PCSCLKDIV0", CLK/CE/SR load = 717
+  PRIMARY "U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/pclk" from CDIV1 on comp "U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/u1_pcs_pipe/pcs_clkdiv" on site "PCSCLKDIV0", CLK/CE/SR load = 11
+  PRIMARY "U1_CORE/U1_PCIE/U1_RST_CDC/s_u1_rst_cdc_n" from Q0 on comp "U1_CORE/U1_PCIE/U1_RST_CDC/SLICE_1025" on site "R42C12D", CLK/CE/SR load = 41
+
+  PRIMARY  : 3 out of 16 (18%)
+
+Quadrant BL Clocks:
+  PRIMARY "U1_CORE/s_u1_clk_125" from CDIVX on comp "U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/u1_pcs_pipe/pcs_clkdiv" on site "PCSCLKDIV0", CLK/CE/SR load = 876
+  PRIMARY "U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/pclk" from CDIV1 on comp "U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/u1_pcs_pipe/pcs_clkdiv" on site "PCSCLKDIV0", CLK/CE/SR load = 98
+  PRIMARY "U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/s_u1_refclk" from comp "U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_cref_inst/EXTREF0_inst" on site "EXTREF0", CLK/CE/SR load = 24
+  PRIMARY "U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/u1_pcs_pipe/tx_pclk" from CH0_FF_TX_PCLK on comp "U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/u1_pcs_pipe/pcs_top_0/DCU0_inst" on site "DCU0", CLK/CE/SR load = 1
+  PRIMARY "U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/u1_pcs_pipe/ff_rx_fclk_0" from CH0_FF_RX_PCLK on comp "U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/u1_pcs_pipe/pcs_top_0/DCU0_inst" on site "DCU0", CLK/CE/SR load = 5
+  PRIMARY "U1_CORE/U1_PCIE/U1_RST_CDC/s_u1_rst_cdc_n" from Q0 on comp "U1_CORE/U1_PCIE/U1_RST_CDC/SLICE_1025" on site "R42C12D", CLK/CE/SR load = 597
+
+  PRIMARY  : 6 out of 16 (37%)
+
+Quadrant BR Clocks:
+  PRIMARY "U1_CORE/s_u1_clk_125" from CDIVX on comp "U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/u1_pcs_pipe/pcs_clkdiv" on site "PCSCLKDIV0", CLK/CE/SR load = 997
+  PRIMARY "U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/pclk" from CDIV1 on comp "U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/u1_pcs_pipe/pcs_clkdiv" on site "PCSCLKDIV0", CLK/CE/SR load = 160
+  PRIMARY "U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/s_u1_refclk" from comp "U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_cref_inst/EXTREF0_inst" on site "EXTREF0", CLK/CE/SR load = 85
+  PRIMARY "U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/u1_pcs_pipe/tx_pclk" from CH0_FF_TX_PCLK on comp "U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/u1_pcs_pipe/pcs_top_0/DCU0_inst" on site "DCU0", CLK/CE/SR load = 31
+  PRIMARY "U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/u1_pcs_pipe/ff_rx_fclk_0" from CH0_FF_RX_PCLK on comp "U1_CORE/U1_PCIE/U2_PCIE_IP/U1_ECP5.U1_GEN1.U1_PCIE/x_pcie_inst/u1_pcs_pipe/pcs_top_0/DCU0_inst" on site "DCU0", CLK/CE/SR load = 69
+  PRIMARY "U1_CORE/U1_PCIE/U1_RST_CDC/s_u1_rst_cdc_n" from Q0 on comp "U1_CORE/U1_PCIE/U1_RST_CDC/SLICE_1025" on site "R42C12D", CLK/CE/SR load = 20
+
+  PRIMARY  : 6 out of 16 (37%)
+
+Edge Clocks:
+
+  No edge clock selected.
+
+
+--------------- End of Clock Report ---------------
+
+
++
+I/O Usage Summary (final):
+   8 out of 245 (3.3%) PIO sites used.
+   8 out of 203 (3.9%) bonded PIO sites used.
+   Number of PIO comps: 8; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+---------------+------------+------------+------------+
+| I/O Bank | Usage         | Bank Vccio | Bank Vref1 | Bank Vref2 |
++----------+---------------+------------+------------+------------+
+| 0        | 1 / 27 (  3%) | 3.3V       | -          | -          |
+| 1        | 0 / 33 (  0%) | -          | -          | -          |
+| 2        | 6 / 32 ( 18%) | 2.5V       | -          | -          |
+| 3        | 0 / 33 (  0%) | -          | -          | -          |
+| 6        | 0 / 33 (  0%) | -          | -          | -          |
+| 7        | 0 / 32 (  0%) | -          | -          | -          |
+| 8        | 1 / 13 (  7%) | 3.3V       | -          | -          |
++----------+---------------+------------+------------+------------+
+
+Total placer CPU time: 30 secs 
+
+Dumping design to file versa_ecp5_ae53.dir/5_4.ncd.
+
+0 connections routed; 41279 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 37 secs 
+
+Start NBR router at 11:31:18 01/03/22
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 11:31:20 01/03/22
+
+Start NBR section for initial routing at 11:31:20 01/03/22
+Level 1, iteration 1
+27(0.00%) conflicts; 31785(77.00%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.792ns/0.000ns; real time: 41 secs 
+Level 2, iteration 1
+136(0.01%) conflicts; 31140(75.44%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.782ns/0.000ns; real time: 41 secs 
+Level 3, iteration 1
+384(0.02%) conflicts; 23243(56.31%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.679ns/0.000ns; real time: 43 secs 
+Level 4, iteration 1
+2112(0.10%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.679ns/0.000ns; real time: 46 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 11:31:27 01/03/22
+Level 1, iteration 1
+89(0.00%) conflicts; 2861(6.93%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.679ns/0.000ns; real time: 46 secs 
+Level 2, iteration 1
+50(0.00%) conflicts; 2892(7.01%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.679ns/0.000ns; real time: 47 secs 
+Level 3, iteration 1
+107(0.01%) conflicts; 2697(6.53%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.679ns/0.000ns; real time: 47 secs 
+Level 3, iteration 2
+53(0.00%) conflicts; 2719(6.59%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.679ns/0.000ns; real time: 47 secs 
+Level 4, iteration 1
+1233(0.06%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.679ns/0.000ns; real time: 49 secs 
+Level 4, iteration 2
+602(0.03%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.632ns/0.000ns; real time: 50 secs 
+Level 4, iteration 3
+277(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.679ns/0.000ns; real time: 50 secs 
+Level 4, iteration 4
+115(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.679ns/0.000ns; real time: 51 secs 
+Level 4, iteration 5
+58(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.563ns/0.000ns; real time: 51 secs 
+Level 4, iteration 6
+35(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.563ns/0.000ns; real time: 51 secs 
+Level 4, iteration 7
+13(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.563ns/0.000ns; real time: 51 secs 
+Level 4, iteration 8
+4(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.563ns/0.000ns; real time: 52 secs 
+Level 4, iteration 9
+2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.559ns/0.000ns; real time: 52 secs 
+Level 4, iteration 10
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.559ns/0.000ns; real time: 52 secs 
+Level 4, iteration 11
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.559ns/0.000ns; real time: 52 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 11:31:33 01/03/22
+
+Start NBR section for re-routing at 11:31:36 01/03/22
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.559ns/0.000ns; real time: 55 secs 
+
+Start NBR section for post-routing at 11:31:36 01/03/22
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 0.559ns
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 1 mins 
+Total REAL time: 1 mins 1 secs 
+Completely routed.
+End of route.  41279 routed (100.00%); 0 unrouted.
+
+Generating "par" statistics.
+
+
+   The Delay Summary Report
+
+   The SCORE FOR THIS DESIGN is: 163
+
+
+   The NUMBER OF SIGNALS NOT COMPLETELY ROUTED for this design is: 0
+
+   The AVERAGE CONNECTION DELAY for this design is:          0.88 (  0.88)
+   The AVERAGE CONNECTION DELAY on CRITICAL NETS is:         0.00 (  0.00)
+   The CLOCK SKEW AVERAGE for this design is:                0.76
+   The MAXIMUM PIN DELAY IS:                                 7.31 (  7.31)
+   The AVERAGE CONNECTION DELAY on the 10 WORST NETS is:     3.76 (  3.76)
+
+   Listing Pin Delays by value: (nsec)
+
+    d <= 10    < d <= 20   < d <= 30   < d <= 40   < d <= 50    d > 50
+   ---------   ---------   ---------   ---------   ---------   ---------
+       41279           0           0           0           0           0
+
+Hold time timing score: 0, hold timing errors: 0
+
+
+Timing score: 0 
+
+Dumping design to file versa_ecp5_ae53.dir/5_4.ncd.
+
+
+All signals are completely routed.
+
+
+PAR_SUMMARY::Run status = Completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 0.559
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.156
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 1 mins 5 secs 
+Total REAL time to completion: 1 mins 7 secs 
+
+par done!
+
+Note: user must run 'Trace' for timing closure signoff.
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.

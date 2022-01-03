@@ -1,0 +1,310 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-mixedhdl|-top|versa_ecp5|-layerid|0|-orig_srs|C:\\Projects\\ECP5_Wishbone\\work\\diamond\\versa_ecp5\\ae53\\synwork\\versa_ecp5_ae53_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\bin64\\c_vhdl.exe":1628583642
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd2008\\location.map":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd2008\\std.vhd":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd2008\\std1164.vhd":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd2008\\std_textio.vhd":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd2008\\numeric.vhd":1628583872
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\umr_capim.vhd":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd2008\\arith.vhd":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd2008\\unsigned.vhd":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\hyperents.vhd":1628582822
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\rx_rsl\\vhdl\\rx_rsl.vhd":1633458108
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\config\\vhdl\\config_ae53_ecp5-p.vhd":1633437212
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\top\\core_ae53\\vhdl\\core_ae53_comps-p.vhd":1633437212
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\common\\packages\\tspc_utils\\vhdl\\tspc_utils-p.vhd":1614817078
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\top\\vhdl\\pcie_subsys_comps-p.vhd":1633437212
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\common\\packages\\tspc_wbone_types\\vhdl\\tspc_wbone_types-p.vhd":1588069592
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\common\\packages\\tspc_pcisig_types\\vhdl\\tspc_pcisig_types-p.vhd":1582455771
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\tsls_wb_pcie_to_b4sq\\units\\b4sq_tlp_xmitter\\vhdl\\b4sq_tlp_xmitter_globals-p.vhd":1529272592
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\tspc_rtc\\vhdl\\tspc_rtc-e.vhd":1571422695
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_rsrc_decode\\vhdl\\pcie_rsrc_decode-e.vhd":1633437212
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\common\\units\\tspc_cdc_sig\\vhdl\\tspc_cdc_sig-e.vhd":1610755436
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\tsls_wb_bmram\\units\\tspc_wb_ebr_ctl\\vhdl\\tspc_wb_ebr_ctl-e.vhd":1514421247
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\tsls_wb_bmram\\top\\vhdl\\tsls_wb_bmram-e.vhd":1514509280
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\lscc_pcie_x1_ip\\vhdl\\lscc_pcie_x1_ip-e.vhd":1632997868
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\tsls_wb_pcie_to_b4sq\\units\\b4sq_pkt_decode\\vhdl\\b4sq_pkt_decode-e.vhd":1514396578
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\tsls_wb_pcie_to_b4sq\\units\\b4sq_pcie_svc\\vhdl\\b4sq_pcie_svc-e.vhd":1514396578
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\tsls_wb_pcie_to_b4sq\\units\\b4sq_pkt_rx_fifo\\vhdl\\b4sq_pkt_rx_fifo_istage-e.vhd":1515171029
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\tsls_wb_pcie_to_b4sq\\units\\b4sq_tlp_xmitter\\vhdl\\b4sq_tlp_arbiter-e.vhd":1515171029
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\tsls_wb_pcie_to_b4sq\\units\\b4sq_tlp_xmitter\\vhdl\\b4sq_tlp_queue_ctl-e.vhd":1514396578
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\common\\units\\tspc_fifo_sync\\tech\\vhdl\\tspc_fifo_sync_mem-e.vhd":1526994498
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\tsls_wb_pcie_to_b4sq\\units\\b4sq_tlp_xmitter\\vhdl\\b4sq_tlp_queue-e.vhd":1514396578
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\tsls_wb_pcie_to_b4sq\\top\\vhdl\\tsls_wb_pcie_to_b4sq-e.vhd":1515171446
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\top\\vhdl\\pcie_subsys-e.vhd":1633437212
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\top\\core_ae53\\vhdl\\core_ae53-e.vhd":1633437212
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\top\\core_ae53\\vhdl\\core_ae53_exports-p.vhd":1633437212
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\top\\versa_ecp5\\vhdl\\versa_ecp5-e.vhd":1633437212
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\common\\packages\\tspc_utils\\vhdl\\tspc_utils-pb.vhd":1614820614
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\tsls_wb_pcie_to_b4sq\\top\\vhdl\\tsls_wb_pcie_to_b4sq_comps-p.vhd":1529274248
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc_impl\\common\\packages\\tspc_wbone_types\\mti\\tspc_wbone_types-pb.vhd":1637102619
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\tsls_wb_pcie_to_b4sq\\units\\b4sq_pkt_rx_fifo\\vhdl\\b4sq_pkt_rx_fifo_comps-p.vhd":1529276350
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\common\\packages\\tspc_pcisig_types\\vhdl\\tspc_pcisig_types-pb.vhd":1582416195
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\tsls_wb_pcie_to_b4sq\\units\\b4sq_tlp_xmitter\\vhdl\\b4sq_tlp_xmitter_comps-p.vhd":1529272895
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\tsls_wb_pcie_to_b4sq\\units\\b4sq_tlp_xmitter\\vhdl\\b4sq_tlp_queue_comps-p.vhd":1529272895
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\common\\units\\tspc_fifo_sync\\top\\vhdl\\tspc_fifo_sync_comps-p.vhd":1529273570
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\tspc_rtc\\vhdl\\tspc_rtc-a_rtl.vhd":1571422695
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_rsrc_decode\\vhdl\\pcie_rsrc_decode-a_rtl.vhd":1633437212
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\common\\units\\tspc_cdc_sig\\vhdl\\tspc_cdc_sig-a_rtl.vhd":1610961665
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\tsls_wb_bmram\\units\\tspc_wb_ebr_ctl\\vhdl\\tspc_wb_ebr_ctl-a_rtl.vhd":1529275343
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\tsls_wb_bmram\\top\\vhdl\\tsls_wb_bmram-a_rtl.vhd":1529275247
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\lscc_pcie_x1_ip\\vhdl\\lscc_pcie_x1_ip-a_rtl.vhd":1637275540
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\tsls_wb_pcie_to_b4sq\\units\\b4sq_pkt_decode\\vhdl\\b4sq_pkt_decode-a_rtl.vhd":1532848983
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\tsls_wb_pcie_to_b4sq\\units\\b4sq_pcie_svc\\vhdl\\b4sq_pcie_svc-a_rtl.vhd":1529272592
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\common\\units\\tspc_fifo_ctl_sync\\vhdl\\tspc_fifo_ctl_sync-e.vhd":1530975025
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\common\\units\\tspc_fifo_ctl_sync\\vhdl\\tspc_fifo_ctl_sync-a_rtl.vhd":1531299507
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\tsls_wb_pcie_to_b4sq\\units\\b4sq_pkt_rx_fifo\\vhdl\\b4sq_pkt_rx_fifo_istage-a_rtl.vhd":1529272592
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\tsls_wb_pcie_to_b4sq\\units\\b4sq_pkt_rx_fifo\\vhdl\\b4sq_pkt_rx_fifo-e.vhd":1529272592
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\tsls_wb_pcie_to_b4sq\\units\\b4sq_pkt_rx_fifo\\vhdl\\b4sq_pkt_rx_fifo-a_rtl.vhd":1529284462
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\tsls_wb_pcie_to_b4sq\\units\\b4sq_tlp_xmitter\\vhdl\\b4sq_tlp_arbiter-a_rtl.vhd":1529272592
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\tsls_wb_pcie_to_b4sq\\units\\b4sq_tlp_xmitter\\vhdl\\b4sq_tlp_queue_ctl-a_rtl.vhd":1529272592
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\common\\units\\tspc_fifo_sync\\tech\\vhdl\\tspc_fifo_sync_mem-a_rtl.vhd":1526994498
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\common\\units\\tspc_fifo_sync\\top\\vhdl\\tspc_fifo_sync-e.vhd":1529273570
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\common\\units\\tspc_fifo_sync\\top\\vhdl\\tspc_fifo_sync-a_rtl.vhd":1526994498
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\tsls_wb_pcie_to_b4sq\\units\\b4sq_tlp_xmitter\\vhdl\\b4sq_tlp_queue-a_rtl.vhd":1529272592
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\tsls_wb_pcie_to_b4sq\\units\\b4sq_tlp_xmitter\\vhdl\\b4sq_tlp_xmitter-e.vhd":1529272592
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\tsls_wb_pcie_to_b4sq\\units\\b4sq_tlp_xmitter\\vhdl\\b4sq_tlp_xmitter-a_rtl.vhd":1529272592
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\tsls_wb_pcie_to_b4sq\\top\\vhdl\\tsls_wb_pcie_to_b4sq-a_rtl.vhd":1529272592
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\top\\vhdl\\pcie_subsys-a_rtl.vhd":1636412339
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\top\\core_ae53\\vhdl\\core_ae53-a_rtl.vhd":1633525769
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\top\\versa_ecp5\\vhdl\\versa_ecp5-a_rtl.vhd":1633437212
+0 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\rx_rsl\vhdl\rx_rsl.vhd" vhdl
+1 "C:\Projects\ECP5_Wishbone\soc\config\vhdl\config_ae53_ecp5-p.vhd" vhdl
+2 "C:\Projects\ECP5_Wishbone\soc\top\core_ae53\vhdl\core_ae53_comps-p.vhd" vhdl
+3 "C:\Projects\ECP5_Wishbone\soc\common\packages\tspc_utils\vhdl\tspc_utils-p.vhd" vhdl
+4 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\top\vhdl\pcie_subsys_comps-p.vhd" vhdl
+5 "C:\Projects\ECP5_Wishbone\soc\common\packages\tspc_wbone_types\vhdl\tspc_wbone_types-p.vhd" vhdl
+6 "C:\Projects\ECP5_Wishbone\soc\common\packages\tspc_pcisig_types\vhdl\tspc_pcisig_types-p.vhd" vhdl
+7 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_xmitter_globals-p.vhd" vhdl
+8 "C:\Projects\ECP5_Wishbone\soc\units\tspc_rtc\vhdl\tspc_rtc-e.vhd" vhdl
+9 "C:\Projects\ECP5_Wishbone\soc\units\pcie_rsrc_decode\vhdl\pcie_rsrc_decode-e.vhd" vhdl
+10 "C:\Projects\ECP5_Wishbone\soc\common\units\tspc_cdc_sig\vhdl\tspc_cdc_sig-e.vhd" vhdl
+11 "C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd" vhdl
+12 "C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-e.vhd" vhdl
+13 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\lscc_pcie_x1_ip\vhdl\lscc_pcie_x1_ip-e.vhd" vhdl
+14 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-e.vhd" vhdl
+15 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-e.vhd" vhdl
+16 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo_istage-e.vhd" vhdl
+17 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-e.vhd" vhdl
+18 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue_ctl-e.vhd" vhdl
+19 "C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd" vhdl
+20 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue-e.vhd" vhdl
+21 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\top\vhdl\tsls_wb_pcie_to_b4sq-e.vhd" vhdl
+22 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\top\vhdl\pcie_subsys-e.vhd" vhdl
+23 "C:\Projects\ECP5_Wishbone\soc\top\core_ae53\vhdl\core_ae53-e.vhd" vhdl
+24 "C:\Projects\ECP5_Wishbone\soc\top\core_ae53\vhdl\core_ae53_exports-p.vhd" vhdl
+25 "C:\Projects\ECP5_Wishbone\soc\top\versa_ecp5\vhdl\versa_ecp5-e.vhd" vhdl
+26 "C:\Projects\ECP5_Wishbone\soc\common\packages\tspc_utils\vhdl\tspc_utils-pb.vhd" vhdl
+27 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\top\vhdl\tsls_wb_pcie_to_b4sq_comps-p.vhd" vhdl
+28 "C:\Projects\ECP5_Wishbone\soc_impl\common\packages\tspc_wbone_types\mti\tspc_wbone_types-pb.vhd" vhdl
+29 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo_comps-p.vhd" vhdl
+30 "C:\Projects\ECP5_Wishbone\soc\common\packages\tspc_pcisig_types\vhdl\tspc_pcisig_types-pb.vhd" vhdl
+31 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_xmitter_comps-p.vhd" vhdl
+32 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue_comps-p.vhd" vhdl
+33 "C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync_comps-p.vhd" vhdl
+34 "C:\Projects\ECP5_Wishbone\soc\units\tspc_rtc\vhdl\tspc_rtc-a_rtl.vhd" vhdl
+35 "C:\Projects\ECP5_Wishbone\soc\units\pcie_rsrc_decode\vhdl\pcie_rsrc_decode-a_rtl.vhd" vhdl
+36 "C:\Projects\ECP5_Wishbone\soc\common\units\tspc_cdc_sig\vhdl\tspc_cdc_sig-a_rtl.vhd" vhdl
+37 "C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd" vhdl
+38 "C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-a_rtl.vhd" vhdl
+39 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\lscc_pcie_x1_ip\vhdl\lscc_pcie_x1_ip-a_rtl.vhd" vhdl
+40 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd" vhdl
+41 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-a_rtl.vhd" vhdl
+42 "C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd" vhdl
+43 "C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd" vhdl
+44 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo_istage-a_rtl.vhd" vhdl
+45 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo-e.vhd" vhdl
+46 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo-a_rtl.vhd" vhdl
+47 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-a_rtl.vhd" vhdl
+48 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue_ctl-a_rtl.vhd" vhdl
+49 "C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-a_rtl.vhd" vhdl
+50 "C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd" vhdl
+51 "C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-a_rtl.vhd" vhdl
+52 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue-a_rtl.vhd" vhdl
+53 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_xmitter-e.vhd" vhdl
+54 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_xmitter-a_rtl.vhd" vhdl
+55 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\top\vhdl\tsls_wb_pcie_to_b4sq-a_rtl.vhd" vhdl
+56 "C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\top\vhdl\pcie_subsys-a_rtl.vhd" vhdl
+57 "C:\Projects\ECP5_Wishbone\soc\top\core_ae53\vhdl\core_ae53-a_rtl.vhd" vhdl
+58 "C:\Projects\ECP5_Wishbone\soc\top\versa_ecp5\vhdl\versa_ecp5-a_rtl.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 -1
+9 -1
+10 -1
+11 -1
+12 -1
+13 -1
+14 -1
+15 -1
+16 -1
+17 -1
+18 -1
+19 -1
+20 -1
+21 -1
+22 -1
+23 -1
+24 -1
+25 -1
+26 3 
+27 26 3 
+28 5 
+29 26 3 
+30 6 26 3 
+31 26 3 
+32 26 3 
+33 26 3 
+34 8 26 3 
+35 9 
+36 10 
+37 11 26 3 28 5 
+38 12 11 26 3 
+39 13 26 3 
+40 14 30 6 26 3 28 5 
+41 15 26 3 
+42 26 3 
+43 42 
+44 16 30 6 26 3 
+45 26 3 
+46 45 42 16 29 
+47 17 7 30 6 26 3 
+48 18 7 
+49 19 
+50 26 3 
+51 50 42 19 33 
+52 20 18 50 32 26 3 
+53 26 3 
+54 53 17 20 50 31 
+55 21 45 14 53 15 27 26 3 
+56 22 10 13 21 4 26 3 
+57 23 22 8 9 12 2 1 26 3 
+58 25 23 24 26 3 
+
+# Dependency Lists (Users Of)
+0 -1
+1 57 
+2 57 
+3 58 57 56 55 53 52 50 47 45 44 42 41 40 39 38 37 34 33 32 31 30 29 27 26 
+4 56 
+5 40 37 28 
+6 47 44 40 30 
+7 48 47 
+8 57 34 
+9 57 35 
+10 56 36 
+11 38 37 
+12 57 38 
+13 56 39 
+14 55 40 
+15 55 41 
+16 46 44 
+17 54 47 
+18 52 48 
+19 51 49 
+20 54 52 
+21 56 55 
+22 57 56 
+23 58 57 
+24 58 
+25 58 
+26 58 57 56 55 53 52 50 47 45 44 42 41 40 39 38 37 34 33 32 31 30 29 27 
+27 55 
+28 40 37 
+29 46 
+30 47 44 40 
+31 54 
+32 52 
+33 51 
+34 -1
+35 -1
+36 -1
+37 -1
+38 -1
+39 -1
+40 -1
+41 -1
+42 51 46 43 
+43 -1
+44 -1
+45 55 46 
+46 -1
+47 -1
+48 -1
+49 -1
+50 54 52 51 
+51 -1
+52 -1
+53 55 54 
+54 -1
+55 -1
+56 -1
+57 -1
+58 -1
+
+# Design Unit to File Association
+arch work rx_rsl rx_rsl_arc 0
+module work rx_rsl 0
+module work tspc_rtc 8
+module work pcie_rsrc_decode 9
+module work tspc_cdc_sig 10
+module work tspc_wb_ebr_ctl 11
+module work tsls_wb_bmram 12
+module work lscc_pcie_x1_ip 13
+module work b4sq_pkt_decode 14
+module work b4sq_pcie_svc 15
+module work b4sq_pkt_rx_fifo_istage 16
+module work b4sq_tlp_arbiter 17
+module work b4sq_tlp_queue_ctl 18
+module work tspc_fifo_sync_mem 19
+module work b4sq_tlp_queue 20
+module work tsls_wb_pcie_to_b4sq 21
+module work pcie_subsys 22
+module work core_ae53 23
+module work versa_ecp5 25
+arch work tspc_rtc rtl 34
+arch work pcie_rsrc_decode rtl 35
+arch work tspc_cdc_sig rtl 36
+arch work tspc_wb_ebr_ctl rtl 37
+arch work tsls_wb_bmram rtl 38
+arch work lscc_pcie_x1_ip rtl 39
+arch work b4sq_pkt_decode rtl 40
+arch work b4sq_pcie_svc rtl 41
+module work tspc_fifo_ctl_sync 42
+arch work tspc_fifo_ctl_sync rtl 43
+arch work b4sq_pkt_rx_fifo_istage rtl 44
+module work b4sq_pkt_rx_fifo 45
+arch work b4sq_pkt_rx_fifo rtl 46
+arch work b4sq_tlp_arbiter rtl 47
+arch work b4sq_tlp_queue_ctl rtl 48
+arch work tspc_fifo_sync_mem rtl 49
+module work tspc_fifo_sync 50
+arch work tspc_fifo_sync rtl 51
+arch work b4sq_tlp_queue rtl 52
+module work b4sq_tlp_xmitter 53
+arch work b4sq_tlp_xmitter rtl 54
+arch work tsls_wb_pcie_to_b4sq rtl 55
+arch work pcie_subsys rtl 56
+arch work core_ae53 rtl 57
+arch work versa_ecp5 rtl 58
+
+# Unbound Instances to File Association
+inst work tsls_wb_bmram pmi_ram_dp_true_be 38
+inst work lscc_pcie_x1_ip pcie_x1_e5g2 39
+inst work lscc_pcie_x1_ip pcie_x1_e5 39
+inst work lscc_pcie_x1_ip pcie_x1_top 39
+inst work lscc_pcie_x1_ip pcie_x1_ipx 39
+inst work b4sq_pkt_rx_fifo pmi_ram_dp 46
+inst work tspc_fifo_sync_mem pmi_ram_dp 49
+inst work tspc_fifo_sync_mem pmi_distributed_dpram 49
+inst work tsls_wb_pcie_to_b4sq b4sq_credit_config 55

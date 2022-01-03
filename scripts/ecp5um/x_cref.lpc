@@ -1,0 +1,31 @@
+[Device]
+Family=ecp5um
+OperatingCondition=IND
+Package=CABGA381
+PartName=LFE5UM-45F-8BG381I
+PartType=LFE5UM-45F
+SpeedGrade=8
+Status=P
+[IP]
+CoreName=EXTREF
+CoreRevision=1.1
+CoreStatus=Demo
+CoreType=LPM
+Date=09/30/2021
+ModuleName=x_cref
+ParameterFileVersion=1.0
+SourceFormat=verilog
+Time=23:32:37
+VendorName=Lattice Semiconductor Corporation
+[Parameters]
+Destination=Synplicity
+EDIF=1
+EXTREFDCBIAS=Disabled
+EXTREFTERMRES=50 ohms
+Expression=BusA(0 to 7)
+IO=0
+Order=Big Endian [MSB:LSB]
+VHDL=0
+Verilog=1
+[SYSTEMPNR]
+EXTREF=DCU0

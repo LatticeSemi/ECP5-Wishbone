@@ -1,0 +1,93 @@
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: L-EQSS42R
+
+Implementation : ae53
+Synopsys VHDL Compiler, Version comp202103synp2, Build 093R, Built Aug 10 2021 09:15:36, @
+
+@N|Running in 64-bit mode
+@N:"C:\Projects\ECP5_Wishbone\soc\top\versa_ecp5\vhdl\versa_ecp5-e.vhd":24:7:24:16|Top entity is set to versa_ecp5.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/rx_rsl/vhdl/rx_rsl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/config/vhdl/config_ae53_ecp5-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/top/core_ae53/vhdl/core_ae53_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/common/packages/tspc_utils/vhdl/tspc_utils-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/top/vhdl/pcie_subsys_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/common/packages/tspc_wbone_types/vhdl/tspc_wbone_types-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/common/packages/tspc_pcisig_types/vhdl/tspc_pcisig_types-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_tlp_xmitter/vhdl/b4sq_tlp_xmitter_globals-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/tspc_rtc/vhdl/tspc_rtc-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_rsrc_decode/vhdl/pcie_rsrc_decode-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/common/units/tspc_cdc_sig/vhdl/tspc_cdc_sig-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/tsls_wb_bmram/units/tspc_wb_ebr_ctl/vhdl/tspc_wb_ebr_ctl-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/tsls_wb_bmram/top/vhdl/tsls_wb_bmram-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/lscc_pcie_x1_ip/vhdl/lscc_pcie_x1_ip-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_pkt_decode/vhdl/b4sq_pkt_decode-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_pcie_svc/vhdl/b4sq_pcie_svc-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_pkt_rx_fifo/vhdl/b4sq_pkt_rx_fifo_istage-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_tlp_xmitter/vhdl/b4sq_tlp_arbiter-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_tlp_xmitter/vhdl/b4sq_tlp_queue_ctl-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/common/units/tspc_fifo_sync/tech/vhdl/tspc_fifo_sync_mem-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_tlp_xmitter/vhdl/b4sq_tlp_queue-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/top/vhdl/tsls_wb_pcie_to_b4sq-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/top/vhdl/pcie_subsys-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/top/core_ae53/vhdl/core_ae53-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/top/core_ae53/vhdl/core_ae53_exports-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/top/versa_ecp5/vhdl/versa_ecp5-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/common/packages/tspc_utils/vhdl/tspc_utils-pb.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/top/vhdl/tsls_wb_pcie_to_b4sq_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc_impl/common/packages/tspc_wbone_types/mti/tspc_wbone_types-pb.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_pkt_rx_fifo/vhdl/b4sq_pkt_rx_fifo_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/common/packages/tspc_pcisig_types/vhdl/tspc_pcisig_types-pb.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_tlp_xmitter/vhdl/b4sq_tlp_xmitter_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_tlp_xmitter/vhdl/b4sq_tlp_queue_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/common/units/tspc_fifo_sync/top/vhdl/tspc_fifo_sync_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/tspc_rtc/vhdl/tspc_rtc-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_rsrc_decode/vhdl/pcie_rsrc_decode-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/common/units/tspc_cdc_sig/vhdl/tspc_cdc_sig-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/tsls_wb_bmram/units/tspc_wb_ebr_ctl/vhdl/tspc_wb_ebr_ctl-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/tsls_wb_bmram/top/vhdl/tsls_wb_bmram-a_rtl.vhd'.
+@W: CD645 :"C:/Projects/ECP5_Wishbone/soc/units/tsls_wb_bmram/top/vhdl/tsls_wb_bmram-a_rtl.vhd":26:8:26:15|Ignoring undefined library pmi_work
+@W: CD642 :"C:/Projects/ECP5_Wishbone/soc/units/tsls_wb_bmram/top/vhdl/tsls_wb_bmram-a_rtl.vhd":28:16:28:16|Ignoring use clause - library pmi_work not found ...
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/lscc_pcie_x1_ip/vhdl/lscc_pcie_x1_ip-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_pkt_decode/vhdl/b4sq_pkt_decode-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_pcie_svc/vhdl/b4sq_pcie_svc-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/common/units/tspc_fifo_ctl_sync/vhdl/tspc_fifo_ctl_sync-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/common/units/tspc_fifo_ctl_sync/vhdl/tspc_fifo_ctl_sync-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_pkt_rx_fifo/vhdl/b4sq_pkt_rx_fifo_istage-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_pkt_rx_fifo/vhdl/b4sq_pkt_rx_fifo-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_pkt_rx_fifo/vhdl/b4sq_pkt_rx_fifo-a_rtl.vhd'.
+@W: CD645 :"C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_pkt_rx_fifo/vhdl/b4sq_pkt_rx_fifo-a_rtl.vhd":27:8:27:15|Ignoring undefined library pmi_work
+@W: CD642 :"C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_pkt_rx_fifo/vhdl/b4sq_pkt_rx_fifo-a_rtl.vhd":28:16:28:16|Ignoring use clause - library pmi_work not found ...
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_tlp_xmitter/vhdl/b4sq_tlp_arbiter-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_tlp_xmitter/vhdl/b4sq_tlp_queue_ctl-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/common/units/tspc_fifo_sync/tech/vhdl/tspc_fifo_sync_mem-a_rtl.vhd'.
+@W: CD645 :"C:/Projects/ECP5_Wishbone/soc/common/units/tspc_fifo_sync/tech/vhdl/tspc_fifo_sync_mem-a_rtl.vhd":27:8:27:15|Ignoring undefined library pmi_work
+@W: CD642 :"C:/Projects/ECP5_Wishbone/soc/common/units/tspc_fifo_sync/tech/vhdl/tspc_fifo_sync_mem-a_rtl.vhd":30:16:30:16|Ignoring use clause - library pmi_work not found ...
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/common/units/tspc_fifo_sync/top/vhdl/tspc_fifo_sync-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/common/units/tspc_fifo_sync/top/vhdl/tspc_fifo_sync-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_tlp_xmitter/vhdl/b4sq_tlp_queue-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_tlp_xmitter/vhdl/b4sq_tlp_xmitter-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_tlp_xmitter/vhdl/b4sq_tlp_xmitter-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/top/vhdl/tsls_wb_pcie_to_b4sq-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/units/pcie_subsys/top/vhdl/pcie_subsys-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/top/core_ae53/vhdl/core_ae53-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Projects/ECP5_Wishbone/soc/top/versa_ecp5/vhdl/versa_ecp5-a_rtl.vhd'.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 95MB peak: 96MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jan  3 11:27:46 2022
+
+###########################################################]

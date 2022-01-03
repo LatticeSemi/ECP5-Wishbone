@@ -1,0 +1,12 @@
+-w
+-l 5
+-i 29
+-y
+-pe
+-n 12
+-t 1
+-s 10
+-c 6
+-e 9
+-m "C:/Projects/ECP5_Wishbone/work/diamond/synth_nodes_win.txt"
+-exp parUseNBR=1:parCDP=1:parCDR=auto:parPathBased=ON:clockSkewMin=2:parASE=1

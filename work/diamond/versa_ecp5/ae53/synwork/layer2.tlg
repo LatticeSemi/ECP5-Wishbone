@@ -1,0 +1,13 @@
+@N: CD231 :"C:\lscc\diamond\3.12\synpbase\lib\vhd2008\std1164.vhd":888:16:888:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\rx_rsl\vhdl\rx_rsl.vhd":32:8:32:13|Synthesizing work.rx_rsl.rx_rsl_arc.
+@N: CD231 :"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\rx_rsl\vhdl\rx_rsl.vhd":62:20:62:21|Using onehot encoding for type rx_sm_state. For example, enumeration powerup is mapped to "10000000".
+Post processing for work.rx_rsl.rx_rsl_arc
+Running optimization stage 1 on rx_rsl .......
+Finished optimization stage 1 on rx_rsl (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+Running optimization stage 2 on rx_rsl .......
+Finished optimization stage 2 on rx_rsl (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 103MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Projects\ECP5_Wishbone\work\diamond\versa_ecp5\ae53\synwork\layer2.rt.csv
+

@@ -1,0 +1,4 @@
+#Start recording tcl command: 12/29/2021 14:25:00
+#Project Location: C:/Projects/ECP5_Wishbone/work/diamond/versa_ecp5; Project name: versa_ecp5
+prj_project open "C:/Projects/ECP5_Wishbone/work/diamond/versa_ecp5/versa_ecp5.ldf"
+#Stop recording: 12/29/2021 14:25:00

@@ -1,0 +1,18 @@
+verify/testbench/top/versa_ecp5_tb/vhdl/versa_ecp5_tb-p.vhd
+   # PCIe BFM Redirector
+verify/testbench/units/x_pcie_phy/vhdl/pcie_x1_top_phy-e.vhd
+verify/testbench/units/x_pcie_phy/vhdl/pcie_x1_top_phy-a_wrap.vhd
+
+flow/file_lists/pcie_x1_ip_ecp5_vlog.lst
+
+file soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_credit_config/vlog/b4sq_credit_config.v -inc:work/clarity/versa_e5/pcie_x1_e5/x_pcie/pcie_eval/x_pcie/src/params
+# file soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_credit_config/vlog/b4sq_credit_config.v -inc:/tmp/cfgard/src
+soc/config/vhdl/config_ae53_ecp5-p.vhd
+
+include core_ae53_files.lst
+
+soc/top/core_ae53/vhdl/core_ae53_exports-p.vhd
+soc/top/versa_ecp5/vhdl/versa_ecp5-e.vhd
+soc/top/versa_ecp5/vhdl/versa_ecp5-a_rtl.vhd
+verify/testbench/top/versa_ecp5_tb/vhdl/versa_ecp5_tb-e.vhd
+verify/testbench/top/versa_ecp5_tb/vhdl/versa_ecp5_tb-a_bhv.vhd

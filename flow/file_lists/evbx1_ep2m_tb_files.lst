@@ -1,0 +1,18 @@
+verify/testbench/top/evbx1_ep2m_tb/vhdl/evbx1_ep2m_tb-p.vhd
+   # PCIe BFM Redirector
+verify/testbench/units/pcs_pipe_top/vhdl/pcs_pipe_top-e.vhd
+verify/testbench/units/pcs_pipe_top/vhdl/pcs_pipe_top-a_wrap.vhd
+
+flow/file_lists/pcie_x1_v5_ep2m_vlog.lst
+
+file soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_credit_config/vlog/b4sq_credit_config.v -inc:work/ip_express/evbx1_ep2m/pcie_x1_v5/pcie_eval/pcie_x1/src/params
+# file soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_credit_config/vlog/b4sq_credit_config.v -inc:/tmp/cfgard/evbx1_ep2m
+soc/config/vhdl/config_ae53_ecp2m_v5-p.vhd
+
+include core_ae53_files.lst
+
+soc/top/core_ae53/vhdl/core_ae53_exports-p.vhd
+soc/top/evbx1_ep2m/vhdl/evbx1_ep2m-e.vhd
+soc/top/evbx1_ep2m/vhdl/evbx1_ep2m-a_rtl.vhd
+verify/testbench/top/evbx1_ep2m_tb/vhdl/evbx1_ep2m_tb-e.vhd
+verify/testbench/top/evbx1_ep2m_tb/vhdl/evbx1_ep2m_tb-a_bhv.vhd

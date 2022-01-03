@@ -1,0 +1,78 @@
+#OPTIONS:"|-mixedhdl|-modhint|C:\\Projects\\ECP5_Wishbone\\work\\diamond\\versa_ecp5\\ae53\\synwork\\_verilog_hintfile|-top|work.pcie_x1_e5|-top|work.b4sq_credit_config|-mpparams|C:\\Projects\\ECP5_Wishbone\\work\\diamond\\versa_ecp5\\ae53\\synwork\\_mh_params|-layerid|1|-orig_srs|C:\\Projects\\ECP5_Wishbone\\work\\diamond\\versa_ecp5\\ae53\\synwork\\versa_ecp5_ae53_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-I|C:\\Projects\\ECP5_Wishbone\\work\\clarity\\versa_ecp5\\pcie_x1_e5\\x_pcie\\pcie_eval\\x_pcie\\src\\params|-I|C:\\Projects\\ECP5_Wishbone\\work\\diamond\\versa_ecp5|-I|C:\\Projects\\ECP5_Wishbone\\work\\diamond\\versa_ecp5\\ae53\\|-I|C:\\lscc\\diamond\\3.12\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\diamond\\3.12\\synpbase\\lib\\lucent\\ecp5um.v|-devicelib|C:\\lscc\\diamond\\3.12\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-DSBP_SYNTHESIS|-dup|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001"
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\bin64\\c_ver.exe":1628583508
+#CUR:"C:\\Projects\\ECP5_Wishbone\\work\\diamond\\versa_ecp5\\ae53\\synwork\\_verilog_hintfile":1640784505
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\lucent\\ecp5um.v":1628583068
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\lucent\\pmi_def.v":1628583068
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\hypermods.v":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\umr_capim.v":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\scemi_objects.v":1628582822
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\scemi_pipes.svh":1628582822
+#CUR:"C:\\Projects\\ECP5_Wishbone\\work\\clarity\\versa_ecp5\\pcie_x1_e5\\x_cref\\x_cref.v":1640784328
+#CUR:"C:\\Projects\\ECP5_Wishbone\\work\\clarity\\versa_ecp5\\pcie_x1_e5\\x_pcie\\pcie_eval\\x_pcie\\src\\params\\pci_exp_params.v":1640784328
+#CUR:"C:\\Projects\\ECP5_Wishbone\\work\\clarity\\versa_ecp5\\pcie_x1_e5\\x_pcie\\x_pcie.v":1640784338
+#CUR:"C:\\Projects\\ECP5_Wishbone\\work\\clarity\\versa_ecp5\\pcie_x1_e5\\x_pcie\\x_pcie_core_bb.v":1640784338
+#CUR:"C:\\Projects\\ECP5_Wishbone\\work\\clarity\\versa_ecp5\\pcie_x1_e5\\x_pcie\\pcie_eval\\models\\ecp5um\\x_pcie_sync1s.v":1640784338
+#CUR:"C:\\Projects\\ECP5_Wishbone\\work\\clarity\\versa_ecp5\\pcie_x1_e5\\x_pcie\\pcie_eval\\models\\ecp5um\\x_pcie_ctc.v":1640784338
+#CUR:"C:\\Projects\\ECP5_Wishbone\\work\\clarity\\versa_ecp5\\pcie_x1_e5\\x_pcie\\pcie_eval\\models\\ecp5um\\x_pcie_pcs_softlogic.v":1640784338
+#CUR:"C:\\Projects\\ECP5_Wishbone\\work\\clarity\\versa_ecp5\\pcie_x1_e5\\x_pcie\\pcie_eval\\models\\ecp5um\\x_pcie_pcs.v":1633458108
+#CUR:"C:\\Projects\\ECP5_Wishbone\\work\\clarity\\versa_ecp5\\pcie_x1_e5\\x_pcie\\pcie_eval\\models\\ecp5um\\x_pcie_pipe.v":1640784338
+#CUR:"C:\\Projects\\ECP5_Wishbone\\work\\clarity\\versa_ecp5\\pcie_x1_e5\\x_pcie\\pcie_eval\\models\\ecp5um\\x_pcie_phy.v":1640784338
+#CUR:"C:\\Projects\\ECP5_Wishbone\\work\\clarity\\versa_ecp5\\pcie_x1_e5\\pcie_x1_e5.v":1640784364
+#CUR:"C:\\Projects\\ECP5_Wishbone\\soc\\units\\pcie_subsys\\units\\tsls_wb_pcie_to_b4sq\\units\\b4sq_credit_config\\vlog\\b4sq_credit_config.v":1514396578
+#CUR:"C:\\Projects\\ECP5_Wishbone\\work\\clarity\\versa_ecp5\\pcie_x1_e5\\x_pcie\\pcie_eval\\x_pcie\\src\\params\\pci_exp_params.v":1640784328
+#numinternalfiles:6
+#defaultlanguage:verilog
+0			"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_cref\x_cref.v" verilog
+1			"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\x_pcie\src\params\pci_exp_params.v" verilog
+2			"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\x_pcie.v" verilog
+3			"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\x_pcie_core_bb.v" verilog
+4			"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_sync1s.v" verilog
+5			"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_ctc.v" verilog
+6			"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v" verilog
+7			"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs.v" verilog
+8			"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pipe.v" verilog
+9			"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v" verilog
+10			"C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\pcie_x1_e5.v" verilog
+11			"C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_credit_config\vlog\b4sq_credit_config.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 9 3
+3 -1
+4 -1
+5 4
+6 -1
+7 6
+8 5
+9 8 7
+10 0 2
+11 1
+#Dependency Lists(Users Of)
+0 10
+1 11
+2 10
+3 2
+4 5
+5 8
+6 7
+7 9
+8 9
+9 2
+10 -1
+11 -1
+#Design Unit to File Association
+module work x_cref 0
+module work x_pcie 2
+module work x_pcie_phy 9
+module work x_pcie_core 3
+module work x_pcie_sync1s 4
+module work x_pcie_ctc 5
+module work x_pcie_pcsrsl_core 6
+module work x_pcie_pcssll_core 6
+module work x_pcie_pcs 7
+module work x_pcie_pipe 8
+module work pcie_x1_e5 10
+module work b4sq_credit_config 11
+#Unbound instances to file Association.
+inst work x_pcie_pcs rx_rsl 7
+inst work x_pcie_pcs rx_rsl 7

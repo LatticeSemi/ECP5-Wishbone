@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="pcie_x1" module="PCI Express Endpoint Core" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2021 11 17 23:55:50.146" version="5.3" type="IP" synthesis="synplify" source_format="Verilog">
+  <Package>
+		<File name="pcie_x1.lpc" type="lpc" modified="2021 11 17 23:54:27.000"/>
+		<File name="pcie_x1.ngo" type="database" modified="2021 11 17 23:55:44.000"/>
+		<File name="pcie_x1_bb.v" type="black_box_verilog" modified="2021 11 17 23:54:29.000"/>
+		<File name="pcie_x1_beh.v" type="behavioral_verilog" modified="2012 01 18 10:51:30.000"/>
+		<File name="pcie_x1_inst.v" type="instantiation_verilog" modified="2021 11 17 23:54:29.000"/>
+		<File name="pcs_pipe_8b_x1.txt" type="pcs_module" modified="2012 01 23 04:31:08.000"/>
+		<File name="pcs_pipe_bb.v" type="black_box_verilog" modified="2021 11 17 23:54:29.000"/>
+		<File name="pcs_pipe_top.ngo" type="database" modified="2021 11 17 23:55:46.000"/>
+		<File name="pmi_distributed_dpramEbnonen1416pb3f774f.ngo" type="database" modified="2021 11 17 23:55:45.000"/>
+		<File name="pmi_distributed_dpramEbnoner16781pb2baaed.ngo" type="database" modified="2021 11 17 23:55:45.000"/>
+		<File name="pmi_ram_dpEbnonesaen1610102416101024p13a80ba6.ngo" type="database" modified="2021 11 17 23:55:45.000"/>
+		<File name="pmi_ram_dpEbnonesaen168256168256p1360a5ea.ngo" type="database" modified="2021 11 17 23:55:44.000"/>
+		<File name="pmi_ram_dpEbnonesaen1810102418101024p13a81d03.ngo" type="database" modified="2021 11 17 23:55:45.000"/>
+		<File name="pmi_ram_dpEbnonesaen208146208146p13606fea.ngo" type="database" modified="2021 11 17 23:55:44.000"/>
+  </Package>
+</DiamondModule>

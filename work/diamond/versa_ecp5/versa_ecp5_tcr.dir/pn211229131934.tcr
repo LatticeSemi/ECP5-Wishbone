@@ -1,0 +1,33 @@
+#Start recording tcl command: 12/29/2021 12:05:14
+#Project Location: C:/Projects/ECP5_Wishbone/work/diamond/versa_ecp5; Project name: versa_ecp5
+C:/Projects/test
+test
+#Start recording tcl command: 12/29/2021 13:19:34
+#Project Location: C:/Projects/test; Project name: test
+source ../../scripts/diamond/setup_versa_ecp5.tcl
+sbp_design open -dsgn "C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/pcie_x1_e5.sbx"
+sbp_design open -dsgn "C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/pcie_x1_e5.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_cref"
+source "C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_cref/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_cref"
+source "C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_cref/generate_ngd.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+sbp_builder export_add -comp {pcie_x1_e5/x_cref}
+sbp_design save
+sbp_design open -dsgn "C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/pcie_x1_e5.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_pcie"
+source "C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_pcie/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_pcie"
+source "C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_pcie/generate_ngd.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+sbp_builder export_add -comp {pcie_x1_e5/x_pcie}
+prj_project save
+prj_project close
+prj_project open "C:/Projects/test/test.ldf"
+#Stop recording: 12/29/2021 13:19:34

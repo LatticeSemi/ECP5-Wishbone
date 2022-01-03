@@ -1,0 +1,177 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: L-EQSS42R
+
+Implementation : ae53
+Synopsys HDL compiler and linker, Version comp202103synp2, Build 093R, Built Aug 10 2021 09:15:36, @
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+63       C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs.v (2021-12-29 14:25:38, 2021-10-05 20:21:48)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 4
+MID:  lib.cell.view
+26       work.rx_rsl.rx_rsl_arc may have changed because the following files changed:
+                        C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs.v (2021-12-29 14:25:38, 2021-10-05 20:21:48) <-- (may instantiate this module)
+50       work.x_pcie_pcs.verilog may have changed because the following files changed:
+                        C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs.v (2021-12-29 14:25:38, 2021-10-05 20:21:48) <-- (module definition)
+51       work.x_pcie_pcsrsl_core.verilog may have changed because the following files changed:
+                        C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs.v (2021-12-29 14:25:38, 2021-10-05 20:21:48) <-- (may instantiate this module)
+52       work.x_pcie_pcssll_core.verilog may have changed because the following files changed:
+                        C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs.v (2021-12-29 14:25:38, 2021-10-05 20:21:48) <-- (may instantiate this module)
+
+*******************************************************************
+Unmodified files: 87
+FID:  path (timestamp)
+0        C:\Projects\ECP5_Wishbone\soc\common\packages\tspc_pcisig_types\vhdl\tspc_pcisig_types-p.vhd (2020-02-23 12:02:51)
+1        C:\Projects\ECP5_Wishbone\soc\common\packages\tspc_pcisig_types\vhdl\tspc_pcisig_types-pb.vhd (2020-02-23 01:03:15)
+2        C:\Projects\ECP5_Wishbone\soc\common\packages\tspc_utils\vhdl\tspc_utils-p.vhd (2021-03-04 01:17:58)
+3        C:\Projects\ECP5_Wishbone\soc\common\packages\tspc_utils\vhdl\tspc_utils-pb.vhd (2021-03-04 02:16:54)
+4        C:\Projects\ECP5_Wishbone\soc\common\packages\tspc_wbone_types\vhdl\tspc_wbone_types-p.vhd (2020-04-28 12:26:32)
+5        C:\Projects\ECP5_Wishbone\soc\common\units\tspc_cdc_sig\vhdl\tspc_cdc_sig-a_rtl.vhd (2021-01-18 10:21:05)
+6        C:\Projects\ECP5_Wishbone\soc\common\units\tspc_cdc_sig\vhdl\tspc_cdc_sig-e.vhd (2021-01-16 01:03:56)
+7        C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd (2018-07-11 10:58:27)
+8        C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd (2018-07-07 16:50:25)
+9        C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-a_rtl.vhd (2018-05-22 15:08:18)
+10       C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd (2018-05-22 15:08:18)
+11       C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-a_rtl.vhd (2018-05-22 15:08:18)
+12       C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd (2018-06-18 00:12:50)
+13       C:\Projects\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync_comps-p.vhd (2018-06-18 00:12:50)
+14       C:\Projects\ECP5_Wishbone\soc\config\vhdl\config_ae53_ecp5-p.vhd (2021-10-05 14:33:32)
+15       C:\Projects\ECP5_Wishbone\soc\top\core_ae53\vhdl\core_ae53-a_rtl.vhd (2021-10-06 15:09:29)
+16       C:\Projects\ECP5_Wishbone\soc\top\core_ae53\vhdl\core_ae53-e.vhd (2021-10-05 14:33:32)
+17       C:\Projects\ECP5_Wishbone\soc\top\core_ae53\vhdl\core_ae53_comps-p.vhd (2021-10-05 14:33:32)
+18       C:\Projects\ECP5_Wishbone\soc\top\core_ae53\vhdl\core_ae53_exports-p.vhd (2021-10-05 14:33:32)
+19       C:\Projects\ECP5_Wishbone\soc\top\versa_ecp5\vhdl\versa_ecp5-a_rtl.vhd (2021-10-05 14:33:32)
+20       C:\Projects\ECP5_Wishbone\soc\top\versa_ecp5\vhdl\versa_ecp5-e.vhd (2021-10-05 14:33:32)
+21       C:\Projects\ECP5_Wishbone\soc\units\pcie_rsrc_decode\vhdl\pcie_rsrc_decode-a_rtl.vhd (2021-10-05 14:33:32)
+22       C:\Projects\ECP5_Wishbone\soc\units\pcie_rsrc_decode\vhdl\pcie_rsrc_decode-e.vhd (2021-10-05 14:33:32)
+23       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\top\vhdl\pcie_subsys-a_rtl.vhd (2021-11-08 23:58:59)
+24       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\top\vhdl\pcie_subsys-e.vhd (2021-10-05 14:33:32)
+25       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\top\vhdl\pcie_subsys_comps-p.vhd (2021-10-05 14:33:32)
+26       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\lscc_pcie_x1_ip\vhdl\lscc_pcie_x1_ip-a_rtl.vhd (2021-11-18 23:45:40)
+27       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\lscc_pcie_x1_ip\vhdl\lscc_pcie_x1_ip-e.vhd (2021-09-30 12:31:08)
+28       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\rx_rsl\vhdl\rx_rsl.vhd (2021-10-05 20:21:48)
+29       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\top\vhdl\tsls_wb_pcie_to_b4sq-a_rtl.vhd (2018-06-17 23:56:32)
+30       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\top\vhdl\tsls_wb_pcie_to_b4sq-e.vhd (2018-01-05 17:57:26)
+31       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\top\vhdl\tsls_wb_pcie_to_b4sq_comps-p.vhd (2018-06-18 00:24:08)
+32       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_credit_config\vlog\b4sq_credit_config.v (2017-12-27 18:42:58)
+33       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-a_rtl.vhd (2018-06-17 23:56:32)
+34       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-e.vhd (2017-12-27 18:42:58)
+35       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd (2018-07-29 09:23:03)
+36       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-e.vhd (2017-12-27 18:42:58)
+37       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo-a_rtl.vhd (2018-06-18 03:14:22)
+38       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo-e.vhd (2018-06-17 23:56:32)
+39       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo_comps-p.vhd (2018-06-18 00:59:10)
+40       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo_istage-a_rtl.vhd (2018-06-17 23:56:32)
+41       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo_istage-e.vhd (2018-01-05 17:50:29)
+42       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-a_rtl.vhd (2018-06-17 23:56:32)
+43       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-e.vhd (2018-01-05 17:50:29)
+44       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue-a_rtl.vhd (2018-06-17 23:56:32)
+45       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue-e.vhd (2017-12-27 18:42:58)
+46       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue_comps-p.vhd (2018-06-18 00:01:35)
+47       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue_ctl-a_rtl.vhd (2018-06-17 23:56:32)
+48       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue_ctl-e.vhd (2017-12-27 18:42:58)
+49       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_xmitter-a_rtl.vhd (2018-06-17 23:56:32)
+50       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_xmitter-e.vhd (2018-06-17 23:56:32)
+51       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_xmitter_comps-p.vhd (2018-06-18 00:01:35)
+52       C:\Projects\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_xmitter_globals-p.vhd (2018-06-17 23:56:32)
+53       C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-a_rtl.vhd (2018-06-18 00:40:47)
+54       C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-e.vhd (2017-12-29 02:01:20)
+55       C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd (2018-06-18 00:42:23)
+56       C:\Projects\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd (2017-12-28 01:34:07)
+57       C:\Projects\ECP5_Wishbone\soc\units\tspc_rtc\vhdl\tspc_rtc-a_rtl.vhd (2019-10-18 20:18:15)
+58       C:\Projects\ECP5_Wishbone\soc\units\tspc_rtc\vhdl\tspc_rtc-e.vhd (2019-10-18 20:18:15)
+59       C:\Projects\ECP5_Wishbone\soc_impl\common\packages\tspc_wbone_types\mti\tspc_wbone_types-pb.vhd (2021-11-16 23:43:39)
+60       C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\pcie_x1_e5.v (2021-12-29 14:26:04)
+61       C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_cref\x_cref.v (2021-12-29 14:25:28)
+62       C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_ctc.v (2021-12-29 14:25:38)
+64       C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pcs_softlogic.v (2021-12-29 14:25:38)
+65       C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_phy.v (2021-12-29 14:25:38)
+66       C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_pipe.v (2021-12-29 14:25:38)
+67       C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\models\ecp5um\x_pcie_sync1s.v (2021-12-29 14:25:38)
+68       C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\pcie_eval\x_pcie\src\params\pci_exp_params.v (2021-12-29 14:25:28)
+69       C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\x_pcie.v (2021-12-29 14:25:38)
+70       C:\Projects\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_pcie\x_pcie_core_bb.v (2021-12-29 14:25:38)
+71       C:\lscc\diamond\3.12\synpbase\lib\lucent\ecp5um.v (2021-08-10 10:11:08)
+72       C:\lscc\diamond\3.12\synpbase\lib\lucent\pmi_def.v (2021-08-10 10:11:08)
+73       C:\lscc\diamond\3.12\synpbase\lib\vhd2008\arith.vhd (2021-08-10 10:07:02)
+74       C:\lscc\diamond\3.12\synpbase\lib\vhd2008\location.map (2021-08-10 10:07:02)
+75       C:\lscc\diamond\3.12\synpbase\lib\vhd2008\numeric.vhd (2021-08-10 10:24:32)
+76       C:\lscc\diamond\3.12\synpbase\lib\vhd2008\std.vhd (2021-08-10 10:07:02)
+77       C:\lscc\diamond\3.12\synpbase\lib\vhd2008\std1164.vhd (2021-08-10 10:07:02)
+78       C:\lscc\diamond\3.12\synpbase\lib\vhd2008\std_textio.vhd (2021-08-10 10:07:02)
+79       C:\lscc\diamond\3.12\synpbase\lib\vhd2008\unsigned.vhd (2021-08-10 10:07:02)
+80       C:\lscc\diamond\3.12\synpbase\lib\vhd\hyperents.vhd (2021-08-10 10:07:02)
+81       C:\lscc\diamond\3.12\synpbase\lib\vhd\math_real.vhd (2021-08-10 10:24:28)
+82       C:\lscc\diamond\3.12\synpbase\lib\vhd\snps_haps_pkg.vhd (2021-08-10 10:07:02)
+83       C:\lscc\diamond\3.12\synpbase\lib\vhd\umr_capim.vhd (2021-08-10 10:07:02)
+84       C:\lscc\diamond\3.12\synpbase\lib\vlog\hypermods.v (2021-08-10 10:07:02)
+85       C:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_objects.v (2021-08-10 10:07:02)
+86       C:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_pipes.svh (2021-08-10 10:07:02)
+87       C:\lscc\diamond\3.12\synpbase\lib\vlog\umr_capim.v (2021-08-10 10:07:02)
+
+*******************************************************************
+Unchanged modules: 51
+MID:  lib.cell.view
+0        work.b4sq_credit_config.verilog
+1        work.b4sq_pcie_svc.rtl
+2        work.b4sq_pcie_svc.vhdl
+3        work.b4sq_pkt_decode.rtl
+4        work.b4sq_pkt_decode.vhdl
+5        work.b4sq_pkt_rx_fifo.rtl
+6        work.b4sq_pkt_rx_fifo.vhdl
+7        work.b4sq_pkt_rx_fifo_istage.rtl
+8        work.b4sq_pkt_rx_fifo_istage.vhdl
+9        work.b4sq_tlp_arbiter.rtl
+10       work.b4sq_tlp_arbiter.vhdl
+11       work.b4sq_tlp_queue.rtl
+12       work.b4sq_tlp_queue.vhdl
+13       work.b4sq_tlp_queue_ctl.rtl
+14       work.b4sq_tlp_queue_ctl.vhdl
+15       work.b4sq_tlp_xmitter.rtl
+16       work.b4sq_tlp_xmitter.vhdl
+17       work.core_ae53.rtl
+18       work.core_ae53.vhdl
+19       work.lscc_pcie_x1_ip.rtl
+20       work.lscc_pcie_x1_ip.vhdl
+21       work.pcie_rsrc_decode.rtl
+22       work.pcie_rsrc_decode.vhdl
+23       work.pcie_subsys.rtl
+24       work.pcie_subsys.vhdl
+25       work.pcie_x1_e5.verilog
+28       work.tsls_wb_bmram.rtl
+29       work.tsls_wb_bmram.vhdl
+30       work.tsls_wb_pcie_to_b4sq.rtl
+31       work.tsls_wb_pcie_to_b4sq.vhdl
+32       work.tspc_cdc_sig.rtl
+33       work.tspc_cdc_sig.vhdl
+34       work.tspc_fifo_ctl_sync.rtl
+35       work.tspc_fifo_ctl_sync.vhdl
+36       work.tspc_fifo_sync.rtl
+37       work.tspc_fifo_sync.vhdl
+38       work.tspc_fifo_sync_mem.rtl
+39       work.tspc_fifo_sync_mem.vhdl
+40       work.tspc_rtc.rtl
+41       work.tspc_rtc.vhdl
+42       work.tspc_wb_ebr_ctl.rtl
+43       work.tspc_wb_ebr_ctl.vhdl
+44       work.versa_ecp5.rtl
+45       work.versa_ecp5.vhdl
+46       work.x_cref.verilog
+47       work.x_pcie.verilog
+48       work.x_pcie_core.verilog
+49       work.x_pcie_ctc.verilog
+53       work.x_pcie_phy.verilog
+54       work.x_pcie_pipe.verilog
+55       work.x_pcie_sync1s.verilog

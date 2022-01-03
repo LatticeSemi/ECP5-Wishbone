@@ -1,0 +1,22 @@
+# Frequency Declerations
+FREQUENCY NET "pclk" 250.000000 MHz PAR_ADJ 30.000000 ;
+FREQUENCY NET "sys_clk_125_c" 125.000000 MHz PAR_ADJ 30.000000 ;
+FREQUENCY NET "u1_pcs_pipe/ff_rx_fclk_0" 250.000000 MHz PAR_ADJ 30.000000 ;
+FREQUENCY NET "rxrefclk_c" 100.000000 MHz ;
+FREQUENCY NET "pll_refclki_c" 100.000000 MHz ;
+
+USE PRIMARY NET "pclk" ;
+USE PRIMARY NET "sys_clk_125_c" ;
+USE PRIMARY NET "u1_pcs_pipe/ff_rx_fclk_0" ;
+
+# Block Paths 
+BLOCK RESETPATHS ;
+BLOCK ASYNCPATHS ;
+BLOCK PATH FROM CELL "*ctc_reset_chx*" ;
+BLOCK NET "rst_n_c*" ;
+
+# Assign input setup constraints
+# INPUT_SETUP ALLPORTS 7.5 ns HOLD 1ns CLKNET "sys_clk_125_c" ;
+
+# Assign clock to out constraints
+# CLOCK_TO_OUT ALLPORTS 7.5 ns CLKNET "sys_clk_125_c";

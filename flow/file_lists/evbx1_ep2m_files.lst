@@ -1,0 +1,10 @@
+work/ip_express/evbx1_ep2m/pcie_x1_v5/pcie_x1.ipx
+work/ip_express/evbx1_ep2m/pcie_x1_v5/pcie_x1_top.v
+soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_credit_config/vlog/b4sq_credit_config.v
+soc/config/vhdl/config_ae53_ecp2m_v5-p.vhd
+
+include core_ae53_files.lst
+
+soc/top/core_ae53/vhdl/core_ae53_exports-p.vhd
+soc/top/evbx1_ep2m/vhdl/evbx1_ep2m-e.vhd
+soc/top/evbx1_ep2m/vhdl/evbx1_ep2m-a_rtl.vhd

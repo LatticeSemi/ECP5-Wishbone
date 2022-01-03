@@ -1,0 +1,1593 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+<!--(==============================================================)-->
+<!--(Document created with RoboEditor. )============================-->
+<!--(==============================================================)-->
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 14">
+<meta name=Originator content="Microsoft Word 14">
+<link rel=File-List href="iphelp_files/filelist.xml">
+<link rel=Edit-Time-Data href="iphelp_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>PCI Express IP core Readme</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Umesh Ananthiah</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Umesh Ananthiah</o:LastAuthor>
+  <o:Revision>4</o:Revision>
+  <o:TotalTime>8</o:TotalTime>
+  <o:Created>2015-06-03T06:20:00Z</o:Created>
+  <o:LastSaved>2016-04-15T12:19:00Z</o:LastSaved>
+  <o:Pages>2</o:Pages>
+  <o:Words>1055</o:Words>
+  <o:Characters>6016</o:Characters>
+  <o:Company>Latitce Semiconductor Corp.</o:Company>
+  <o:Lines>50</o:Lines>
+  <o:Paragraphs>14</o:Paragraphs>
+  <o:CharactersWithSpaces>7057</o:CharactersWithSpaces>
+  <o:Version>14.00</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<link rel=themeData href="iphelp_files/themedata.thmx">
+<link rel=colorSchemeMapping href="iphelp_files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>80</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SplitPgBreakAndParaMark/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--table.WHS1
+	{x-cell-content-align: Center;
+	border-spacing: 0px;
+	border-spacing: 0px;}
+col.whs2 {width: 100%;}
+tr.WHS3
+	{x-cell-content-align: center;}
+table.WHS5
+	{x-cell-content-align: top;
+	border-spacing: 4px;
+	border-spacing: 4px;}
+col.whs6 {width: 100px;}
+col.whs7 {width: 300px;}
+tr.WHS8
+	{x-cell-content-align: top;}
+div.WEBHELPPOPUPMENU
+	{left:0px;
+	position:absolute;
+	top:0px;
+	visibility:hidden;
+	z-index:4;}
+
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073743103 0 0 415 0;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1593833729 1073750107 16 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 1 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:24.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	font-weight:bold;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{mso-style-priority:99;
+	mso-style-link:"Body Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 1";
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-hansi-font-family:Cambria;
+	color:#365F91;
+	font-weight:bold;}
+span.BodyTextChar
+	{mso-style-name:"Body Text Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Body Text";}
+p.webhelpnavbar, li.webhelpnavbar, div.webhelpnavbar
+	{mso-style-name:webhelpnavbar;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	text-align:right;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.table, li.table, div.table
+	{mso-style-name:table;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.bullet, li.bullet, div.bullet
+	{mso-style-name:bullet;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.msochpdefault, li.msochpdefault, div.msochpdefault
+	{mso-style-name:msochpdefault;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+span.msobodytext0
+	{mso-style-name:msobodytext;
+	mso-style-unhide:no;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:1071194600;
+	mso-list-template-ids:-112036440;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:1107237578;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-877378316 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l2
+	{mso-list-id:1376586646;
+	mso-list-template-ids:2035307712;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l2:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l2:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l2:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l2:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l2:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l2:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l2:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l2:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3
+	{mso-list-id:1717974352;
+	mso-list-template-ids:327951698;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l4
+	{mso-list-id:2072463930;
+	mso-list-template-ids:-1381077424;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l4:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l4:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l4:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l4:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l4:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l4:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l4:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l4:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+</style>
+<![endif]--><!--(Meta)==========================================================-->
+<meta name=generator-major-version content=0.1>
+<meta name=generator-minor-version content=1>
+<meta name=filetype content=kadov>
+<meta name=filetype-version content=1>
+<meta name=page-count content=1>
+<meta name=layout-height content=3793>
+<meta name=layout-width content=660>
+<!--(Links)=========================================================--><!--(Scripts)=======================================================-->
+<script language="JavaScript"  type="text/javascript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='default.css'>");}
+//-->
+</script>
+
+<script language="JavaScript"  type="text/javascript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null;
+//-->
+</script>
+
+<script language="javascript1.2"  type="text/javascript" src="whmsg.js">
+</script>
+
+<script language="JavaScript"  type="text/javascript" src="whver.js">
+</script>
+
+<script language="javascript1.2"  type="text/javascript" src="whproxy.js">
+</script>
+
+<script language="javascript1.2"  type="text/javascript" src="whutils.js">
+</script>
+
+<script language="javascript1.2"  type="text/javascript" src="whtopic.js">
+</script>
+
+<script language="javascript1.2"  type="text/javascript">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.setRelStartPage)
+	{
+
+	}
+
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("ip_tutor.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<!--(Body)==========================================================-->
+
+<body lang=EN-US link=blue vlink=blue style='tab-interval:.5in'>
+
+<div class=WordSection1>
+
+<h1><span style='font-family:"Verdana","sans-serif";mso-fareast-font-family:
+"Times New Roman";color:#ED6F25;mso-fareast-language:ZH-CN'>PCI Express IP Core</span><span
+style='mso-fareast-font-family:"Times New Roman";mso-fareast-language:ZH-CN'><o:p></o:p></span></h1>
+
+<div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0in 0in 0in 0in'>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'><b><span style='font-size:18.0pt;
+font-family:"Arial","sans-serif";mso-fareast-language:ZH-CN'>Implementing the
+IP Module Using Lattice Diamond</span></b><span style='mso-fareast-language:
+ZH-CN'><o:p></o:p></span></p>
+
+</div>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'><b><span style='font-family:
+"Arial","sans-serif";mso-fareast-language:ZH-CN'>Configuration Options for
+Simulation</span></b><span style='mso-fareast-language:ZH-CN'><o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width="80%"
+ style='width:80.0%;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0in 0in 0in 0in'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>The
+  evaluation test bench supplied with the core requires that the following
+  options are NOT selected to ensure proper functional simulation:</span></p>
+  <p style='margin-left:.5in;text-indent:-.25in;mso-list:l1 level1 lfo1'><![if !supportLists]><span
+  style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+  Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='font-size:10.0pt;font-family:
+  "Verdana","sans-serif"'>Do <u>not</u> select:&nbsp;Include Wishbone Interface</span></p>
+  <p style='margin-left:.5in;text-indent:-.25in;mso-list:l1 level1 lfo1'><![if !supportLists]><span
+  style='font-size:10.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='font-size:10.0pt;font-family:
+  "Verdana","sans-serif"'>Do <u>not</u> select:&nbsp;Include Master loop back
+  data path<o:p></o:p></span></p>
+  <p style='margin-left:.5in;text-indent:-.25in;mso-list:l1 level1 lfo1'><![if !supportLists]><span
+  style='font-size:10.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='font-size:10.0pt;font-family:
+  "Verdana","sans-serif"'>Do <u>not</u> select:&nbsp;Configuration Registers
+  Not Required<o:p></o:p></span></p>
+  <p><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>All
+  other options are user selectable.</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'><span style='mso-fareast-language:
+ZH-CN'><br>
+</span><b><span style='font-family:"Arial","sans-serif";mso-fareast-language:
+ZH-CN'>Instantiating the Core</span></b><span style='mso-fareast-language:ZH-CN'><o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width="80%"
+ style='width:80.0%;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0in 0in 0in 0in'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>The generated
+  PCI Express IP core package includes &lt;<span class=SpellE>user_name</span>&gt;.v
+  and black box files &lt;<span class=SpellE>user_name</span>&gt;_<span
+  class=SpellE>core_bb.v</span> and &lt;<span class=SpellE>user_name</span>&gt;_<span
+  class=SpellE>phy.v</span>. </span></p>
+  <p><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>An
+  example RTL top-level reference source file that can be used as an
+  instantiation template for the IP core is provided in <i>\&lt;project_dir&gt;\pcie_eval\&lt;username&gt;\src\top\</i>&lt;user_name&gt;_eval_top.v.
+  Users may also use this top-level reference as the starting template for the
+  top-level for their complete design. </span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'><span style='mso-fareast-language:
+ZH-CN'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'><b><span style='font-family:
+"Arial","sans-serif";mso-fareast-language:ZH-CN'>Hardware Evaluation</span></b><span
+style='mso-fareast-language:ZH-CN'><o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width="80%"
+ style='width:80.0%;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0in 0in 0in 0in'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoBodyText>Lattice's IP hardware evaluation capability makes it possible
+  to create IP cores that operate in hardware for a limited period of time
+  (approximately four hours) without requiring the purchase on an IP license.
+  The hardware evaluation capability is enabled by default. It can be disabled
+  by right clicking on &quot;Build Database&quot; in the &quot;Process for
+  current sources&quot; window of the Project Navigator. The setting is called
+  &quot;Hardware Evaluation&quot; and the options are &quot;Enable&quot; or
+  &quot;Disable&quot;.<br>
+  &nbsp;<br>
+  When the Hardware Evaluation feature is enabled in the design, it will
+  generate a programming file that may be downloaded into the device. After
+  initialization, the IP core will be operational for approximately four hours.
+  After four hours, the device will stop working and it will be necessary to
+  reprogram the device to re-enable operation. This hardware evaluation
+  capability is only enabled if the core has not been licensed. During
+  implementation, a license check is performed. If the hardware evaluation
+  feature is disabled, a pop-up window will be displayed indicating a license
+  failure. <span class=SpellE>Click&quot;OK</span>&quot; in the window and the <span
+  class=SpellE>bitstream</span> will not be generated. If a license is
+  detected, no pop-up window is displayed and core generation is completed with
+  no restrictions. </p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'><span style='mso-fareast-language:
+ZH-CN'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'><b><span style='font-family:
+"Arial","sans-serif";mso-fareast-language:ZH-CN'>Implementing the Core in a
+Top-Level Design</span></b><span style='mso-fareast-language:ZH-CN'><o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width="80%"
+ style='width:80.0%;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0in 0in 0in 0in'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><br>
+  <span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>As
+  described previously, the top-level file &lt;username&gt;_<span class=SpellE>eval_top.v</span>/<span
+  class=SpellE>vhd</span> provided in <i>\&lt;<span class=SpellE>project_dir</span>&gt;\<span
+  class=SpellE>pcie_eval</span>\&lt;username&gt;\<span class=SpellE>src</span>\top
+  </i>supports the ability to implement just the <i>PCI Express </i>Block. </span></p>
+  <p><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>Push-button
+  top-level implementation of this top-level is supported via the Lattice
+  Diamond project file &lt;username&gt;_<span class=SpellE>eval.ldf</span>
+  located in <i>\&lt;<span class=SpellE>project_dir</span>&gt;\<span
+  class=SpellE>pcie_eval</span>\&lt;username&gt;\<span class=SpellE>impl</span>\<span
+  class=SpellE>synplify</span></i>. </span></p>
+  <p><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>This
+  design is intended only to provide an accurate indication of the device
+  utilization associated with the core itself and should not be used as an
+  actual implementation example. </span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><br>
+  <span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>To use the
+  project file:</span></p>
+  <ul style='margin-top:0in' type=disc>
+   <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:"Verdana","sans-serif";mso-fareast-font-family:
+       "Times New Roman"'>Select <i>Open Project</i> under the File tab in
+       Lattice <span class=GramE>Diamond(</span>File-&gt;Open-&gt;Project).</span><span
+       style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:"Verdana","sans-serif";mso-fareast-font-family:
+       "Times New Roman"'>Browse to <i>\&lt;<span class=SpellE>project_dir</span>&gt;\<span
+       class=SpellE>pcie_eval</span>\&lt;username&gt;\<span class=SpellE>impl</span>\<span
+       class=SpellE>synplify</span></i> in the Open Project dialog box.</span><span
+       style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:"Verdana","sans-serif";mso-fareast-font-family:
+       "Times New Roman"'>Select and open &lt;username&gt;_<span class=SpellE>eval.ldf</span>.
+       At this point, all of the files needed to support top-level synthesis
+       and implementation will be imported to the project.</span><span
+       style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:"Verdana","sans-serif";mso-fareast-font-family:
+       "Times New Roman"'>All other options remain at their default values. </span><span
+       style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:"Verdana","sans-serif";mso-fareast-font-family:
+       "Times New Roman"'>Implement the complete design via the standard
+       Lattice Diamond GUI flow.</span><span style='mso-fareast-font-family:
+       "Times New Roman"'><o:p></o:p></span></li>
+  </ul>
+  <p class=MsoNormal style='margin-top:6.0pt'><span style='font-size:10.0pt;
+  font-family:"Verdana","sans-serif"'>Note: The device selected in <span
+  class=SpellE>IPexpress</span>/Clarity must match the device selected in
+  Lattice Diamond. &nbsp;If the device is changed in Lattice Diamond, a new <span
+  class=SpellE>IPexpress</span> implementation must be created.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none;mso-hide:all;mso-fareast-language:
+ZH-CN'>&nbsp;</span><span style='mso-fareast-language:ZH-CN'><o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width="80%"
+ style='width:80.0%;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0in 0in 0in 0in'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'></td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'></td>
+ </tr>
+</table>
+
+<p style='margin-bottom:12.0pt'><b><span style='font-family:"Arial","sans-serif";
+mso-fareast-language:ZH-CN'>Running Functional Simulation</span></b><span
+style='mso-fareast-language:ZH-CN'><o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width="80%"
+ style='width:80.0%;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0in 0in 0in 0in'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>The
+  functional simulation includes a configuration-specific behavioral model of
+  the <i>PCI Express</i>, which is instantiated in an FPGA top level along with
+  some test logic. This FPGA top is instantiated in an <span class=SpellE>eval</span>
+  <span class=SpellE>testbench</span> that configures FPGA test logic registers
+  and <i>PCI Express</i> IP core registers. The <span class=SpellE>testbench</span>
+  files can be found in <i>\&lt;<span class=SpellE>project_dir</span>&gt;\<span
+  class=SpellE>pcie_eval</span>\&lt;username&gt;\<span class=SpellE>testbench</span></i>.
+  </span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><br>
+  <span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>The
+  generated IP core package includes the configuration-specific behavior model
+  (&lt;username&gt;_<span class=SpellE>beh.v</span>) for functional simulation
+  in <i>\&lt;<span class=SpellE>project_dir</span>&gt;</i>. <span class=SpellE>ModelSim</span>
+  SE simulation is supported via <span class=SpellE>testbench</span> files
+  provided in <i>\&lt;<span class=SpellE>project_dir</span>&gt;\<span
+  class=SpellE>pcie_eval</span>\&lt;username&gt;\<span class=SpellE>testbench</span></i>.
+  Models required for simulation are provided in the corresponding <i>\&lt;<span
+  class=SpellE>project_dir</span>&gt;\models</i> folder. </span></p>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>Users
+  may run the evaluation simulation on <span class=SpellE><b>ModelSim</b></span><b>
+  SE </b>(Windows or Linux) by doing the following:</span></p>
+  <ul style='margin-top:0in' type=disc>
+   <li class=MsoNormal style='mso-list:l4 level1 lfo3;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:"Verdana","sans-serif";mso-fareast-font-family:
+       "Times New Roman"'>Open <span class=SpellE>ModelSim</span> SE.</span><span
+       style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l4 level1 lfo3;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:"Verdana","sans-serif";mso-fareast-font-family:
+       "Times New Roman"'>Under the <i>File</i> tab, select <i>Change Directory</i></span><span
+       style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l4 level1 lfo3;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:"Verdana","sans-serif";mso-fareast-font-family:
+       "Times New Roman"'>Set the directory to <i>/&lt;<span class=SpellE>project_dir</span>&gt;/<span
+       class=SpellE>pcie_eval</span>/&lt;username&gt;/<span class=SpellE>sim</span>/<span
+       class=SpellE>modelsim</span>/<span class=SpellE>rtl</span></i></span><span
+       style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l4 level1 lfo3;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:"Verdana","sans-serif";mso-fareast-font-family:
+       "Times New Roman"'>Select OK.</span><span style='mso-fareast-font-family:
+       "Times New Roman"'><o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l4 level1 lfo3;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:"Verdana","sans-serif";mso-fareast-font-family:
+       "Times New Roman"'>Under the Tools tab, select TCL, then select Execute
+       Macro.</span><span style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l4 level1 lfo3;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:"Verdana","sans-serif";mso-fareast-font-family:
+       "Times New Roman"'>Select <span class=GramE>file <i>..</i></span><i>/script/<span
+       class=SpellE>eval_beh_rtl_se.tcl</span></i> for <span class=SpellE>modelsim</span>
+       SE;</span><span style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l4 level1 lfo3;tab-stops:list .5in'><span
+       style='mso-fareast-font-family:"Times New Roman"'>Sel</span><span
+       style='font-size:10.0pt;font-family:"Verdana","sans-serif";mso-fareast-font-family:
+       "Times New Roman"'>ect Ok.</span><span style='mso-fareast-font-family:
+       "Times New Roman"'><o:p></o:p></span></li>
+  </ul>
+  <p class=MsoNormal>&nbsp;</p>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>Users
+  may run the <span class=SpellE>eval</span> simulation on <b>Active-HDL</b>(Windows
+  only) by doing the following:</span></p>
+  <ul style='margin-top:0in' type=disc>
+   <li class=MsoNormal style='mso-list:l0 level1 lfo4;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:"Verdana","sans-serif";mso-fareast-font-family:
+       "Times New Roman"'>Open <span class=SpellE>Active_HDL</span>.</span><span
+       style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l0 level1 lfo4;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:"Verdana","sans-serif";mso-fareast-font-family:
+       "Times New Roman"'>Under the <i>Tools</i> tab, select <i>Execute
+       Macro...</i></span><span style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l0 level1 lfo4;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:"Verdana","sans-serif";mso-fareast-font-family:
+       "Times New Roman"'>Select file <i>/&lt;project_dir&gt;/pcie_eval/&lt;username&gt;/sim/aldec/scripts/</i>eval_beh_rtl.do</span><span
+       style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l0 level1 lfo4;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:"Verdana","sans-serif";mso-fareast-font-family:
+       "Times New Roman"'>Select OK.</span><span style='mso-fareast-font-family:
+       "Times New Roman"'><o:p></o:p></span></li>
+  </ul>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'><br>
+  <u>NOTE1:</u> When the simulation completes, a pop-up window will appear
+  asking &quot;are you sure you want to finish?&quot; Answer &quot;no&quot; to
+  analyze the results (answering &quot;yes&quot; closes <span class=SpellE>ModelSim</span>
+  SE). </span></p>
+  <p class=MsoNormal><u><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>NOTE2:</span></u><span
+  style='font-size:10.0pt;font-family:"Verdana","sans-serif"'> Simulation will
+  only be available for the default configuration. </span></p>
+  <p class=MsoNormal><u><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>NOTE3:</span></u><span
+  style='font-size:10.0pt;font-family:"Verdana","sans-serif"'> <span
+  style='color:black'>VHDL Simulation using <span class=SpellE>ModelSim</span>
+  SE is not supported in the evaluation package.</span></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='mso-fareast-language:ZH-CN'><br>
+</span><b><span style='font-family:"Arial","sans-serif";mso-fareast-language:
+ZH-CN'>Reference Information</span></b><span style='mso-fareast-language:ZH-CN'><br>
+</span><span style='font-size:10.0pt;font-family:"Verdana","sans-serif";
+mso-fareast-language:ZH-CN'><br>
+<span class=GramE>The</span> following documents provide more information on
+implementing this core:</span><span style='mso-fareast-language:ZH-CN'><o:p></o:p></span></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='color:#013C9A;mso-list:l2 level1 lfo5;tab-stops:
+     list .5in'><span style='font-size:10.0pt;font-family:"Verdana","sans-serif";
+     mso-fareast-font-family:"Times New Roman";mso-fareast-language:ZH-CN'><a
+     href="http://www.latticesemi.com/view_document?document_id=50509"
+     target="_blank"><span style='color:#013C9A'>User's Guide</span></a></span><span
+     style='mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+     ZH-CN'><o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#013C9A;mso-list:l2 level1 lfo5;tab-stops:
+     list .5in'><span style='font-size:10.0pt;font-family:"Verdana","sans-serif";
+     mso-fareast-font-family:"Times New Roman";mso-fareast-language:ZH-CN'><a
+     href="http://www.latticesemi.com/dynamic/view_document.cfm?document_id=18503" target="_blank"><span
+     class=SpellE><span style='color:#013C9A'>IPexpress</span></span><span
+     style='color:#013C9A'> Quick Start Guide</span></a> </span><span
+     style='mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+     ZH-CN'><o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#013C9A;mso-list:l2 level1 lfo5;tab-stops:
+     list .5in'><span style='font-size:10.0pt;font-family:"Verdana","sans-serif";
+     mso-fareast-font-family:"Times New Roman";mso-fareast-language:ZH-CN'><a
+     href="http://www.latticesemi.com/view_document?document_id=51418" target="_blank"><span
+     class=SpellE><span style='color:#013C9A'>Clarity Designer User Manual </span></a> </span><span
+     style='mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+     ZH-CN'><o:p></o:p></span></li>
+</ul>
+
+<div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0in 0in 0in 0in'>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'><span style='mso-fareast-font-family:
+"Times New Roman";color:#013C9A;mso-fareast-language:ZH-CN'><script language="javascript1.2"  type="text/javascript">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script></span><span style='mso-fareast-language:ZH-CN'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'><b><span style='font-size:18.0pt;
+font-family:"Arial","sans-serif";mso-fareast-language:ZH-CN'>General
+Information</span></b><span style='mso-fareast-language:ZH-CN'><o:p></o:p></span></p>
+
+</div>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'><span style='mso-fareast-language:
+ZH-CN'><br>
+</span><b><span style='font-family:"Arial","sans-serif";mso-fareast-language:
+ZH-CN'>Copyright Notice</span></b><span style='mso-fareast-language:ZH-CN'><o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width="80%"
+ style='width:80.0%;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0in 0in 0in 0in'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>Copyright
+  2000-2016© Lattice Semiconductor Corporation. ALL RIGHTS RESERVED. This
+  confidential and proprietary software may be used only as authorized by a
+  licensing agreement from Lattice Semiconductor Corporation. The entire notice
+  above must be reproduced on all authorized copies and copies may only be made
+  to the extent permitted by a licensing agreement from Lattice Semiconductor
+  Corporation.</span></p>
+  </td>
+ </tr>
+</table>
+
+<div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0in 0in 0in 0in'>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'><span style='mso-fareast-language:
+ZH-CN'><br>
+</span><b><span style='font-size:18.0pt;font-family:"Arial","sans-serif";
+mso-fareast-language:ZH-CN'>Contacting Lattice</span></b><span
+style='mso-fareast-language:ZH-CN'><o:p></o:p></span></p>
+
+</div>
+
+<p class=MsoNormal><span style='mso-fareast-language:ZH-CN'>&nbsp;<o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=563
+ style='width:337.5pt;mso-cellspacing:0in;margin-left:9.0pt;border:solid silver 1.0pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0in 0in 0in 0in;border-spacing: 0px;
+ border-spacing: 0px' x-use-null-cells>
+ <col class=whs6><col class=whs7>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;x-cell-content-align: top'>
+  <td width=125 valign=top style='width:75.0pt;border:none;padding:.75pt .75pt .75pt .75pt'>
+  <p class=table><!--(Table)=========================================================--><span
+  style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>Mail:</span></p>
+  </td>
+  <td width=375 valign=top style='width:225.0pt;border:none;padding:.75pt .75pt .75pt .75pt'>
+  <p class=table><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>Lattice
+  Semiconductor Corporation<br>
+  5555 NE Moore Court<br>
+  Hillsboro, OR &nbsp;97124<br>
+  U.S.A.<u1:p></u1:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;x-cell-content-align: top'>
+  <td width=125 valign=top style='width:75.0pt;border:none;padding:.75pt .75pt .75pt .75pt'>
+  <p class=table><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>Telephone:</span></p>
+  </td>
+  <td width=375 valign=top style='width:225.0pt;border:none;padding:.75pt .75pt .75pt .75pt'>
+  <p class=table><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>1-800-LATTICE
+  (USA and Canada)<u1:p></u1:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2;x-cell-content-align: top'>
+  <td width=125 valign=top style='width:75.0pt;border:none;padding:.75pt .75pt .75pt .75pt'>
+  <p class=table>&nbsp;</p>
+  </td>
+  <td width=375 valign=top style='width:225.0pt;border:none;padding:.75pt .75pt .75pt .75pt'>
+  <p class=table><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>1-503-268-8001
+  (other locations)<u1:p></u1:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;x-cell-content-align: top'>
+  <td width=125 valign=top style='width:75.0pt;border:none;padding:.75pt .75pt .75pt .75pt'>
+  <p class=table><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>Website:</span></p>
+  </td>
+  <td width=375 valign=top style='width:225.0pt;border:none;padding:.75pt .75pt .75pt .75pt'>
+  <p class=table><span style='font-size:10.0pt;font-family:"Verdana","sans-serif";
+  color:#013C9A'><a href="http://www.latticesemi.com" target="_blank"><span
+  style='color:#013C9A'>http://www.latticesemi.com</span></a><u1:p></u1:p>(US)<br>
+  <a href="http://www.latticesemi.com.cn" target="_blank"><span
+  style='color:#013C9A'>http://www.latticesemi.com.cn(China)</span></a><br>
+  <a href="http://www.latticesemi.co.kr" target="_blank"><span
+  style='color:#013C9A'>http://www.latticesemi.co.kr(Korea)</span></a><br>
+  <a href="http://www.latticesemi.co.jp" target="_blank"><span
+  style='color:#013C9A'>http://www.latticesemi.co.jp(Japan)</span></a> </span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4;mso-yfti-lastrow:yes;x-cell-content-align: top'>
+  <td width=125 valign=top style='width:75.0pt;border:none;padding:.75pt .75pt .75pt .75pt'>
+  <p class=table><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>E-mail:</span></p>
+  </td>
+  <td width=375 valign=top style='width:225.0pt;border:none;padding:.75pt .75pt .75pt .75pt'>
+  <p class=table><span style='font-size:10.0pt;font-family:"Verdana","sans-serif";
+  color:#013C9A'><a href="mailto:techsupport@latticesemi.com"><span
+  style='color:#013C9A'>techsupport@latticesemi.com</span></a><u1:p></u1:p><br>
+  <a href="mailto:techsupport_asia@latticesemi.com"><span style='color:#013C9A'>techsupport_asia@latticesemi.com
+  (Asia)</span></a></span></p>
+  </td>
+ </tr>
+</table>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in'><span style='mso-fareast-language:ZH-CN'>&nbsp;<o:p></o:p></span></p>
+
+<div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0in 0in 0in 0in'>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'><b><span style='font-size:18.0pt;
+font-family:"Arial","sans-serif";mso-fareast-language:ZH-CN'>IP Module
+Information</span></b><span style='mso-fareast-language:ZH-CN'><o:p></o:p></span></p>
+
+</div>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'><span style='mso-fareast-language:
+ZH-CN'><br>
+</span><b><span style='font-family:"Arial","sans-serif";mso-fareast-language:
+ZH-CN'>About this Module</span></b><span style='mso-fareast-language:ZH-CN'> <o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=563
+ style='width:337.5pt;mso-cellspacing:0in;margin-left:9.0pt;border:solid silver 1.0pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0in 0in 0in 0in;border-spacing: 0px;
+ border-spacing: 0px' x-use-null-cells>
+ <col><col>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;x-cell-content-align: top'>
+  <td width=375 valign=top style='width:225.0pt;border:none;padding:.75pt .75pt .75pt .75pt'>
+  <p class=table><!--(Table)=========================================================--><span
+  style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>IP Name:</span></p>
+  </td>
+  <td width=375 valign=top style='width:225.0pt;border:none;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>PCI
+  Express Endpoint Core</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;x-cell-content-align: top'>
+  <td width=375 valign=top style='width:225.0pt;border:none;padding:.75pt .75pt .75pt .75pt'>
+  <p class=table><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>IP
+  Version:</span></p>
+  </td>
+  <td width=375 valign=top style='width:225.0pt;border:none;padding:.75pt .75pt .75pt .75pt'>
+  <p class=table><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>6.4</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2;x-cell-content-align: top'>
+  <td width=375 valign=top style='width:225.0pt;border:none;padding:.75pt .75pt .75pt .75pt'>
+  <p class=table><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>IP
+  Release Date:</span></p>
+  </td>
+  <td width=375 valign=top style='width:225.0pt;border:none;padding:.75pt .75pt .75pt .75pt'>
+  <p class=table><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>Sep
+  2016</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes;x-cell-content-align: top'>
+  <td width=375 valign=top style='width:225.0pt;border:none;padding:.75pt .75pt .75pt .75pt'>
+  <p class=table><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>Target
+  Technology:</span></p>
+  </td>
+  <td width=375 valign=top style='width:225.0pt;border:none;padding:.75pt .75pt .75pt .75pt'>
+  <p class=table><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>LatticeECP3,
+  ECP5UM and ECP5UM</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'><span style='mso-fareast-language:
+ZH-CN'><br>
+</span><b><span style='font-family:"Arial","sans-serif";mso-fareast-language:
+ZH-CN'>Software Requirements</span></b><span style='mso-fareast-language:ZH-CN'><o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=593
+ style='width:355.5pt;mso-cellspacing:0in;margin-left:9.0pt;border:solid silver 1.0pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0in 0in 0in 0in;border-spacing: 0px;
+ border-spacing: 0px' x-use-null-cells>
+ <col><col>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;x-cell-content-align: top'>
+  <td width=278 valign=top style='width:166.55pt;border:none;padding:.75pt .75pt .75pt .75pt'>
+  <p class=table><!--(Table)=========================================================--><span
+  style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>Synthesis Tools
+  Supported:</span></p>
+  </td>
+  <td width=315 valign=top style='width:188.95pt;border:none;padding:.75pt .75pt .75pt .75pt'>
+  <p class=table><span class=SpellE><span style='font-size:10.0pt;font-family:
+  "Verdana","sans-serif"'>Synplify</span></span><span style='font-size:10.0pt;
+  font-family:"Verdana","sans-serif"'> Pro K-2015.09L-2</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;x-cell-content-align: top'>
+  <td width=278 valign=top style='width:166.55pt;border:none;padding:.75pt .75pt .75pt .75pt'>
+  <p class=table><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>Simulation
+  Tools Supported:</span></p>
+  </td>
+  <td width=315 valign=top style='width:188.95pt;border:none;padding:.75pt .75pt .75pt .75pt'>
+  <p class=table><span class=SpellE><span style='font-size:10.0pt;font-family:
+  "Verdana","sans-serif"'>Modelsim</span></span><span style='font-size:10.0pt;
+  font-family:"Verdana","sans-serif"'> SE 10.2c<br>
+  Active-HDL 10.2(Windows Only)</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2;mso-yfti-lastrow:yes;x-cell-content-align: top'>
+  <td width=278 valign=top style='width:166.55pt;border:none;padding:.75pt .75pt .75pt .75pt'>
+  <p class=table><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>Lattice
+  Tool Supported:</span></p>
+  </td>
+  <td width=315 valign=top style='width:188.95pt;border:none;padding:.75pt .75pt .75pt .75pt'>
+  <p class=table><span style='font-size:10.0pt;font-family:"Verdana","sans-serif"'>Diamond
+  3.7 or later</span></p>
+  </td>
+ </tr>
+</table>
+
+<p><span style='mso-fareast-language:ZH-CN'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-language:ZH-CN'>&nbsp;<o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

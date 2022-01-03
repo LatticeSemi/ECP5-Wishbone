@@ -1,0 +1,18 @@
+verify/testbench/top/versa_ecp3_tb/vhdl/versa_ecp3_tb-p.vhd
+   # PCIe BFM Redirector
+verify/testbench/units/pcie_x1_ipx_phy/vhdl/pcie_x1_ipx_phy-e.vhd
+verify/testbench/units/pcie_x1_ipx_phy/vhdl/pcie_x1_ipx_phy-a_wrap.vhd
+
+flow/file_lists/pcie_x1_v6_ecp3_vlog.lst
+
+file soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_credit_config/vlog/b4sq_credit_config.v -inc:work/ip_express/versa_ecp3/pcie_x1_v6/pcie_eval/pcie_x1_ipx/src/params
+# file soc/units/pcie_subsys/units/tsls_wb_pcie_to_b4sq/units/b4sq_credit_config/vlog/b4sq_credit_config.v -inc:/tmp/cfgard/versa_ecp3
+soc/config/vhdl/config_ae53_ecp3_v6-p.vhd
+
+include core_ae53_files.lst
+
+soc/top/core_ae53/vhdl/core_ae53_exports-p.vhd
+soc/top/versa_ecp3/vhdl/versa_ecp3-e.vhd
+soc/top/versa_ecp3/vhdl/versa_ecp3-a_rtl.vhd
+verify/testbench/top/versa_ecp3_tb/vhdl/versa_ecp3_tb-e.vhd
+verify/testbench/top/versa_ecp3_tb/vhdl/versa_ecp3_tb-a_bhv.vhd
