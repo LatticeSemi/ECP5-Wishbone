@@ -1,106 +1,0 @@
-<HTML>
-<HEAD><TITLE>Lattice TCL Log</TITLE>
-<STYLE TYPE="text/css">
-<!--
- body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
--->
-</STYLE>
-</HEAD>
-<PRE><A name="pn211229131934"></A><B><U><big>pn211229131934</big></U></B>
-#Start recording tcl command: 12/29/2021 12:05:14
-#Project Location: C:/Projects/ECP5_Wishbone/work/diamond/versa_ecp5; Project name: versa_ecp5
-C:/Projects/test
-test
-#Start recording tcl command: 12/29/2021 13:19:34
-#Project Location: C:/Projects/test; Project name: test
-source ../../scripts/diamond/setup_versa_ecp5.tcl
-sbp_design open -dsgn "C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/pcie_x1_e5.sbx"
-sbp_design open -dsgn "C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/pcie_x1_e5.sbx"
-set currentPath [pwd];set tmp_autopath $auto_path
-cd "C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_cref"
-source "C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_cref/generate_core.tcl"
-set auto_path $tmp_autopath;cd $currentPath
-set currentPath [pwd];set tmp_autopath $auto_path
-cd "C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_cref"
-source "C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_cref/generate_ngd.tcl"
-set auto_path $tmp_autopath;cd $currentPath
-sbp_builder export_add -comp {pcie_x1_e5/x_cref}
-sbp_design save
-sbp_design open -dsgn "C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/pcie_x1_e5.sbx"
-set currentPath [pwd];set tmp_autopath $auto_path
-cd "C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_pcie"
-source "C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_pcie/generate_core.tcl"
-set auto_path $tmp_autopath;cd $currentPath
-set currentPath [pwd];set tmp_autopath $auto_path
-cd "C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_pcie"
-source "C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_pcie/generate_ngd.tcl"
-set auto_path $tmp_autopath;cd $currentPath
-sbp_builder export_add -comp {pcie_x1_e5/x_pcie}
-prj_project save
-prj_project close
-prj_project open "C:/Projects/test/test.ldf"
-#Stop recording: 12/29/2021 13:19:34
-
-
-
-<A name="pn211229142500"></A><B><U><big>pn211229142500</big></U></B>
-#Start recording tcl command: 12/29/2021 14:25:00
-#Project Location: C:/Projects/ECP5_Wishbone/work/diamond/versa_ecp5; Project name: versa_ecp5
-prj_project open "C:/Projects/ECP5_Wishbone/work/diamond/versa_ecp5/versa_ecp5.ldf"
-#Stop recording: 12/29/2021 14:25:00
-
-
-
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-</PRE></FONT>
-</BODY>
-</HTML>

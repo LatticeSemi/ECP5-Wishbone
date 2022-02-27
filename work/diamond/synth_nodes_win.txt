@@ -1,3 +1,0 @@
-[l-eqss42r]
-SYSTEM = PC
-CORENUM = 3
