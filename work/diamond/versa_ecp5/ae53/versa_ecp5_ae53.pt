@@ -1,0 +1,10 @@
+-v
+25
+-p
+-c
+-u 256
+-fullname
+-gt
+-sethld
+-sp 8
+-sphld m

@@ -1,6 +1,7 @@
 //Verilog instantiation template
 
-pcie_x1_e5 _inst (.x_pcie_bus_num(), .x_pcie_cmd_reg_out(), .x_pcie_dev_cntl_out(), 
+pcie_x1_e5 _inst (.x_cref_refclkn(), .x_cref_refclko(), .x_cref_refclkp(), 
+           .x_pcie_bus_num(), .x_pcie_cmd_reg_out(), .x_pcie_dev_cntl_out(), 
            .x_pcie_dev_num(), .x_pcie_func_num(), .x_pcie_lnk_cntl_out(), 
            .x_pcie_mm_enable(), .x_pcie_msi(), .x_pcie_npd_num_vc0(), 
            .x_pcie_pd_num_vc0(), .x_pcie_phy_ltssm_state(), .x_pcie_pm_power_state(), 
@@ -34,5 +35,4 @@ pcie_x1_e5 _inst (.x_pcie_bus_num(), .x_pcie_cmd_reg_out(), .x_pcie_dev_cntl_out
            .x_pcie_tx_dllp_sent(), .x_pcie_tx_end_vc0(), .x_pcie_tx_lbk_rdy(), 
            .x_pcie_tx_nlfy_vc0(), .x_pcie_tx_pwrup_c(), .x_pcie_tx_rdy_vc0(), 
            .x_pcie_tx_req_vc0(), .x_pcie_tx_serdes_rst_c(), .x_pcie_tx_st_vc0(), 
-           .x_pcie_unexp_cmpln(), .x_pcie_ur_np_ext(), .x_pcie_ur_p_ext(), 
-           .x_cref_refclkn(), .x_cref_refclko(), .x_cref_refclkp());
+           .x_pcie_unexp_cmpln(), .x_pcie_ur_np_ext(), .x_pcie_ur_p_ext());

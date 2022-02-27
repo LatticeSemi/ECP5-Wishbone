@@ -1,0 +1,15 @@
+----------------------------------------------------------------------
+Report for cell x_cref.verilog
+
+Register bits: 0 of 24288 (0%)
+PIC Latch:       0
+I/O cells:       0
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            EXTREFB        1       100.0
+                                GSR        1       100.0
+                                PUR        1       100.0
+                                VHI        1       100.0
+                                VLO        1       100.0
+                            
+                         TOTAL             5           

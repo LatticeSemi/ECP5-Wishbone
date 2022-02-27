@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  x_cref  -multisrs  C:\project\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_cref\syn_results\synwork\x_cref_comp.srs  -osyn  C:\project\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_cref\syn_results\synwork\x_cref_mult.srs  -log  C:\project\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_cref\syn_results\synlog\x_cref_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top x_cref -multisrs ..\synwork\x_cref_comp.srs -osyn ..\synwork\x_cref_mult.srs -log ..\synlog\x_cref_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\x_cref_comp.srs|io:i|time:1645978733|size:2179|exec:0|csum:392A5B489662947D37CE118C5AA32AA2
+file:..\synwork\x_cref_mult.srs|io:o|time:1645978734|size:1853|exec:0|csum:
+file:..\synlog\x_cref_multi_srs_gen.srr|io:o|time:1645978734|size:1043|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1640161528|size:8728576|exec:1|csum:190D73C4BA65EA1171CEFE2D0BCF1463

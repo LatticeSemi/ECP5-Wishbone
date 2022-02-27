@@ -1,0 +1,3 @@
+[l-eqss42r]
+SYSTEM = linux
+CORENUM = 12

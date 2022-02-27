@@ -1,0 +1,58 @@
+//
+// Written by Synplify Pro 
+// Product Version "R-2021.03L-SP1-1"
+// Program "Synplify Pro", Mapper "map202103lat, Build 107R"
+// Sun Feb 27 17:18:58 2022
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "\c:\lscc\diamond\3.12\synpbase\lib\lucent\ecp5um.v "
+// file 1 "\c:\lscc\diamond\3.12\synpbase\lib\lucent\pmi_def.v "
+// file 2 "\c:\lscc\diamond\3.12\synpbase\lib\vlog\hypermods.v "
+// file 3 "\c:\lscc\diamond\3.12\synpbase\lib\vlog\umr_capim.v "
+// file 4 "\c:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_objects.v "
+// file 5 "\c:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_pipes.svh "
+// file 6 "\c:\lscc\diamond\3.12\cae_library\synthesis\verilog\ecp5um.v "
+// file 7 "\c:\lscc\diamond\3.12\cae_library\synthesis\verilog\pmi_def.v "
+// file 8 "\c:\project\ecp5_wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_cref\x_cref.v "
+// file 9 "\c:\lscc\diamond\3.12\synpbase\lib\nlconst.dat "
+// file 10 "\c:\project\ecp5_wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_cref\x_cref.fdc "
+
+`timescale 100 ps/100 ps
+module x_cref (
+  refclkp,
+  refclkn,
+  refclko
+)
+;
+input refclkp ;
+input refclkn ;
+output refclko ;
+wire refclkp ;
+wire refclkn ;
+wire refclko ;
+wire GND ;
+wire VCC ;
+  VLO GND_0 (
+	.Z(GND)
+);
+  VHI VCC_0 (
+	.Z(VCC)
+);
+  PUR PUR_INST (
+	.PUR(VCC)
+);
+  GSR GSR_INST (
+	.GSR(VCC)
+);
+// @8:14
+(* LOC="EXTREF1" *)  EXTREFB EXTREF1_inst (
+	.REFCLKP(refclkp),
+	.REFCLKN(refclkn),
+	.REFCLKO(refclko)
+);
+defparam EXTREF1_inst.REFCK_PWDNB = "0b1";
+defparam EXTREF1_inst.REFCK_RTERM = "0b1";
+defparam EXTREF1_inst.REFCK_DCBIAS_EN = "0b0";
+endmodule /* x_cref */
+

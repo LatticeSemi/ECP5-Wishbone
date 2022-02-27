@@ -11,11 +11,11 @@ CoreName=EXTREF
 CoreRevision=1.1
 CoreStatus=Demo
 CoreType=LPM
-Date=12/29/2021
+Date=02/27/2022
 ModuleName=x_cref
 ParameterFileVersion=1.0
 SourceFormat=Verilog HDL
-Time=12:06:48
+Time=17:18:48
 VendorName=Lattice Semiconductor Corporation
 [Parameters]
 Destination=Synplicity

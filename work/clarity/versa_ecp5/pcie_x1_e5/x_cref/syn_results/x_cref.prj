@@ -1,0 +1,48 @@
+#-- Lattice Semiconductor Corporation Ltd.
+#-- Synplify OEM project file C:/project/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_cref/syn_results/x_cref.prj
+#-- Written on Sun Feb 27 17:18:50 2022
+
+
+#device options
+set_option -technology ecp5um
+set_option -part LFE5UM-45F
+set_option -speed_grade 8
+
+#use verilog 2001 standard option
+set_option -vlog_std v2001
+
+#map options
+set_option -frequency 100
+set_option -fanout_limit 50
+set_option -disable_io_insertion true
+set_option -retiming false
+set_option -pipe false
+set_option -pipe false
+set_option -force_gsr false
+
+#simulation options
+set_option -write_verilog true
+set_option -write_vhdl true
+
+#timing analysis options
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#-- add_file options
+add_file -verilog -lib work "C:/lscc/diamond/3.12/cae_library/synthesis/verilog/ecp5um.v"
+add_file -verilog -lib work "C:/lscc/diamond/3.12/cae_library/synthesis/verilog/pmi_def.v"
+add_file -verilog -lib work "C:/project/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_cref/x_cref.v"
+add_file -constraint {"C:/project/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_cref/x_cref.fdc"}
+
+#-- top module name
+set_option -top_module x_cref
+
+#-- set result format/file last
+project -result_file "x_cref.edn"
+
+#-- error message log file
+project -log_file x_cref.srf
+
+#-- run Synplify with 'arrange VHDL file'
+project -run

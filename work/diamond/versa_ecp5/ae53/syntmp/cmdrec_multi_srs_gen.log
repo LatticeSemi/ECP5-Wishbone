@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  versa_ecp5  -multisrs  C:\project\ECP5_Wishbone\work\diamond\versa_ecp5\ae53\synwork\versa_ecp5_ae53_comp.srs  -osyn  C:\project\ECP5_Wishbone\work\diamond\versa_ecp5\ae53\synwork\versa_ecp5_ae53_mult.srs  -log  C:\project\ECP5_Wishbone\work\diamond\versa_ecp5\ae53\synlog\versa_ecp5_ae53_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top versa_ecp5 -multisrs ..\synwork\versa_ecp5_ae53_comp.srs -osyn ..\synwork\versa_ecp5_ae53_mult.srs -log ..\synlog\versa_ecp5_ae53_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\versa_ecp5_ae53_comp.srs|io:i|time:1645979302|size:196042|exec:0|csum:A37156D27288D596C7CF08290DDB4265
+file:..\synwork\versa_ecp5_ae53_mult.srs|io:o|time:1645979304|size:4569|exec:0|csum:
+file:..\synlog\versa_ecp5_ae53_multi_srs_gen.srr|io:o|time:1645979304|size:1038|exec:0|csum:
+file:..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1640161528|size:8728576|exec:1|csum:190D73C4BA65EA1171CEFE2D0BCF1463

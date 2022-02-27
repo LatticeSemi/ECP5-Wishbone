@@ -63,59 +63,50 @@ set Para(SpeedGrade) "8"
 set Para(FMax) "100"
 set fdcfile "$Para(sbp_path)/$Para(ModuleName).fdc"
 
-#create LSE project file(*.synproj)
-proc CreateSynprojFile {} {
+#create response file(*.cmd) for Synpwrap
+proc CreateCmdFile {} {
 	global Para
 
-	if [catch {open $Para(ModuleName).synproj w} synprojFile] {
-		puts "Cannot create LSE project file $Para(ModuleName).synproj."
+	file mkdir "$Para(sbp_path)/syn_results"
+	if [catch {open $Para(ModuleName).cmd w} rspFile] {
+		puts "Cannot create response file $Para(ModuleName).cmd."
 		exit -1
 	} else {
-		puts $synprojFile "-a \"$Para(tech_syn)\"
--d $Para(PartType)
--t $Para(Package)
--s $Para(SpeedGrade)
--frequency 200
--optimization_goal Balanced
--bram_utilization 100
--ramstyle auto
--romstyle auto
--use_carry_chain 1
--carry_chain_length 0
--force_gsr auto
--resource_sharing 1
--propagate_constants 1
--remove_duplicate_regs 1
--mux_style Auto
--max_fanout 1000
--fsm_encoding_style Auto
--twr_paths 3
--fix_gated_clocks 1
--use_io_insertion 0
--resolve_mixed_drivers 0
--use_io_reg 1
-
--lpf 1
--p $Para(sbp_path)
--ver \"$Para(install_dir)/cae_library/synthesis/verilog/$Para(tech_cae).v\"
-\"$Para(install_dir)/cae_library/synthesis/verilog/pmi_def.v\"
-\"$Para(sbp_path)/$Para(ModuleName).v\"
--top $Para(ModuleName)
--ngo \"$Para(sbp_path)/$Para(ModuleName).ngo\"
+		puts $rspFile "PROJECT: $Para(ModuleName)
+		working_path: \"$Para(sbp_path)/syn_results\"
+		module: $Para(ModuleName)
+		verilog_file_list: \"$Para(install_dir)/cae_library/synthesis/verilog/$Para(tech_cae).v\" \"$Para(install_dir)/cae_library/synthesis/verilog/pmi_def.v\" \"$Para(sbp_path)/$Para(ModuleName).v\"
+		vlog_std_v2001: true
+		constraint_file_name: \"$Para(sbp_path)/$Para(ModuleName).fdc\"
+		suffix_name: edn
+		output_file_name: $Para(ModuleName)
+		write_prf: true
+		disable_io_insertion: true
+		force_gsr: false
+		frequency: $Para(FMax)
+		fanout_limit: 50
+		retiming: false
+		pipe: false
+		part: $Para(PartType)
+		speed_grade: $Para(SpeedGrade)
 		"
-		close $synprojFile
+		close $rspFile
 	}
 }
 
-#LSE
-CreateSynprojFile
-set ldcfile "$Para(sbp_path)/$Para(ModuleName).ldc"
-set synthesis "$Para(FPGAPath)/synthesis"
-if {[file exists $ldcfile] == 0} {
-	set Para(result) [catch {eval exec $synthesis -f \"$Para(ModuleName).synproj\" -gui} msg]
+#synpwrap
+CreateCmdFile
+set synpwrap "$Para(bin_dir)/synpwrap"
+if {[file exists $fdcfile] == 0} {
+	set Para(result) [catch {eval exec $synpwrap -rem -e $Para(ModuleName) -target $Para(tech_syn)} msg]
 } else {
-	set Para(result) [catch {eval exec $synthesis -f \"$Para(ModuleName).synproj\" -sdc \"$ldcfile\" -gui} msg]
+	set Para(result) [catch {eval exec $synpwrap -rem -e $Para(ModuleName) -target $Para(tech_syn) -fdc $fdcfile} msg]
 }
+#puts $msg
+
+#edif2ngd
+set edif2ngd "$Para(FPGAPath)/edif2ngd"
+set Para(result) [catch {eval exec $edif2ngd -l $Para(libname) -d $Para(PartType) -nopropwarn \"syn_results/$Para(ModuleName).edn\" $Para(ModuleName).ngo} msg]
 #puts $msg
 
 #ngdbuild

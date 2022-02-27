@@ -1,0 +1,1 @@
+@W: MT246 :"c:\project\ecp5_wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_cref\x_cref.v":14:12:14:23|Blackbox EXTREFB is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)

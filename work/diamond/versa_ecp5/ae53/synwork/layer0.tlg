@@ -1,0 +1,287 @@
+@N: CD231 :"C:\lscc\diamond\3.12\synpbase\lib\vhd2008\std1164.vhd":888:16:888:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\project\ECP5_Wishbone\soc\top\versa_ecp5\vhdl\versa_ecp5-e.vhd":24:7:24:16|Synthesizing work.versa_ecp5.rtl.
+@N: CD630 :"C:\project\ECP5_Wishbone\soc\top\core_ae53\vhdl\core_ae53-e.vhd":23:7:23:15|Synthesizing work.core_ae53.rtl.
+@N: CD630 :"C:\project\ECP5_Wishbone\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-e.vhd":29:7:29:19|Synthesizing work.tsls_wb_bmram.rtl.
+@W: CD276 :"C:\project\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":44:6:44:15|Map for port i_ram_wait of component tspc_wb_ebr_ctl not found
+@W: CD730 :"C:\project\ECP5_Wishbone\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-a_rtl.vhd":153:3:153:9|Component declaration has 22 ports but entity declares 23 ports
+Running optimization stage 1 on pmi_ram_dp_true_be_work_versa_ecp5_rtl_0 .......
+Finished optimization stage 1 on pmi_ram_dp_true_be_work_versa_ecp5_rtl_0 (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+@N: CD630 :"C:\project\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":29:7:29:21|Synthesizing work.tspc_wb_ebr_ctl.rtl.
+@N: CD231 :"C:\project\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd":32:17:32:18|Using onehot encoding for type t_wb_fsm. For example, enumeration wb_idle is mapped to "10000".
+@W: CD434 :"C:\project\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd":71:33:71:40|Signal i_ram_dq in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+Post processing for work.tspc_wb_ebr_ctl.rtl
+Running optimization stage 1 on tspc_wb_ebr_ctl .......
+@W: CL169 :"C:\project\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd":170:6:170:7|Pruning unused register s_prescale_4(0). Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on tspc_wb_ebr_ctl (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 101MB)
+Post processing for work.tsls_wb_bmram.rtl
+Running optimization stage 1 on tsls_wb_bmram .......
+Finished optimization stage 1 on tsls_wb_bmram (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 101MB)
+@N: CD630 :"C:\project\ECP5_Wishbone\soc\units\pcie_rsrc_decode\vhdl\pcie_rsrc_decode-e.vhd":23:7:23:22|Synthesizing work.pcie_rsrc_decode.rtl.
+Post processing for work.pcie_rsrc_decode.rtl
+Running optimization stage 1 on pcie_rsrc_decode .......
+Finished optimization stage 1 on pcie_rsrc_decode (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 101MB)
+@N: CD630 :"C:\project\ECP5_Wishbone\soc\units\tspc_rtc\vhdl\tspc_rtc-e.vhd":29:7:29:14|Synthesizing work.tspc_rtc.rtl.
+Post processing for work.tspc_rtc.rtl
+Running optimization stage 1 on tspc_rtc .......
+Finished optimization stage 1 on tspc_rtc (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 102MB)
+@N: CD630 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\top\vhdl\pcie_subsys-e.vhd":23:7:23:17|Synthesizing work.pcie_subsys.rtl.
+@W: CD638 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\top\vhdl\pcie_subsys-a_rtl.vhd":40:10:40:20|Signal s_u2_refclk is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\top\vhdl\tsls_wb_pcie_to_b4sq-e.vhd":26:7:26:26|Synthesizing work.tsls_wb_pcie_to_b4sq.rtl.
+@W: CD638 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\top\vhdl\tsls_wb_pcie_to_b4sq-a_rtl.vhd":34:10:34:26|Signal s_u2_wb_cyc_local is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\top\vhdl\tsls_wb_pcie_to_b4sq-a_rtl.vhd":39:10:39:25|Signal s_u2_wb_we_local is undriven. Either assign the signal a value or remove the signal declaration.
+Running optimization stage 1 on b4sq_credit_config .......
+Finished optimization stage 1 on b4sq_credit_config (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 102MB)
+@N: CD630 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-e.vhd":31:7:31:19|Synthesizing work.b4sq_pcie_svc.rtl.
+Post processing for work.b4sq_pcie_svc.rtl
+Running optimization stage 1 on b4sq_pcie_svc .......
+@W: CL271 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-a_rtl.vhd":99:6:99:7|Pruning unused bits 7 to 5 of s_link_cntl_reg_3(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-a_rtl.vhd":99:6:99:7|Pruning unused bits 2 to 0 of s_link_cntl_reg_3(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-a_rtl.vhd":99:6:99:7|Pruning unused bits 10 to 9 of s_dev_cntl_reg_3(14 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-a_rtl.vhd":99:6:99:7|Pruning unused bits 4 to 0 of s_dev_cntl_reg_3(14 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on b4sq_pcie_svc (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 103MB)
+@N: CD630 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_xmitter-e.vhd":32:7:32:22|Synthesizing work.b4sq_tlp_xmitter.rtl.
+@N: CD630 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd":31:7:31:20|Synthesizing work.tspc_fifo_sync.rtl.
+@N: CD630 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":29:7:29:24|Synthesizing work.tspc_fifo_sync_mem.rtl.
+Running optimization stage 1 on pmi_ram_dp_work_versa_ecp5_rtl_0 .......
+Finished optimization stage 1 on pmi_ram_dp_work_versa_ecp5_rtl_0 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 103MB)
+Post processing for work.tspc_fifo_sync_mem.rtl
+Running optimization stage 1 on tspc_fifo_sync_mem .......
+Finished optimization stage 1 on tspc_fifo_sync_mem (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 103MB)
+@N: CD630 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd":33:7:33:24|Synthesizing work.tspc_fifo_ctl_sync.rtl.
+@N: CD233 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":34:21:34:22|Using sequential encoding for type t_frd_state.
+Post processing for work.tspc_fifo_ctl_sync.rtl
+Running optimization stage 1 on tspc_fifo_ctl_sync .......
+@W: CL169 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":216:6:216:7|Pruning unused register s_rd_mem_adr_prev_4(8 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":216:6:216:7|Pruning unused register s_frd_state_3(1 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":216:6:216:7|Pruning unused register s_fc_gt1_prev_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":216:6:216:7|Pruning unused register s_adr_pipe_full_5. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on tspc_fifo_ctl_sync (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 104MB)
+Post processing for work.tspc_fifo_sync.rtl
+Running optimization stage 1 on tspc_fifo_sync .......
+Finished optimization stage 1 on tspc_fifo_sync (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 104MB)
+@N: CD630 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue-e.vhd":32:7:32:20|Synthesizing work.b4sq_tlp_queue.rtl.
+@N: CD630 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd":31:7:31:20|Synthesizing work.tspc_fifo_sync.rtl.
+@N: CD630 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":29:7:29:24|Synthesizing work.tspc_fifo_sync_mem.rtl.
+Running optimization stage 1 on pmi_distributed_dpram_work_versa_ecp5_rtl_0 .......
+Finished optimization stage 1 on pmi_distributed_dpram_work_versa_ecp5_rtl_0 (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 104MB)
+Post processing for work.tspc_fifo_sync_mem.rtl
+Running optimization stage 1 on tspc_fifo_sync_mem .......
+Finished optimization stage 1 on tspc_fifo_sync_mem (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 104MB)
+@N: CD630 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd":33:7:33:24|Synthesizing work.tspc_fifo_ctl_sync.rtl.
+@N: CD233 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":34:21:34:22|Using sequential encoding for type t_frd_state.
+Post processing for work.tspc_fifo_ctl_sync.rtl
+Running optimization stage 1 on tspc_fifo_ctl_sync .......
+@W: CL169 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":216:6:216:7|Pruning unused register s_rd_mem_adr_prev_4(5 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":216:6:216:7|Pruning unused register s_frd_state_3(1 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":216:6:216:7|Pruning unused register s_fc_gt1_prev_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":216:6:216:7|Pruning unused register s_adr_pipe_full_5. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on tspc_fifo_ctl_sync (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 106MB)
+Post processing for work.tspc_fifo_sync.rtl
+Running optimization stage 1 on tspc_fifo_sync .......
+Finished optimization stage 1 on tspc_fifo_sync (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 106MB)
+@N: CD630 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_queue_ctl-e.vhd":29:7:29:24|Synthesizing work.b4sq_tlp_queue_ctl.rtl.
+Post processing for work.b4sq_tlp_queue_ctl.rtl
+Running optimization stage 1 on b4sq_tlp_queue_ctl .......
+Finished optimization stage 1 on b4sq_tlp_queue_ctl (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 106MB)
+Post processing for work.b4sq_tlp_queue.rtl
+Running optimization stage 1 on b4sq_tlp_queue .......
+Finished optimization stage 1 on b4sq_tlp_queue (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 106MB)
+@N: CD630 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-e.vhd":31:7:31:22|Synthesizing work.b4sq_tlp_arbiter.rtl.
+@N: CD231 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-a_rtl.vhd":34:19:34:20|Using onehot encoding for type t_xarb_fsm. For example, enumeration xa_idle is mapped to "1000000000".
+Post processing for work.b4sq_tlp_arbiter.rtl
+Running optimization stage 1 on b4sq_tlp_arbiter .......
+@W: CL169 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-a_rtl.vhd":175:6:175:7|Pruning unused register s_tlp_rdy_p_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-a_rtl.vhd":175:6:175:7|Pruning unused register s_tlp_rdy_np_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-a_rtl.vhd":175:6:175:7|Pruning unused register s_tlp_rdy_cpl_2. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on b4sq_tlp_arbiter (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 108MB)
+Post processing for work.b4sq_tlp_xmitter.rtl
+Running optimization stage 1 on b4sq_tlp_xmitter .......
+Finished optimization stage 1 on b4sq_tlp_xmitter (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 108MB)
+@N: CD630 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-e.vhd":33:7:33:21|Synthesizing work.b4sq_pkt_decode.rtl.
+@N: CD231 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":33:24:33:25|Using onehot encoding for type t_pkt_dec_fsm. For example, enumeration pd_idle is mapped to "100000000000000000000000000000".
+Post processing for work.b4sq_pkt_decode.rtl
+Running optimization stage 1 on b4sq_pkt_decode .......
+@W: CL169 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":353:6:353:7|Pruning unused register s_tlp_data_phase_3. Make sure that there are no unused intermediate registers.
+@W: CL271 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":353:6:353:7|Pruning unused bits 63 to 13 of s_tlp_adr_5(63 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL265 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":353:6:353:7|Removing unused bit 7 of s_req_adr_9(7 downto 0). Either assign all bits or reduce the width of the signal.
+@W: CL265 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":353:6:353:7|Removing unused bit 12 of s_cplx_tx_byte_count_5(12 downto 0). Either assign all bits or reduce the width of the signal.
+@W: CL190 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":353:6:353:7|Optimizing register bit s_wb_bte(0) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":353:6:353:7|Optimizing register bit s_wb_bte(1) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":353:6:353:7|Pruning unused register s_wb_bte(1 downto 0). Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on b4sq_pkt_decode (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 112MB)
+@N: CD630 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo-e.vhd":31:7:31:22|Synthesizing work.b4sq_pkt_rx_fifo.rtl.
+Running optimization stage 1 on pmi_ram_dp_work_versa_ecp5_rtl_1 .......
+Finished optimization stage 1 on pmi_ram_dp_work_versa_ecp5_rtl_1 (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 112MB)
+@N: CD630 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo_istage-e.vhd":30:7:30:29|Synthesizing work.b4sq_pkt_rx_fifo_istage.rtl.
+Post processing for work.b4sq_pkt_rx_fifo_istage.rtl
+Running optimization stage 1 on b4sq_pkt_rx_fifo_istage .......
+@W: CL169 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_rx_fifo\vhdl\b4sq_pkt_rx_fifo_istage-a_rtl.vhd":84:6:84:7|Pruning unused register s_cplx_status_6(2 downto 0). Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on b4sq_pkt_rx_fifo_istage (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 112MB)
+@N: CD630 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd":33:7:33:24|Synthesizing work.tspc_fifo_ctl_sync.rtl.
+@N: CD233 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":34:21:34:22|Using sequential encoding for type t_frd_state.
+Post processing for work.tspc_fifo_ctl_sync.rtl
+Running optimization stage 1 on tspc_fifo_ctl_sync .......
+Finished optimization stage 1 on tspc_fifo_ctl_sync (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 113MB)
+Post processing for work.b4sq_pkt_rx_fifo.rtl
+Running optimization stage 1 on b4sq_pkt_rx_fifo .......
+Finished optimization stage 1 on b4sq_pkt_rx_fifo (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 113MB)
+Post processing for work.tsls_wb_pcie_to_b4sq.rtl
+Running optimization stage 1 on tsls_wb_pcie_to_b4sq .......
+Finished optimization stage 1 on tsls_wb_pcie_to_b4sq (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 113MB)
+@N: CD630 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\lscc_pcie_x1_ip\vhdl\lscc_pcie_x1_ip-e.vhd":24:7:24:21|Synthesizing work.lscc_pcie_x1_ip.rtl.
+@W: CD272 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\lscc_pcie_x1_ip\vhdl\lscc_pcie_x1_ip-a_rtl.vhd":289:6:289:24|Comparison (=) of different length arrays is always false!
+@W: CD272 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\lscc_pcie_x1_ip\vhdl\lscc_pcie_x1_ip-a_rtl.vhd":289:29:289:48|Comparison (=) of different length arrays is always false!
+@W: CD638 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\lscc_pcie_x1_ip\vhdl\lscc_pcie_x1_ip-a_rtl.vhd":25:10:25:19|Signal s_u2_rst_n is undriven. Either assign the signal a value or remove the signal declaration.
+Running optimization stage 1 on pcie_x1_e5 .......
+Finished optimization stage 1 on pcie_x1_e5 (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 113MB)
+Post processing for work.lscc_pcie_x1_ip.rtl
+Running optimization stage 1 on lscc_pcie_x1_ip .......
+Finished optimization stage 1 on lscc_pcie_x1_ip (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 113MB)
+@N: CD630 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_cdc_sig\vhdl\tspc_cdc_sig-e.vhd":19:7:19:18|Synthesizing work.tspc_cdc_sig.rtl.
+Post processing for work.tspc_cdc_sig.rtl
+Running optimization stage 1 on tspc_cdc_sig .......
+Finished optimization stage 1 on tspc_cdc_sig (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 113MB)
+Post processing for work.pcie_subsys.rtl
+Running optimization stage 1 on pcie_subsys .......
+Finished optimization stage 1 on pcie_subsys (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 113MB)
+Post processing for work.core_ae53.rtl
+Running optimization stage 1 on core_ae53 .......
+Finished optimization stage 1 on core_ae53 (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 113MB)
+Post processing for work.versa_ecp5.rtl
+Running optimization stage 1 on versa_ecp5 .......
+Finished optimization stage 1 on versa_ecp5 (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 113MB)
+Running optimization stage 2 on tspc_cdc_sig_work_versa_ecp5_rtl_0layer0 .......
+Finished optimization stage 2 on tspc_cdc_sig_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 113MB)
+Running optimization stage 2 on pcie_x1_e5 .......
+Finished optimization stage 2 on pcie_x1_e5 (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 113MB)
+Running optimization stage 2 on lscc_pcie_x1_ip_V6_x_false_ECP5UM .......
+Finished optimization stage 2 on lscc_pcie_x1_ip_V6_x_false_ECP5UM (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 113MB)
+Running optimization stage 2 on tspc_fifo_ctl_sync_work_versa_ecp5_rtl_2layer0 .......
+@N: CL201 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":216:6:216:7|Trying to extract state machine for register s_frd_state.
+Extracted state machine for register s_frd_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@N: CL159 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd":45:6:45:13|Input i_clk_en is unused.
+Finished optimization stage 2 on tspc_fifo_ctl_sync_work_versa_ecp5_rtl_2layer0 (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 118MB)
+Running optimization stage 2 on b4sq_pkt_rx_fifo_istage .......
+Finished optimization stage 2 on b4sq_pkt_rx_fifo_istage (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 118MB)
+Running optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_1 .......
+Finished optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_1 (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 118MB)
+Running optimization stage 2 on b4sq_pkt_rx_fifo_work_versa_ecp5_rtl_0layer0 .......
+Finished optimization stage 2 on b4sq_pkt_rx_fifo_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 118MB)
+Running optimization stage 2 on b4sq_pkt_decode .......
+@N: CL201 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":353:6:353:7|Trying to extract state machine for register s_wb_cti.
+Extracted state machine for register s_wb_cti
+State machine has 3 reachable states with original encodings of:
+   000
+   010
+   111
+@N: CL201 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":353:6:353:7|Trying to extract state machine for register s_pkt_dec_fsm.
+@W: CL279 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":353:6:353:7|Pruning register bits 3 to 2 of s_cplx_tx_sta(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL190 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":353:6:353:7|Optimizing register bit s_cplx_tx_sta(0) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-a_rtl.vhd":353:6:353:7|Pruning register bit 0 of s_cplx_tx_sta(1 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL247 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-e.vhd":46:6:46:23|Input port bit 6 of i_cfg_io_space_sel(6 downto 0) is unused 
+@N: CL159 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-e.vhd":48:6:48:27|Input i_ctl_max_payload_size is unused.
+@N: CL159 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pkt_decode\vhdl\b4sq_pkt_decode-e.vhd":56:6:56:19|Input i_tlp_rx_empty is unused.
+Finished optimization stage 2 on b4sq_pkt_decode (CPU Time 0h:00m:00s, Memory Used current: 123MB peak: 133MB)
+Running optimization stage 2 on b4sq_tlp_arbiter .......
+@N: CL201 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-a_rtl.vhd":175:6:175:7|Trying to extract state machine for register s_xarb_fsm.
+Extracted state machine for register s_xarb_fsm
+State machine has 10 reachable states with original encodings of:
+   0000000001
+   0000000010
+   0000000100
+   0000001000
+   0000010000
+   0000100000
+   0001000000
+   0010000000
+   0100000000
+   1000000000
+@N: CL159 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-e.vhd":38:6:38:13|Input i_ca_npd is unused.
+@N: CL159 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-e.vhd":50:6:50:20|Input i_tlp_empty_cpl is unused.
+@N: CL159 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-e.vhd":51:6:51:19|Input i_tlp_empty_np is unused.
+@N: CL159 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_tlp_xmitter\vhdl\b4sq_tlp_arbiter-e.vhd":52:6:52:18|Input i_tlp_empty_p is unused.
+Finished optimization stage 2 on b4sq_tlp_arbiter (CPU Time 0h:00m:00s, Memory Used current: 124MB peak: 133MB)
+Running optimization stage 2 on b4sq_tlp_queue_ctl .......
+Finished optimization stage 2 on b4sq_tlp_queue_ctl (CPU Time 0h:00m:00s, Memory Used current: 124MB peak: 133MB)
+Running optimization stage 2 on tspc_fifo_ctl_sync_1_1_1_64_1 .......
+@N: CL159 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd":45:6:45:13|Input i_clk_en is unused.
+Finished optimization stage 2 on tspc_fifo_ctl_sync_1_1_1_64_1 (CPU Time 0h:00m:00s, Memory Used current: 124MB peak: 133MB)
+Running optimization stage 2 on pmi_distributed_dpram_work_versa_ecp5_rtl_0 .......
+Finished optimization stage 2 on pmi_distributed_dpram_work_versa_ecp5_rtl_0 (CPU Time 0h:00m:00s, Memory Used current: 124MB peak: 133MB)
+Running optimization stage 2 on tspc_fifo_sync_mem_true_64_1_ECP5UM_ANY_1 .......
+@N: CL159 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":41:6:41:10|Input i_clr is unused.
+@N: CL159 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":45:6:45:16|Input i_rd_reg_en is unused.
+Finished optimization stage 2 on tspc_fifo_sync_mem_true_64_1_ECP5UM_ANY_1 (CPU Time 0h:00m:00s, Memory Used current: 124MB peak: 133MB)
+Running optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_1layer0 .......
+Finished optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_1layer0 (CPU Time 0h:00m:00s, Memory Used current: 124MB peak: 133MB)
+Running optimization stage 2 on b4sq_tlp_queue_64_ECP5UM .......
+Finished optimization stage 2 on b4sq_tlp_queue_64_ECP5UM (CPU Time 0h:00m:00s, Memory Used current: 124MB peak: 133MB)
+Running optimization stage 2 on tspc_fifo_ctl_sync_1_1_1_512_1 .......
+@N: CL159 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd":45:6:45:13|Input i_clk_en is unused.
+Finished optimization stage 2 on tspc_fifo_ctl_sync_1_1_1_512_1 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_0 .......
+Finished optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_0 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on tspc_fifo_sync_mem_false_512_1_ECP5UM_ANY_1 .......
+@N: CL159 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":41:6:41:10|Input i_clr is unused.
+@N: CL159 :"C:\project\ECP5_Wishbone\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":45:6:45:16|Input i_rd_reg_en is unused.
+Finished optimization stage 2 on tspc_fifo_sync_mem_false_512_1_ECP5UM_ANY_1 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_0layer0 .......
+Finished optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on b4sq_tlp_xmitter_512_512_512_64_ECP5UM .......
+Finished optimization stage 2 on b4sq_tlp_xmitter_512_512_512_64_ECP5UM (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on b4sq_pcie_svc .......
+@N: CL135 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-a_rtl.vhd":233:6:233:7|Found sequential shift s_synced_rst_n with address depth of 3 words and data bit width of 1.
+@W: CL246 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-e.vhd":36:6:36:19|Input port bits 10 to 9 of i_dev_cntl_reg(14 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-e.vhd":36:6:36:19|Input port bits 4 to 0 of i_dev_cntl_reg(14 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-e.vhd":41:6:41:20|Input port bits 7 to 5 of i_link_cntl_reg(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-e.vhd":41:6:41:20|Input port bits 2 to 0 of i_link_cntl_reg(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\units\b4sq_pcie_svc\vhdl\b4sq_pcie_svc-e.vhd":47:6:47:22|Input i_tx_ca_p_recheck is unused.
+Finished optimization stage 2 on b4sq_pcie_svc (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on b4sq_credit_config .......
+Finished optimization stage 2 on b4sq_credit_config (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on tsls_wb_pcie_to_b4sq_work_versa_ecp5_rtl_0layer0 .......
+@N: CL159 :"C:\project\ECP5_Wishbone\soc\units\pcie_subsys\units\tsls_wb_pcie_to_b4sq\top\vhdl\tsls_wb_pcie_to_b4sq-e.vhd":48:6:48:23|Input i_decode_cyc_local is unused.
+Finished optimization stage 2 on tsls_wb_pcie_to_b4sq_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on pcie_subsys_work_versa_ecp5_rtl_0layer0 .......
+Finished optimization stage 2 on pcie_subsys_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on tspc_rtc_work_versa_ecp5_rtl_0layer0 .......
+Finished optimization stage 2 on tspc_rtc_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on pcie_rsrc_decode .......
+@W: CL246 :"C:\project\ECP5_Wishbone\soc\units\pcie_rsrc_decode\vhdl\pcie_rsrc_decode-e.vhd":25:6:25:17|Input port bits 11 to 0 of i_decode_adr(12 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\project\ECP5_Wishbone\soc\units\pcie_rsrc_decode\vhdl\pcie_rsrc_decode-e.vhd":26:6:26:21|Input port bits 6 to 1 of i_decode_bar_hit(6 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on pcie_rsrc_decode (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on tspc_wb_ebr_ctl_work_versa_ecp5_rtl_0layer0 .......
+@N: CL201 :"C:\project\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd":170:6:170:7|Trying to extract state machine for register s_wb_fsm.
+Extracted state machine for register s_wb_fsm
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+@W: CL247 :"C:\project\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":45:6:45:13|Input port bit 12 of i_wb_adr(12 downto 0) is unused 
+@W: CL246 :"C:\project\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":45:6:45:13|Input port bits 1 to 0 of i_wb_adr(12 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\project\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":42:6:42:14|Input i_ram_err is unused.
+@N: CL159 :"C:\project\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":43:6:43:14|Input i_ram_rty is unused.
+@N: CL159 :"C:\project\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":44:6:44:15|Input i_ram_wait is unused.
+@N: CL159 :"C:\project\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":46:6:46:13|Input i_wb_bte is unused.
+@N: CL159 :"C:\project\ECP5_Wishbone\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":50:6:50:14|Input i_wb_lock is unused.
+Finished optimization stage 2 on tspc_wb_ebr_ctl_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on pmi_ram_dp_true_be_work_versa_ecp5_rtl_0 .......
+Finished optimization stage 2 on pmi_ram_dp_true_be_work_versa_ecp5_rtl_0 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on tsls_wb_bmram_work_versa_ecp5_rtl_0layer0 .......
+Finished optimization stage 2 on tsls_wb_bmram_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on core_ae53 .......
+Finished optimization stage 2 on core_ae53 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+Running optimization stage 2 on versa_ecp5 .......
+Finished optimization stage 2 on versa_ecp5 (CPU Time 0h:00m:00s, Memory Used current: 122MB peak: 133MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\project\ECP5_Wishbone\work\diamond\versa_ecp5\ae53\synwork\layer0.rt.csv
+

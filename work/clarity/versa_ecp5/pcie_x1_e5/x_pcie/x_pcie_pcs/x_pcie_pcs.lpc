@@ -12,11 +12,11 @@ CoreName=PCS
 CoreRevision=6.8
 CoreStatus=Demo
 CoreType=IPCFG
-Date=12/29/2021
+Date=02/27/2022
 ModuleName=x_pcie_pcs
 ParameterFileVersion=1.0
 SourceFormat=Verilog HDL
-Time=14:25:38
+Time=17:22:23
 
 VendorName=Lattice Semiconductor Corporation
 [Parameters]

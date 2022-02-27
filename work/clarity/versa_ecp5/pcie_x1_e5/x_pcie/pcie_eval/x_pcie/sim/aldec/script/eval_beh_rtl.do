@@ -1,9 +1,9 @@
 
-    cd "C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_pcie/pcie_eval/x_pcie/sim/aldec/rtl"
+    cd "C:/project/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_pcie/pcie_eval/x_pcie/sim/aldec/rtl"
     workspace create pcie_space
     design create pcie_design .
     design open pcie_design
-    cd "C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_pcie/pcie_eval/x_pcie/sim/aldec/rtl"
+    cd "C:/project/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_pcie/pcie_eval/x_pcie/sim/aldec/rtl"
     set sim_working_folder .
     #==============================================================================
     # Compile

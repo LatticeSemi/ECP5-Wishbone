@@ -1,0 +1,6 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\lscc\diamond\3.12\cae_library\synthesis\verilog\ecp5um.v":1751:7:1751:13|Synthesizing module EXTREFB in library work.
+@N: CG364 :"C:\project\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_cref\x_cref.v":8:7:8:12|Synthesizing module x_cref in library work.
+@N|Running in 64-bit mode
+

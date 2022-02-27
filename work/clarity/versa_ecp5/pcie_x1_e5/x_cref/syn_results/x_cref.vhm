@@ -1,0 +1,60 @@
+--
+-- Written by Synopsys
+-- Product Version "R-2021.03L-SP1-1"
+-- Program "Synplify Pro", Mapper "map202103lat, Build 107R"
+-- Sun Feb 27 17:18:58 2022
+--
+
+--
+-- Written by Synplify Pro version Build 107R
+-- Sun Feb 27 17:18:58 2022
+--
+
+--
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+library synplify;
+use synplify.components.all;
+library pmi;
+use pmi.pmi_components.all;
+library ecp5um;
+use ecp5um.components.all;
+
+entity x_cref is
+port(
+  refclkp :  in std_logic;
+  refclkn :  in std_logic;
+  refclko :  out std_logic);
+end x_cref;
+
+architecture beh of x_cref is
+  signal GND : std_logic ;
+  signal VCC : std_logic ;
+  component EXTREFB
+    port(
+      REFCLKP :  in std_logic;
+      REFCLKN :  in std_logic;
+      REFCLKO :  out std_logic  );
+  end component;
+begin
+GND_0: VLO port map (
+    Z => GND);
+VCC_0: VHI port map (
+    Z => VCC);
+PUR_INST: PUR port map (
+    PUR => VCC);
+GSR_INST: GSR port map (
+    GSR => VCC);
+EXTREF1_INST: EXTREFB 
+  generic map( 
+    REFCK_PWDNB => "0b1", 
+    REFCK_RTERM => "0b1", 
+    REFCK_DCBIAS_EN => "0b0"
+  ) 
+  port map (
+    REFCLKP => refclkp,
+    REFCLKN => refclkn,
+    REFCLKO => refclko);
+end beh;
+

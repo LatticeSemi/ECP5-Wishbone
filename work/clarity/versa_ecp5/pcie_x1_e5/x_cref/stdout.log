@@ -1,0 +1,85 @@
+Running in Lattice mode
+
+                               Synplify Pro (R) 
+
+               Version R-2021.03L-SP1-1 for win64 - Dec 22, 2021 
+
+                    Copyright (c) 1988 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Starting:    C:\lscc\diamond\3.12\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.12\synpbase
+Hostname:    L-EQSS42R
+Date:        Sun Feb 27 17:18:51 2022
+Version:     R-2021.03L-SP1-1
+
+Arguments:   -product synplify_pro -batch C:/project/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_cref/syn_results/x_cref.prj
+ProductType: synplify_pro
+
+
+
+
+log file: "C:\project\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_cref\syn_results\x_cref.srr"
+Running: syn_results in foreground
+
+Running x_cref|syn_results
+
+Running Flow: compile (Compile) on x_cref|syn_results
+# Sun Feb 27 17:18:51 2022
+
+Running Flow: compile_flow (Compile Process) on x_cref|syn_results
+# Sun Feb 27 17:18:51 2022
+
+Running: compiler (Compile Input) on x_cref|syn_results
+# Sun Feb 27 17:18:51 2022
+Copied C:\project\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_cref\syn_results\synwork\x_cref_comp.srs to C:\project\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_cref\syn_results\x_cref.srs
+
+compiler completed
+# Sun Feb 27 17:18:54 2022
+
+Return Code: 0
+Run Time:00h:00m:03s
+
+Running: multi_srs_gen (Multi-srs Generator) on x_cref|syn_results
+# Sun Feb 27 17:18:54 2022
+
+multi_srs_gen completed
+# Sun Feb 27 17:18:54 2022
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied C:\project\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_cref\syn_results\synwork\x_cref_mult.srs to C:\project\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_cref\syn_results\x_cref.srs
+Copied C:\project\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_cref\syn_results\x_cref.srr to C:\project\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_cref\syn_results\x_cref.srf
+Complete: Compile Process on x_cref|syn_results
+
+Running: premap (Premap) on x_cref|syn_results
+# Sun Feb 27 17:18:54 2022
+
+premap completed
+# Sun Feb 27 17:18:56 2022
+
+Return Code: 0
+Run Time:00h:00m:02s
+Complete: Compile on x_cref|syn_results
+
+Running Flow: map (Map) on x_cref|syn_results
+# Sun Feb 27 17:18:56 2022
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on x_cref|syn_results
+# Sun Feb 27 17:18:56 2022
+Copied C:\project\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_cref\syn_results\synwork\x_cref_m.srm to C:\project\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_cref\syn_results\x_cref.srm
+
+fpga_mapper completed with warnings
+# Sun Feb 27 17:18:59 2022
+
+Return Code: 1
+Run Time:00h:00m:03s
+Complete: Map on x_cref|syn_results
+Copied C:\project\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_cref\syn_results\x_cref.srr to C:\project\ECP5_Wishbone\work\clarity\versa_ecp5\pcie_x1_e5\x_cref\syn_results\x_cref.srf
+Complete: Logic Synthesis on x_cref|syn_results
+exit status=0
+exit status=0

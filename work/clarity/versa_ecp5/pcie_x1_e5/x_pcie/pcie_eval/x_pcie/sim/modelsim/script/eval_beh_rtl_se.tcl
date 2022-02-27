@@ -2,7 +2,7 @@
   #==============================================================================
   # Set up modelsim work library
   #==============================================================================
-  cd "C:/Projects/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_pcie/pcie_eval/x_pcie/sim/modelsim/rtl"
+  cd "C:/project/ECP5_Wishbone/work/clarity/versa_ecp5/pcie_x1_e5/x_pcie/pcie_eval/x_pcie/sim/modelsim/rtl"
   vlib                  work
   vmap pcsd_mti_work "C:/lscc/diamond/3.12/cae_library/simulation/blackbox/pcsd_work"
   vmap ecp5u_bb "C:/lscc/diamond/3.12/cae_library/simulation/blackbox/ecp5u_black_boxes"
